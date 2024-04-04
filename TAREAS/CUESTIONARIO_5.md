@@ -41,19 +41,19 @@ Al examinar la ficha PDU Details (Detalles de PDU), ¿qué dirección MAC aparec
 
 Aparece la de destino 
 
-Escriba sus respuestas aquí. 
+
 
 ¿Por qué las direcciones MAC aparecen en este orden? 
 
 Ya que si se conoce primero el destino, se enviará rapidamente 
 
-Escriba sus respuestas aquí. 
+
 
 ¿Había un patrón para el direccionamiento MAC en la simulación? 
 
 No 
 
-Escriba sus respuestas aquí. 
+
 
 ¿Los switches reprodujeron en algún momento una PDU rechazada con una “X” de color rojo? 
 
@@ -61,19 +61,19 @@ No, ya que el swtich soloreenvia al destino que se requiera y no a todas las pcs
 
 Cada vez que se enviaba la PDU entre las redes 10 y 172, había un punto donde las direcciones MAC cambiaban repentinamente. ¿Dónde ocurrió eso? 
 
-Sí, cambió en el router.Escriba sus respuestas aquí. 
+Sí, cambió en el router.
 
 ¿Qué dispositivo usa direcciones MAC que comienzan con 00D0: BA? 
 
-Era la del router Escriba sus respuestas aquí. 
+Era la del router 
 
 ¿A qué dispositivos pertenecían las otras direcciones MAC? 
 
-.Petenecnía a direcciones emisores, receptores,que podía n ser acces point, switchers,  Escriba sus respuestas aquí. 
+.Petenecnía a direcciones emisores, receptores,que podía n ser acces point, switchers,  
 
 ¿Las direcciones IPv4 de envío y recepción cambiaron los campos en alguna de las PDU? 
 
-No,Escriba sus respuestas aquí. 
+No.
 
 Cuando sigue la respuesta a un ping, a veces llamado pong, ¿ve el cambio de envío y recepción de direcciones IPv4? 
 
