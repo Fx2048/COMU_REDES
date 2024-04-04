@@ -4,6 +4,6 @@
 * [Cisco Packet Tracer](https://github.com/Fx2048/COMU_REDES/tree/main/CISCO_PACKET_TRACER)
 * [Scripts](https://github.com/Fx2048/COMU_REDES/tree/main/SCRIPTS)
 * [Actividades](https://github.com/Fx2048/COMU_REDES/tree/main/TAREAS)
-![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/55baf677-9700-4e52-a6bc-a5919de0af1b)
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/f4ec0c36-5437-401a-ad47-5303364c9c79)
 
 [Equipo](https://github.com/Fx2048/COMU_TEAM)
