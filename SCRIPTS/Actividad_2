@@ -1,0 +1,6 @@
+en
+conf t 
+copy run
+copy running-config startup-config
+
+configure terminal
