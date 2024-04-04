@@ -15,6 +15,6 @@ Sí, por ejemplo, una impresora que actualmente no está conectada a la red. Con
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/26aa6df7-8fb4-4c33-9a2c-9da63c3b32d8)
 
-
+4. Revisa y completa el curso de Cisco Packet Tracer en https://skillsforall.com/course/getting-started-cisco-packet-tracer y aplica lo aprendido en la simulación del diagrama de red anterior.Puedes presentar un video explicando lo que has aprendido
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/797cbd83-5067-41b0-9293-e7ed4e7caa3e)
