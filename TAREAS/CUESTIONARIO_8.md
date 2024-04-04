@@ -1,5 +1,7 @@
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/88e47c37-c083-4d41-ab5d-5a24ea21c336)
+
 [Actividad 8 -pdf](https://github.com/Fx2048/COMU_REDES/blob/main/TAREAS/ACTIVIDADES_PDF/Actividad8-C8280.pdf)
+
 ¿Cómo se llama esto? 
 
 -Se llama un multiplizacion ,es transmitir diferentes datos por un mismo medio pero no simultaneamente, 
