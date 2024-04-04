@@ -1,4 +1,7 @@
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/c26c0fc0-ebf0-48a6-8315-bd767103b205)
+
+[Actividad 3](https://github.com/Fx2048/COMU_REDES/blob/main/TAREAS/ACTIVIDADES_PDF/Actividad3-C8280%20(1)%20(2).pdf)
+
 Pregunta:
 
 ¿Qué dispositivo tiene el MAC de destino que se muestra?
