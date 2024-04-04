@@ -2,7 +2,7 @@
 
 [Actividad 8 -pdf](https://github.com/Fx2048/COMU_REDES/blob/main/TAREAS/ACTIVIDADES_PDF/Actividad8-C8280.pdf)
 
-¿Cómo se llama esto? 
+<p>¿Cómo se llama esto? 
 
 -Se llama un multiplizacion ,es transmitir diferentes datos por un mismo medio pero no simultaneamente, 
 
@@ -105,7 +105,7 @@ SYN,Se ha mantenido el puerto de origen, pero cambió el flag quitandole el ACK
 
 ¿Qué protocolo de correo electrónico se relaciona con el puerto TCP 25?  
 
--SMTP 
+-SMTP </p>
 
  
 
