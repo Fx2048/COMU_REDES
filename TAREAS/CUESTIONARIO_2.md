@@ -3,6 +3,8 @@
 
 [Vídeo tutorial en drive.google](https://drive.google.com/file/d/15rAEoio1yNvA7w02ewi931LaT6Dx7kYT/view?usp=sharing)
 
+[Código](https://github.com/Fx2048/COMU_REDES/blob/main/SCRIPTS/Actividad_2)
+
 Preguntas:
 
 PASO 1: Si este es el caso, ¿por qué lo configuraremos con una dirección IP?
