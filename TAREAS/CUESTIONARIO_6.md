@@ -2,7 +2,7 @@
 
 [Actividad 6 - pdf](https://github.com/Fx2048/COMU_REDES/blob/main/TAREAS/ACTIVIDADES_PDF/Actividad6-C8280.pdf)
 
-¿Por qué los pings no fueron correctos? 
+<p>¿Por qué los pings no fueron correctos? 
 
 
 En el caso no han sdo correctos porque la maquina no ha aprendido la direccion IP  o no están conectados. 
@@ -47,4 +47,4 @@ Si la interfaz G0/0/1 se mostrará administratively down, ¿qué comando de conf
 
 ¿Qué ocurriría si hubiera configurado incorrectamente la interfaz G0/0/1 en el router con una dirección IP 192.168.1.2? 
 
--La PCA no podría hacer pin a PCB esto se debe a que la pcb está en una red diferente a la de PCA que requiere del router del waterwall determinado para dirigir estos paquetes , la PCA está configurada para dirigir estos paquetes y utilizar solamente la dirección IP 162 .168 .1.1 , para el ruoter del waterwall predeterminado pero esta dirección noe sta asignada a ningún dsipositivo en la LAN, asi que cualquier paquete que vaya  a ser enviado para su enrutamiento nunca llegará al destino. 
+-La PCA no podría hacer pin a PCB esto se debe a que la pcb está en una red diferente a la de PCA que requiere del router del waterwall determinado para dirigir estos paquetes , la PCA está configurada para dirigir estos paquetes y utilizar solamente la dirección IP 162 .168 .1.1 , para el ruoter del waterwall predeterminado pero esta dirección noe sta asignada a ningún dsipositivo en la LAN, asi que cualquier paquete que vaya  a ser enviado para su enrutamiento nunca llegará al destino. </p>
