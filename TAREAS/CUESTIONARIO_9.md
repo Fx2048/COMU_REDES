@@ -2,7 +2,7 @@
 
 [Actividad 9-pdf](https://github.com/Fx2048/COMU_REDES/blob/main/TAREAS/ACTIVIDADES_PDF/Actividad9-C8280%20(1).pdf)
 
-¿La dirección MAC de origen coincide con la interfaz de su PC? 
+<p>¿La dirección MAC de origen coincide con la interfaz de su PC? 
 
 Sí 
 
@@ -25,4 +25,4 @@ Pregunta
 
 ¿Por qué Wireshark muestra la dirección MAC vigente de los hosts locales, pero no la dirección MAC vigente de los hosts remotos? 
 
--Por que no tenemos acceso, si no coreeponde a una red local, no tenemos acceso, un switch no une redes,sino dispositivos, sino los routers.. 
+-Por que no tenemos acceso, si no coreeponde a una red local, no tenemos acceso, un switch no une redes,sino dispositivos, sino los routers.</p>
