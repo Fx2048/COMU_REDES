@@ -16,3 +16,5 @@ Sí, por ejemplo, una impresora que actualmente no está conectada a la red. Con
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/26aa6df7-8fb4-4c33-9a2c-9da63c3b32d8)
 
 
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/797cbd83-5067-41b0-9293-e7ed4e7caa3e)
