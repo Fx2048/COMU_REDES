@@ -2,7 +2,7 @@
 
 [Actividad 7-pdf](https://github.com/Fx2048/COMU_REDES/blob/main/TAREAS/ACTIVIDADES_PDF/Actividad7-C8280.pdf)
 
-Observa la página del navegador web del cliente web. ¿Cambió algo? 
+<p>Observa la página del navegador web del cliente web. ¿Cambió algo? 
 
 En el navegador se accedió exitosamente a la página
 
@@ -52,4 +52,4 @@ Preguntas:
 
 ¿En qué dispositivo se capturó la PDU? At device: web client 
 ¿Cuál es el valor que se indica junto a DIRECCIÓN: en la sección RESPUESTA DE DNS de Detalles de la PDU entrante? 
-EN 192.168.1.254 QUE ES LA DIRECCION DEL SRVIDOR WEB
+EN 192.168.1.254 QUE ES LA DIRECCION DEL SRVIDOR WEB</p>
