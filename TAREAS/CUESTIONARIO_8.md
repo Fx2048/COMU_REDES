@@ -5,14 +5,17 @@
 
 Aparece una variedad de PDU en la lista de eventos en el Panel de simulación. ¿Cuál es el significado de los diferentes colores? 
 -Significa los protocolos que se usa en cada PDU 
+
 ¿Por qué tardó tanto en aparecer la PDU HTTP? 
 
  
 
 Es debido que primero debe establecerse una conexión tcp entre cliente y servidor para que el tráfico pueda comenzar. 
+
 ¿Cómo se rotula la sección? Es TCP 
 
 ¿Se consideran confiables estas comunicaciones? Sí, el tcp es un protocolo confiable a diferenca del udp que no lo es. 
+
 
 ¿Qué indicadores TCP se establecen en esta PDU? 
 Se establecen ACK y PSH donde tiene el (1)
@@ -34,6 +37,7 @@ El valor es de indicador  SYN
 ¿En qué cambiaron los números de puerto y de secuencia? 
 
 Se diferencian en se ha invertido el puerto de destino y de origen, y ,también permanece el seq number y ,ha cambiado el ack number  y el flag de SYN, adicionó a ACK .
+
 
  ¿En qué se diferencian los números de puerto y secuencia de los resultados anteriores? 
 
