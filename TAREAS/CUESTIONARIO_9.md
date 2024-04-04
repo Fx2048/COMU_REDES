@@ -1,5 +1,7 @@
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/292cedf2-d1e8-470b-a432-fd1e19c1b47f)
 
+[Actividad 9-pdf](https://github.com/Fx2048/COMU_REDES/blob/main/TAREAS/ACTIVIDADES_PDF/Actividad9-C8280%20(1).pdf)
+
 ¿La dirección MAC de origen coincide con la interfaz de su PC? 
 
 Sí 
