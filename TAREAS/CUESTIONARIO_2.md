@@ -1,7 +1,7 @@
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/84cad120-9380-4beb-8c48-0e1c897dd444)
 
-[Vídeo unipersonal](https://drive.google.com/file/d/15rAEoio1yNvA7w02ewi931LaT6Dx7kYT/view?usp=sharing)
+[Vídeo tutorial](https://drive.google.com/file/d/15rAEoio1yNvA7w02ewi931LaT6Dx7kYT/view?usp=sharing)
 
 Preguntas:
 
