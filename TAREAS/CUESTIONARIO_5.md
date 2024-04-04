@@ -3,7 +3,8 @@ Pregunta:
 
 ¿Qué dispositivo tiene el MAC de destino que se muestra? 
 
-El dispositivo con la dirección MAC de destino 00D0:BA8E:741A es el router 
+El dispositivo con la dirección MAC de destino 00D0:BA8E:741A es el router
+
 Responde las siguientes preguntas relacionadas con los datos capturados: 
 
 ¿Se utilizaron diferentes tipos de cables / medios para conectar dispositivos? 
