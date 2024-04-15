@@ -16,7 +16,8 @@ Se discute el rápido crecimiento de las comunicaciones inalámbricas y cómo lo
 
 La página describe cómo se implementan los parámetros de calidad de servicio (QoS) en Bluetooth a través de primitivas que solicitan al administrador de enlaces del maestro configurar el enlace con el esclavo.
 
-## Seguridad Bluetooth: Se detallan los tres modos de seguridad en Bluetooth: no seguro, seguridad a nivel de servicio y seguridad a nivel de enlace, junto con las entidades básicas para la autenticación y el cifrado.
+## Seguridad Bluetooth:
+Se detallan los tres modos de seguridad en Bluetooth: no seguro, seguridad a nivel de servicio y seguridad a nivel de enlace, junto con las entidades básicas para la autenticación y el cifrado.
 
 ## Estándares IEEE 802.11 (WiFi):
 
