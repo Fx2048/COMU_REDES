@@ -9,3 +9,4 @@
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/f4ec0c36-5437-401a-ad47-5303364c9c79)
 
 [Equipo](https://github.com/Fx2048/COMU_TEAM)
+[Apuntes_teóricos](https://mm.tt/app/map/3230902347?t=HcHdVy4Dnr)
