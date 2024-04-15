@@ -7,4 +7,5 @@ Región > zona de disponibilidad > ubicación de borde
 # Module 3
 Este módulo incluye una actividad dirigida por un instructor para presentarle los principales servicios de AWS. A continuación, trabajará en la consola de AWS para practicar la navegación a distintos servicios. Por último, completará una actividad de investigación para conocer cómo se utilizan estos servicios en diferentes industrias.
 
-#Module 4
+# Module 4
+In this lab, you create an Amazon Elastic Compute Cloud (Amazon EC2) instance that hosts a simple website.
