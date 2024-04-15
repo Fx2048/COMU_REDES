@@ -15,15 +15,21 @@ Se discute el rápido crecimiento de las comunicaciones inalámbricas y cómo lo
 ## Parámetros de QoS: 
 
 La página describe cómo se implementan los parámetros de calidad de servicio (QoS) en Bluetooth a través de primitivas que solicitan al administrador de enlaces del maestro configurar el enlace con el esclavo.
+
 ## Seguridad Bluetooth: Se detallan los tres modos de seguridad en Bluetooth: no seguro, seguridad a nivel de servicio y seguridad a nivel de enlace, junto con las entidades básicas para la autenticación y el cifrado.
-## Estándares IEEE 802.11 (WiFi): Se proporciona una visión general de los estándares WiFi, incluyendo las velocidades de señal y las bandas de frecuencia utilizadas, así como las técnicas de multiplexación como DSSS, CCK y OFDM.
-## Operación de WLAN WiFi: Se explica la operación básica de una WLAN WiFi, incluyendo la arquitectura celular, los servicios ofrecidos y los métodos de acceso al canal como DCF y PCF.
+
+## Estándares IEEE 802.11 (WiFi):
+
+Se proporciona una visión general de los estándares WiFi, incluyendo las velocidades de señal y las bandas de frecuencia utilizadas, así como las técnicas de multiplexación como DSSS, CCK y OFDM.
+## Operación de WLAN WiFi: 
+Se explica la operación básica de una WLAN WiFi, incluyendo la arquitectura celular, los servicios ofrecidos y los métodos de acceso al canal como DCF y PCF.
 
 ## Bluetooth vs. WiFi:
  La sección compara Bluetooth, diseñado para dispositivos portátiles con bajo consumo de energía, con WiFi, que es para conexiones de mayor alcance y dispositivos con más energía disponible.
 ## Gestión de Energía: 
 Detalla cómo Bluetooth utiliza modos de bajo consumo para preservar la batería, mientras que WiFi tiene un estado de bajo consumo llamado “Doze”.
-## Seguridad WiFi: Explica el protocolo de seguridad WEP y sus debilidades, y menciona mejoras como WPA y WPA2 para una autenticación más robusta.
+## Seguridad WiFi: 
+Explica el protocolo de seguridad WEP y sus debilidades, y menciona mejoras como WPA y WPA2 para una autenticación más robusta.
 ## Costos y Consumo: 
 Compara los costos y el consumo de energía de los chipsets para Bluetooth y WiFi, destacando la eficiencia energética de Bluetooth para dispositivos móviles.
 
@@ -31,7 +37,8 @@ Compara los costos y el consumo de energía de los chipsets para Bluetooth y WiF
 Se centra en la comunicación de radiofrecuencia (RF), descartando los métodos de transmisión por infrarrojos para WiFi.
 ## Técnicas de Modulación:
  Ambos protocolos utilizan técnicas de espectro ensanchado en la banda de 2,4 GHz1. Bluetooth emplea salto de frecuencia (FHSS) y WiFi utiliza DSSS, CCK, OFDM2.
-## Adaptación al Ruido: Los protocolos se adaptan a diferentes niveles de protección contra el ruido, con WiFi ofreciendo velocidades de señal de 1 a 54 Mb/s y Bluetooth una velocidad fija de 1 Mb/s3.
+## Adaptación al Ruido: 
+Los protocolos se adaptan a diferentes niveles de protección contra el ruido, con WiFi ofreciendo velocidades de señal de 1 a 54 Mb/s y Bluetooth una velocidad fija de 1 Mb/s3.
 ## Interferencia y Coexistencia: 
 Ambas tecnologías sufren interferencias de otros dispositivos en las mismas bandas de radio, y se están realizando esfuerzos para que coexistan pacíficamente
 
