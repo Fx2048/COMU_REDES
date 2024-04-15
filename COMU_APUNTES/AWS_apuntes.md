@@ -18,3 +18,5 @@ Un sitio web estático es fijo y muestra el mismo contenido para cada usuario. P
 
 #Module 5
 Este curso ofrece un análisis más detallado sobre la informática en la nube y sobre el proveedor de servicios de informática en la nube, Amazon Web Services (AWS). Usted explorará los servicios y tecnologías de AWS y cómo se utilizan para apoyar a empresas de todo el mundo. Utilizará tecnologías de AWS mediante la creación en la AWS Management Console, el análisis de implementaciones exitosas en la nube y la aplicación de sus conocimientos a escenarios basados en la nube.
+# Module 5 Lab 1
+In this lab, you will use Amazon CloudFront as a content delivery network (CDN) for a website that is stored in the Amazon Simple Storage Service (Amazon S3).
