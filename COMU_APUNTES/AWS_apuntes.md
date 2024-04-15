@@ -1,0 +1,10 @@
+# Module 1
+# Module 2
+El propósito de este módulo es conocer los tres tipos diferentes de servicios en la nube: infraestructura como servicio (IaaS), plataforma como servicio (PaaS) y software como servicio (SaaS). También obtendrá información sobre el diseño geográfico de la infraestructura en la nube de Amazon Web Services (AWS), que incluye regiones, zonas de disponibilidad y ubicaciones de borde
+
+Región > zona de disponibilidad > ubicación de borde
+
+# Module 3
+Este módulo incluye una actividad dirigida por un instructor para presentarle los principales servicios de AWS. A continuación, trabajará en la consola de AWS para practicar la navegación a distintos servicios. Por último, completará una actividad de investigación para conocer cómo se utilizan estos servicios en diferentes industrias.
+
+#Module 4
