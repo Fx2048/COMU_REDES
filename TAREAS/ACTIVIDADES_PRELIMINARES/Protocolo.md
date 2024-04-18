@@ -55,9 +55,14 @@ Habría un caos, basicamente, no habrían reglas, ni personas letradas que pueda
 
 Uso de protocolos estándar: 
 1.Protocolos de mensajería establecidos como SMTP (Protocolo Simple de Transferencia de Correo), POP (Protocolo de Oficina de Correos) e IMAP (Protocolo de Acceso a Mensajes de Internet) para el envío y recepción de correos electrónicos
+
 2.. Autenticación y seguridad: Asegurar que la autenticación del usuario sea robusta y que la conexión esté cifrada para proteger la información personal y evitar accesos no autorizados
+
 3..Gestión del correo: Configurar correctamente los clientes de correo para gestionar los mensajes entrantes y salientes, utilizando los protocolos adecuados para cada caso
+
 4.. Mantenimiento del buzón: Limpiar regularmente el buzón de correo para optimizar la seguridad y la gestión de la información
+
 5... Respetar las normas de comunicación: Identificar claramente al emisor y al receptor, utilizar un lenguaje y gramática comunes, y acordar la velocidad y el momento de entrega de los mensajes
+
 6.. Privacidad y consentimiento: Respetar la privacidad de los destinatarios y obtener su consentimiento antes de enviar comunicaciones, especialmente en el caso de mensajes promocionales o informativos. 
 
