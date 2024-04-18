@@ -24,7 +24,7 @@
     <tr>
         <td>Velocidad y momento  de entrega</td>
         <td>Cuál es la velocidad precisa en la comunicación?, Tanto para el envío de solicitud o la respuesta de la comunicación y de procesamiento de comprensión del receptor </td>
-        <td>Sea un idioma similar, el teclado y el vocabulario se adapta a la traducción y puede establecer el formalismo y tono de la comunicación, si hace falta, siglas, o códigos linguisticos adicionales. 5G</td>
+        <td> Maximizar el periodo de entrega y de recibo del mensaje a través de UDP, Pero sea comunicación masiva, requiere de TCP, para datos grandes. 5G</td>
     </tr> 
      <tr>
         <td>Requisitos de  confirmación o acuse  de recibo</td>
