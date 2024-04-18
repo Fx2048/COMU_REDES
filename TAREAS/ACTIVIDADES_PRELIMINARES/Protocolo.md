@@ -42,12 +42,16 @@
 
 ## 2da parte : Preguntas
 1. Ahora que anotaste los protocolos que usan el enviar y leer mensajes de texto, ¿crees que estos  protocolos serían los mismos si estuviera escribiendo a amigos que si estuviera escribiendo a  sus padres o profesores? Explica tu respuesta.
+
    Por ejemplo, la comunicación con profesores es más formal , según el ámbito aca´demico, que una conversación casual, no solo cambia el registro, sino también , la meticulosidad en dar a conocer la solicitud para fines de aprendizaje en el caso de alumno-maestro.
 
 
-3. ¿Cuáles crees que serían las consecuencias si no hubiera estándares de protocolo acordados  para los diferentes métodos de comunicación? 
+2. ¿Cuáles crees que serían las consecuencias si no hubiera estándares de protocolo acordados  para los diferentes métodos de comunicación?
+
 Habría un caos, basicamente, no habrían reglas, ni personas letradas que puedan organizar equipos para fines de proyectos, ni mucho menos, realizar compañías, y organizaciones laborales.
-4. Comparte las reglas de protocolo con tus compañeros de equipo. ¿Hay diferencias entre tus  protocolos y los de ellos? Si es así, ¿podrían estas diferencias producir malentendidos de los  mensajes?
+
+3. Comparte las reglas de protocolo con tus compañeros de equipo. ¿Hay diferencias entre tus  protocolos y los de ellos? Si es así, ¿podrían estas diferencias producir malentendidos de los  mensajes?
+
 
 Uso de protocolos estándar: 
 1.Protocolos de mensajería establecidos como SMTP (Protocolo Simple de Transferencia de Correo), POP (Protocolo de Oficina de Correos) e IMAP (Protocolo de Acceso a Mensajes de Internet) para el envío y recepción de correos electrónicos
