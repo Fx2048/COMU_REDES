@@ -20,7 +20,7 @@ A continuación se presentará la realización de trabajo ejecutado, con resulta
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/46a05fa3-8c47-42b9-b64e-951fb002e6d0)
 
-![texto muy largo](https://github.com/Fx2048/COMU_REDES/assets/131219987/319de89f-7caf-468f-9210-461353c892fb)
+![uando se anexan los resultados, los nuevos resultados se agregan al final de la archivo, lo que hace que el archivo sea más largodespués de comandos deusamos el comando para procesar el contenido de Podríamos redirigir la salida estándar a Otro archivo como este:sortfile_list.txt ](https://github.com/Fx2048/COMU_REDES/assets/131219987/a4a76585-407a-4ec9-a247-1e8894935153)
 
 # Expresiones aritméticas usando operadores numéricos
 ![operacion 2+2](https://github.com/Fx2048/COMU_REDES/assets/131219987/f709aa15-8892-4c41-b9ec-928ad5847af2)
