@@ -17,3 +17,8 @@ A continuación se presentará la realización de trabajo ejecutado, con resulta
 # A Closer Look at Long Format Desde Ubuntu terminal en Window
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/4f2bcda1-3e7a-4de4-ba11-af1da8fad5ea)
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/46a05fa3-8c47-42b9-b64e-951fb002e6d0)
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/319de89f-7caf-468f-9210-461353c892fb)
+
