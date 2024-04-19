@@ -31,4 +31,5 @@ A continuación se presentará la realización de trabajo ejecutado, con resulta
 
 ![Five divided by two equals 2](https://github.com/Fx2048/COMU_REDES/assets/131219987/52d607d4-a9fd-4d9e-b338-306378ed7445)
 
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/ed404ec9-af77-428e-817a-9e745769e8fd)
 
