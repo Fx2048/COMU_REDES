@@ -22,5 +22,13 @@ A continuación se presentará la realización de trabajo ejecutado, con resulta
 
 ![texto muy largo](https://github.com/Fx2048/COMU_REDES/assets/131219987/319de89f-7caf-468f-9210-461353c892fb)
 
-
+# Expresiones aritméticas usando operadores numéricos
 ![operacion 2+2](https://github.com/Fx2048/COMU_REDES/assets/131219987/f709aa15-8892-4c41-b9ec-928ad5847af2)
+
+![-bash expression ](https://github.com/Fx2048/COMU_REDES/assets/131219987/da13e82e-0c25-4219-a45a-36e0ea74199f)
+
+![operacion grande 75](https://github.com/Fx2048/COMU_REDES/assets/131219987/2658a1d2-f457-4246-93f5-b77412f84b72)
+
+![Five divided by two equals 2](https://github.com/Fx2048/COMU_REDES/assets/131219987/52d607d4-a9fd-4d9e-b338-306378ed7445)
+
+
