@@ -20,5 +20,7 @@ A continuación se presentará la realización de trabajo ejecutado, con resulta
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/46a05fa3-8c47-42b9-b64e-951fb002e6d0)
 
-![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/319de89f-7caf-468f-9210-461353c892fb)
+![texto muy largo](https://github.com/Fx2048/COMU_REDES/assets/131219987/319de89f-7caf-468f-9210-461353c892fb)
 
+
+![operacion 2+2](https://github.com/Fx2048/COMU_REDES/assets/131219987/f709aa15-8892-4c41-b9ec-928ad5847af2)
