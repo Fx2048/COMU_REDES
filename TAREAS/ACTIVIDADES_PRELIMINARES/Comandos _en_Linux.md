@@ -1,6 +1,6 @@
 # Comandos en Linux
 A continuación se presentará la realización de trabajo ejecutado, con resultados mostrados en pantalla y con explicación:
-#1 " 2
+#1 " 2 Desde un software virtual
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/72ded5ab-dab9-4904-837f-e88375ccec7d)
 
 ## 3
@@ -14,4 +14,6 @@ A continuación se presentará la realización de trabajo ejecutado, con resulta
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/41c18f2b-bc44-471e-8c6c-43a30517a2db)
 
-# A Closer Look at Long Format
+# A Closer Look at Long Format Desde Ubuntu terminal en Window
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/4f2bcda1-3e7a-4de4-ba11-af1da8fad5ea)
