@@ -1,10 +1,12 @@
 # Comandos en Linux
+
 A continuación se presentará la realización de trabajo ejecutado, con resultados mostrados en pantalla y con explicación:
 # Working with Commands
-
+Interacción con los comandos iniciales de linux, por ejemplo, vemos 3 comandos distintos, , ls es un alias por el comando añadido de color=auto". 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/055538c7-1348-47e1-9660-77007165bf82)
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/de4fe3c5-9a19-429a-a37d-f5ce1973104f)
+
 
 # A Closer Look at Long Format Desde Ubuntu terminal en Window
 
