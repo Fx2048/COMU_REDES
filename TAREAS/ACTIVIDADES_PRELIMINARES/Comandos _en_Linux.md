@@ -111,92 +111,158 @@ Y para crear directorios, a través de mkdir lo harás!  :D
 
 ## Expansion
 
-![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/4f2bcda1-3e7a-4de4-ba11-af1da8fad5ea)
+Aquí imprimimos los argumentos de texto en salida standar de manera Echo this is  a test
 
-![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/46a05fa3-8c47-42b9-b64e-951fb002e6d0)
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/4df29ef8-0904-47cd-bedb-acee152186ce)
+
+Aquí,  el shell expande el "*" en otra cosa (en este caso, los nombres de los archivos en el archivo directorio de trabajo) antes de que el comando sea ejecutado.
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/75af8c0c-7ce7-4e3e-99a1-65301bb24246)
+
+La siguiente manera también es otra forma de realizar un parthname expansion, donde obtenemos técnicas que empleamos en nuestras lecciones anteriores, Obtener un directorio sea desde ls, o el que veremos a continuación:
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/9a05954a-258c-42b1-b1f6-9a100c2c9ce4)
+
+
+por echo/usr/*/share podemos observar a través de neustro directorio principal
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/6d522a17-815e-4b1f-be09-7d49012c7672)
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/15adb02a-7b89-45f4-b839-cafb5b61828c)
+
+Cuando se utiliza en el comienzo de una palabra, se expande en el nombre del directorio de inicio del usuario designado, o si no se nombra ningún usuario, el directorio principal del usuario actual:cd
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/66fe10ad-346b-49f9-9872-12e2003b4d92)
+
+Si el usuario foo tiene una cuenta, entonces:
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/60561c48-34a5-496d-916c-5f56593e975d)
+
+
+En esta sección, cuando se anexan los resultados, los nuevos resultados se agregan al final de la archivo, lo que hace que el archivo sea más largodespués de comandos deusamos el comando para procesar el contenido de Podríamos redirigir la salida estándar a Otro archivo como este:sortfile_list.txt 
 
 ![uando se anexan los resultados, los nuevos resultados se agregan al final de la archivo, lo que hace que el archivo sea más largodespués de comandos deusamos el comando para procesar el contenido de Podríamos redirigir la salida estándar a Otro archivo como este:sortfile_list.txt ](https://github.com/Fx2048/COMU_REDES/assets/131219987/a4a76585-407a-4ec9-a247-1e8894935153)
 
-# Expresiones aritméticas usando operadores numéricos
+
+
+
+### Expresiones aritméticas usando operadores numéricas
+
+En esta parte, la expansión aritmética usa la forma de $((expression)) la cual veremos aplicada así:
+La expansión aritmética solo admite números enteros (números enteros, sin decimales), pero puede realizar un buen número de operaciones diferentes.
+
 ![operacion 2+2](https://github.com/Fx2048/COMU_REDES/assets/131219987/f709aa15-8892-4c41-b9ec-928ad5847af2)
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/b1a49ea9-44c7-4bea-9bbe-23376219d044)
+
+
+La expresión básica que requiere el terminal para correr expresiones matemáticas:
 
 ![-bash expression ](https://github.com/Fx2048/COMU_REDES/assets/131219987/da13e82e-0c25-4219-a45a-36e0ea74199f)
 
+Los espacios no son significativos en las expresiones aritméticas y las expresiones pueden estar anidadas. Para Ejemplo, para multiplicar cinco al cuadrado por tres:
+
 ![operacion grande 75](https://github.com/Fx2048/COMU_REDES/assets/131219987/2658a1d2-f457-4246-93f5-b77412f84b72)
+
+A continuación, se muestra un ejemplo en el que se utilizan los operadores de división y resto. Observe el efecto de División de enteros:
 
 ![Five divided by two equals 2](https://github.com/Fx2048/COMU_REDES/assets/131219987/52d607d4-a9fd-4d9e-b338-306378ed7445)
 
-![with1 left over](https://github.com/Fx2048/COMU_REDES/assets/131219987/ed404ec9-af77-428e-817a-9e745769e8fd)
-![Front-A-Back Front-B-Back Front-C-Back](https://github.com/Fx2048/COMU_REDES/assets/131219987/47d914e5-e210-400d-b0ae-f25fc98b7699)
+
+ Ahora, podemos crear Varias cadenas de texto de un patrón que contiene llaves. He aquí un ejemplo:
+ ![Front-A-Back Front-B-Back Front-C-Back](https://github.com/Fx2048/COMU_REDES/assets/131219987/47d914e5-e210-400d-b0ae-f25fc98b7699)
+
+  A continuación, se muestra un ejemplo con un rango de números enteros:
 
 ![Number_1 Number_2 Number_3 Number_4 Number_5](https://github.com/Fx2048/COMU_REDES/assets/131219987/1137757c-0d2f-4f4d-abeb-c540207c801a)
 
+La aplicación más común es hacer listas de archivos o directorios que se van a crear, por lo tanto , Las expansiones de llaves se pueden anidar:
+
 ![aA1b aA2b aB3b aB4b](https://github.com/Fx2048/COMU_REDES/assets/131219987/e47cb887-dda8-43a8-b51f-40693df6c86a)
 
+Ahora organizaremos en años y meses una serie de directorios nombrados en formato numérico, ordenado cronológicamente, pudiendo escribir un archivo completo listo de directorios, minimizando la digitación,siguiendo este comando:
 
 ![photos I](https://github.com/Fx2048/COMU_REDES/assets/131219987/b678a4be-b398-4797-a66b-c47852d64683)
 
+Examinamos con ls:
+
 ![photos 2](https://github.com/Fx2048/COMU_REDES/assets/131219987/9c3619dd-73d7-4d06-b021-f5c8f3c09f51)
 
+Expandiremos parámetros de la siguiente manera: Invocamos mediante  la revelación del contenido del usuario con el comando:
 
 ![user blues_soul](https://github.com/Fx2048/COMU_REDES/assets/131219987/c7aa6922-e798-4fce-832f-c8543c13295c)
 
 con el comando me apareció así:
+
 ![printenv | less](https://github.com/Fx2048/COMU_REDES/assets/131219987/c8dcabc5-64cd-4d38-a02e-c1d41c0a7b5e)
 
-
+ Si escribimos mal un patrón, el expansión no se llevará a cabo y el comando echo simplemente mostrará el error patrón. 
+ 
 ![SUER](https://github.com/Fx2048/COMU_REDES/assets/131219987/56790b3d-a699-4d60-9e5b-1b3f9b5a2a62)
-no aparece nada xd
+
+La sustitución de comandos nos permite usar la salida de un comando como una expansión:
 
 ![imPhotos file_list.txt snap sorted_file_list.txt user_space_report.txte](https://github.com/Fx2048/COMU_REDES/assets/131219987/532d0481-2f22-4558-a3df-c55921a11e31)
 
+O de esta manera opcionalmente:
 ![ls -l $(which cp)](https://github.com/Fx2048/COMU_REDES/assets/131219987/22c909ea-5765-4013-94a1-c604caab8c89)
 
+En esta parte los pipelines se convirtieron en lista de argumentos del comando de la lista, Es una sintax alternate para sustitución de comando en viejos programas de shell donde es soportado dentro.Su uso usa comillas inversa en lugar del signo de dólar y paréntesis:bash
 ![file $(ls /usr/bin/* | grep bin/zip)](https://github.com/Fx2048/COMU_REDES/assets/131219987/96fcb854-e73d-4b4f-b215-05167f7cd81c)
 
-![ls -l `which cp`](https://github.com/Fx2048/COMU_REDES/assets/131219987/10f25fac-2040-4dff-853e-94d15fe981de)
+
+Hemos tomado la siguiente expresión de echo this is a test para 
 
 ![echo this is a     teste](https://github.com/Fx2048/COMU_REDES/assets/131219987/a58d31a1-99d1-46bf-b375-ee952ef36409)
 
+En el primer ejemplo, la división de palabras por parte del shell eliminó el espacio en blanco adicional en la lista de argumentos del comando echo. En el segundo ejemplo, el parámetro expansion sustituyó el valor de "$1" por una cadena vacía porque era un variable indefinida. El shell proporciona un mecanismo llamado quoting to suprimir selectivamente las expansiones no deseadas
+
 ![echo The total is $100.00](https://github.com/Fx2048/COMU_REDES/assets/131219987/bb7be2c0-9671-428a-b34d-ff0bc8cb5c51)
 
+
+ Visualizamos a continuación dos argumentos separados en lugar del único argumento deseado:two words.txt:
 ![ls -l two words.txt](https://github.com/Fx2048/COMU_REDES/assets/131219987/e7303f48-c2c3-4a72-baa5-0883e6e4fe13)
 
+Al usar comillas dobles, podemos detener la división de palabras y obtener el resultado deseado; Además, incluso puede reparar el daño
 
 ![ls -l "two words.txt"](https://github.com/Fx2048/COMU_REDES/assets/131219987/104fb461-1a1b-4748-aa9d-4c3c18fe4b61)
 
 
-![echo "$USER $((2+2)) $(cal)"](https://github.com/Fx2048/COMU_REDES/assets/131219987/7b6c131c-f1ac-44a0-8a37-b55bfc46710b)
 
+![echo "$USER $((2+2)) $(cal)"](https://github.com/Fx2048/COMU_REDES/assets/131219987/7b6c131c-f1ac-44a0-8a37-b55bfc46710b)
+En nuestro ejemplo anterior, vimos Cómo la división de palabras parece eliminar espacios adicionales en nuestro texto
+
+sin comillas Los espacios, tabulaciones y saltos de línea no se consideran parte del texto. Solo sirven como separadores. Dado que separan las palabras en diferentes argumentos, nuestro ejemplo La línea de comandos contiene un comando seguido de cuatro argumentos distintos. Si añadimos Comillas dobles: 
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/bd4a0537-5c22-43fb-9048-1a56ccfcb862)
 
-
+Veremos una línea de comandos con un argumento que Incluye los espacios incrustados y las nuevas líneas aquí:
 ![echo $(cal)](https://github.com/Fx2048/COMU_REDES/assets/131219987/5b1317a6-98bf-462a-a10d-25ed9559462d)
 
 
 ![echo "$(cal)"](https://github.com/Fx2048/COMU_REDES/assets/131219987/2235b2d9-c7a1-4e72-9b11-4e3cca2ca8f4)
 
+Cuando necesitamos suprimir todas las expansiones, usamos comillas simples. Aquí hay una comparación de Sin comillas, comillas dobles y comillas simples:
 
 ![echo text ~/*.txt {a,b} $(echo foo) $((2+2)) $USER](https://github.com/Fx2048/COMU_REDES/assets/131219987/d925b77c-44db-4997-90ea-cdb05edd7d89)
 
-![echo "text ~/*.txt {a,b} $(echo foo) $((2+2)) $USER"](https://github.com/Fx2048/COMU_REDES/assets/131219987/2ce46b01-8353-493a-bfd4-a26e425f14ad)
 
-![echo 'text ~/*.txt {a,b} $(echo foo) $((2+2)) $USER'](https://github.com/Fx2048/COMU_REDES/assets/131219987/31473c9b-6eed-4a71-9128-7c4b24e9c7df)
-
+podemos preceder a un carácter con una barra diagonal inversa, que en este contexto se denomina carácter de escape. Frecuentemente Esto se hace entre comillas dobles para evitar selectivamente una expansión:
 
 ![echo "The balance for user $USER is: \$5.00"](https://github.com/Fx2048/COMU_REDES/assets/131219987/7cd567ac-63de-4893-b329-ad414a7c1acb)
 
+Para incluir un carácter especial en un nombre de archivo podemos a esto:
 
 ![mv bad\&filename good_filename](https://github.com/Fx2048/COMU_REDES/assets/131219987/d77d39d6-99ec-465f-8fb5-a16702446234)
 
 
+Aquí hay un truco de la barra invertida, cuya utilidad reside en los nombres de opciones largos, que comienzan con dos guiones, , lo sisguientes incluyen man, hay dos formas ,la larga o la corta.
 ![ls -r](https://github.com/Fx2048/COMU_REDES/assets/131219987/0adcb38e-4bd9-4cd6-b55b-80a563075e14)
 
+El uso de las opciones de formato largo puede hacer un solo comando línea muy larga. Para combatir este problema, podemos usar una barra invertida para obtener el shell para ignorar un carácter de nueva línea como este:
 
 ![ls - l ---fulltime-reverse -human-reandable-gfull time](https://github.com/Fx2048/COMU_REDES/assets/131219987/59730161-80c0-4095-b996-8dbe195df271)
 
-
+Esta es otra manera de usar la barra invertida:
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/9a3cc11e-a547-4cef-8a5f-172fe81177cf)
 
 
