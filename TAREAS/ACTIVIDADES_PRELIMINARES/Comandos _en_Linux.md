@@ -201,6 +201,15 @@ no aparece nada xd
 
 
 ## Permissions
+Para mirar los permisos en un archivo, usamos comando de ls, dentro del programa bash, localizamos /bin directorio:
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/233aedec-8885-4529-9115-87612a289e0f)
+Aparecen las siguientes características:
+El archivo "/bin/bash" es propiedad del usuario "raíz"
+El superusuario tiene derecho a leer, escribir, y ejecute este archivo
+El archivo es propiedad del grupo "root"
+Los miembros del grupo "raíz" también pueden leer y Ejecute este archivo
+Todos los demás pueden leer y ejecutar esto archivo
 
 ## Job control
 
