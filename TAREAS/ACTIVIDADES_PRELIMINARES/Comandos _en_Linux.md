@@ -111,14 +111,6 @@ Y para crear directorios, a través de mkdir lo harás!  :D
 
 ## Expansion
 
-## Permissions
-
-## Job control
-
-## WRITING SHELL SCRIPTS 
-
-## A Closer Look at Long Format Desde Ubuntu terminal en Window
-
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/4f2bcda1-3e7a-4de4-ba11-af1da8fad5ea)
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/46a05fa3-8c47-42b9-b64e-951fb002e6d0)
@@ -207,3 +199,11 @@ no aparece nada xd
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/9a3cc11e-a547-4cef-8a5f-172fe81177cf)
 
+
+## Permissions
+
+## Job control
+
+## WRITING SHELL SCRIPTS 
+
+## A Closer Look at Long Format Desde Ubuntu terminal en Window
