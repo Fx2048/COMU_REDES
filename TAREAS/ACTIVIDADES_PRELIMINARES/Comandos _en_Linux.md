@@ -1,14 +1,123 @@
-# Comandos en Linux
+# COMANDOS EN LINUX
+### A continuación se presentará la realización de trabajo ejecutado, con resultados mostrados en pantalla y con explicación:
 
-A continuación se presentará la realización de trabajo ejecutado, con resultados mostrados en pantalla y con explicación:
-# Working with Commands
-Interacción con los comandos iniciales de linux, por ejemplo, vemos 3 comandos distintos, , ls es un alias por el comando añadido de color=auto". 
+## What is the shell
+Bien! Para comenzar en la terminal escribiremos cualquier idea para ver el output:
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/15dcb6e1-c922-4d5f-8877-aff19b62a7b0)
+ Hemos recibido un mensaje de error quejándonos de que no puede entender el comando
+ 
+## NAVIGATION 
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/0f1b290a-8557-4c10-8fba-2a5a64a4f645)
+
+Cuando iniciamos sesión por primera vez en nuestro sistema Linux, el directorio de trabajo se establece en nuestro directorio de inicio. Aquí es donde ponemos nuestros archivos. En la mayoría de los sistemas, El directorio de inicio se llamará /home/user_name,pero podemos personalizarlo.
+
+Para listar los archivos en el directorio de trabajo, usamos el comando.ls
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/55ea1f36-6820-4f18-aa61-aa9a52f209e2)
+
+Lo que veremos significa desde el directorio raíz (representado por la barra diagonal inicial en el nombre de la ruta) Hay un directorio llamado "usr" que contiene un directorio llamado "bin" con ./usr/bin
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/e98af35c-019e-47d2-8305-26f026eb5f5a)
+
+En seguida, Cambiemos el directorio de trabajo a /usr/bin otra vez:
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/1945e2df-1881-4459-917b-ad79c37c3141)
+
+Si queremos cambiar el directorio de trabajo a la variable padre de los cuales  podríamos hacer eso de dos maneras diferentes. En primer lugar, con un nombre de ruta absoluto:/usr/bin/usr
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/ac1d3a6a-0140-4fcc-bfb9-9f6cfa3f9546)
+
+o con nombre de ruta relativo:
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/8142e8cf-45c3-49f6-9696-e2b835dfe2fc)
+
+también usando un valor absoluto, tan como se muestra:
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/70003d7e-28bd-4ae1-bd91-1bcc73d78ab8)
+
+O bien, con un nombre de ruta relativo:
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/3bd6ca7b-bfc8-4a4f-9090-a4ced6a7cbdd)
+
+Para reducir términos: 
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/bfb5a617-b1df-4d87-8c97-3e90f9a07086)
+
+## MANIPULATING FILES
+Con el siguiente comando de todo el código HTML de archivos de un directorio a otro, solo copiaría archivos que no existían en el directorio de destino o eran más recientes que las versiones del directorio de destino.
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/d73111d6-9606-4fef-ad44-c9618befcabc)
+
+### Cp command sirve para copiar archivos y directorios
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/e467d464-2d4c-497c-b846-69db2e3b4499)
+
+O copiar varios de ambos ,tanto archivos y directorios a un archivo o directorio distinto:
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/1e4ed274-a134-4265-8f5b-24013633b34a)
+
+Si quieres editar el nombre de tu archivo, ejecuta mv seguido del archivo elegido mv:
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/67cb4ac9-324d-437d-b0b8-ae89779e5ca9)
+
+y para mover de dirección tu archivo, opta por mv también!:
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/7b249b7c-857b-4814-9e6f-f0237c661eac)
+
+En el caso de que decidas eliminar el archivo y/o directorio, trabaja con : rm, pero lastimosamente, no podrás recuperarlos una vez suprimidos en Linux:
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/be62d232-bfbc-4423-9768-635960863213)
+
+Y para crear directorios, a través de mkdir lo harás!  :D
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/8a0ba4ad-129b-4fc3-beed-776288a48a52)
+
+
+## WORKING WITH COMMANDS
+
+### Interacción con los comandos iniciales de linux, por ejemplo, vemos 3 comandos distintos, , ls es un alias por el comando añadido de color=auto". 
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/25d58a56-02d7-44d5-becc-c3921dbb6be7)
+
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/055538c7-1348-47e1-9660-77007165bf82)
-
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/de4fe3c5-9a19-429a-a37d-f5ce1973104f)
 
+### Which sirve para programas funcionales que pueden ejecutarse, no ni alias que son sustitutos de programas ejecutables reales.
 
-# A Closer Look at Long Format Desde Ubuntu terminal en Window
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/b2652bf9-22d0-4ee4-9562-81782ad12871)
+
+### Aquí se extiende el recurso de ayuda con respecto a su contenido:
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/d6e9c3fc-88d0-44d8-bbb6-f17b5cd1fda5)
+
+### Elementos opcionales son mutuamente excluyentes simbolizados por corchetes :
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/d6f681fd-fcd1-46ab-a04f-2543e1464536)
+
+### A veces puede que no encuentre --help la ayuda necesaria, dado que algunos programas no admiten la variable del comando original de help.
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/253e8c05-5b06-4970-80c0-593d503e0d65)
+
+### Man sirve para llamar a manual en el comando, programa es el nombre del comando a visualizar...
+![man](https://github.com/Fx2048/COMU_REDES/assets/131219987/604ae4c4-1351-4dde-8f16-05f061fed4dc)
+
+### ... con una descripción larga sobre dicho contenido:Con nombre,sinopsis, descripción:
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/906b75f4-b7c4-4769-9d6f-d5302138e548)
+
+## I/O Redirection
+### Dado que el output al archivo fue redirigido, no contamos con resultados a la vista, pero... 
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/a8786fb7-3aaa-49ee-b503-5083fd665702)
+### ... Cada que se repiten el comando anterior, para anexarlos al archivo los resultados incluímos ">>" así:
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/44862da1-5d5f-4b3d-9765-0c177323809f)
+### o bueno quizá no resultó de primeras, pero esto es porque el archivo no existe, y si existiese, sería un archivo mucho más largo, ya que se extendería al último lo que hemos puesto de salida.. [continuará]
+
+### Aquí observamos que se puede redirigir la salida standar, el caracter < procesa el contenido , y no se redirigió a otro archivo, lo cual veremos que no siempre sucede.
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/9bc1c8c4-1a36-4c67-98f3-40cdacbce1b0)
+
+### Aquí por ejemplo, se redirigió el resultado a este archivo, y nos apareció de la manera que mostraremos a continuación :
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/9c89fb6e-0987-4e25-afa6-5e879dd4b3d9)
+
+### Prosiguiendo:
+### Con el comando ls -l | less nos aparece así , es muy importante porque permite que cualquier comando tenga una salida de desplazamiento.lsless"| less"
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/c46cc878-75a2-47ad-86cb-f95b848bf69e)
+
+
+### Plus: Con tar tzvf name_of_file.tar.gz | less  podemos ver el directorio como un archivo en el sistema de linux targzip 
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/ee4ab919-0109-4f64-b1db-315f906f2bf0)
+
+## Expansion
+
+## Permissions
+
+## Job control
+
+## WRITING SHELL SCRIPTS 
+
+## A Closer Look at Long Format Desde Ubuntu terminal en Window
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/4f2bcda1-3e7a-4de4-ba11-af1da8fad5ea)
 
