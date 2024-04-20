@@ -204,6 +204,7 @@ no aparece nada xd
 Para mirar los permisos en un archivo, usamos comando de ls, dentro del programa bash, localizamos /bin directorio:
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/233aedec-8885-4529-9115-87612a289e0f)
+
 Aparecen las siguientes características:
 El archivo "/bin/bash" es propiedad del usuario "raíz"
 El superusuario tiene derecho a leer, escribir, y ejecute este archivo
@@ -211,7 +212,71 @@ El archivo es propiedad del grupo "root"
 Los miembros del grupo "raíz" también pueden leer y Ejecute este archivo
 Todos los demás pueden leer y ejecutar esto archivo
 
+
+### si quisiéramos establecer que el propietario tenga permiso de lectura y escritura, pero Si queríamos mantener el archivo privado de los demás, haríamos:some_file
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/f144ddec-864a-4662-8787-7f5c45c13b04)
+
+
+con el siguiente comando ingresamos al superuser el cual nos pedirá una contraseña, y para salir solo ejecutamos suexit
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/24ea10c6-bae1-4d16-a9f4-599e1674aa41)
+
+O de la siguiente manera, para ejecutar un comando como superusuario, el comando deseado simplemente está precedido con el comando, también se puede acceder, por ejemplo: Al usuario se le solicita su propia contraseña en lugar de la del superusuario:susudosudosudo
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/e8921eec-9289-49e5-845d-c394b7f88862)
+
+En otro caso, algunas distribuciones establecen la contraseña de la cuenta de root lo que hace imposible iniciar sesión como usuario root. Todavía es posible un shell raíz with usando la opción "-i": sudo
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/e4e6e1bb-a191-4a3b-8715-d4ed1e0a5157)
+
+Para cambiar propiedad de archivos, es imprescindible contar con la clave de seguridad para acceder al modo privilegios de superusuario, ya que es necesario contar con autorización suya para gestionar el procedimiento.
+y es por ello que antecede a la solicitud el comando sudochown
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/8caf0825-515f-4ef2-a37a-513aaf4f601d)
+
+Adicional a ello, se establece una forma de cambiar la propiedad de grupo de un archivo o directorio:
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/f7270fb8-0371-46d5-9b85-f078cc597c41)
+
+En la imagen anterior, cambiamos la propiedad del grupo de su grupo anterior a "new_group". Debemos ser el propietario del archivo o directorio para realizar un archivo .some_filechgrp
+
+
 ## Job control
+### Hay un pequeño programa suministrado con el sistema X Window llamado que muestra un gráfico que representa la carga del sistema que podemos ejecutar escribiendo xload
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/c8b8759a-97e6-4ea5-afb0-65dfdaef8a3c)
+
+Para ejecutar un programa en segundo plano aplicamos xload:
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/e9cae98d-83b3-4caf-9bbb-4424434dccf3)
+
+Si nos olvidamos de escribir completo, no hay de qué preocuparnos, ya que con xloadgb tabién es posble:
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/f5e0235b-d662-46cc-8049-aa86ec3ba30a)
+
+Aplicando por otro lado, jobsps tenemos una lista de procesos que hemos puesto en marcha, así:
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/15d2e249-f391-4c1b-ac6d-18bce2747aee)
+
+luego de haber identificado que hay un proceso que es incorrecto y no debería ir en nuestra lista, corrijamos con el comando xload &jobskill %1xload &pskill 1293
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/6dd95209-6634-470e-b35f-e9a81a59ce89)
+
+el siguiente comando imprime una lista de las señales que admite:
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/a2f3eb4c-cb3b-4319-aaea-4e06c0f41340)
+
+Ahora, pasaremos  a obtener el id del proceso para terminar: con ps
+Emitiendo un comando para ese IDP con kill
+y si no se termina, porque ignora la señal, seguiremos enviando estas solicitudes de manera más estricta para que termine en una de ellas.
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/cdcec7d4-dcf3-4b97-aa1d-8c5f44a28bb3)
+
+Emitiremos una señal SIGTERM al programa problemático, usando una señal number en lugar de la name signal, pspsgrepkillkillkill
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/123cf947-2da6-4f4b-ae2e-fdcc94453a70)
+
+Y ahora, si el proceso no acaba, como habíamos dicho previamente, forzaremos con SIGKILL signal:
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/daec1ccf-c50d-472b-bfb5-2ab36208f459)
+
 
 ## WRITING SHELL SCRIPTS 
 
