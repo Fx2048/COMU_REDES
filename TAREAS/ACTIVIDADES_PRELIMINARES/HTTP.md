@@ -76,12 +76,18 @@ Aquí estamos usando el método ```urllib.request.urlopen () ``` para enviar una
 # Preguntas:
 ## 1. ¿Cómo podemos realizar una solicitud POST con el módulo requests pasando una estructura dedatos de tipo diccionario que se enviaría al cuerpo de la solicitud?
 
+Es aplicable en estos casos, utilizar json como parámetro del  método requests.post(). En camino a ello, veamos un modelo:
 ```
 import requests
-# Se realiza de la siguiente manera.
-datos = {'nombre': 'John', 'edad': 30}
-respuesta = requests.post('https://api.ejemplo.com/datos', json=datos)
+
+url = 'https://api.example.com/data'
+data= {'name': 'Isadora', 'age': 16}
+
+answer = requests.post(url, json=data)
 ```
+En la actividad anterior, el diccionario data se enviará automáticamente como el cuerpo de la solicitud POST en formato JSON.
+
+
 
 ## 2.  ¿Cuál es la forma correcta de realizar una solicitud POST a través de un servidor proxy y modificar 
 la información de los encabezados al mismo tiempo?
@@ -90,15 +96,14 @@ la información de los encabezados al mismo tiempo?
 ```
 import requests
 
-proxies = {
-    'http': 'http://usuario:contraseña@123.45.67.89:8080',
-    'https': 'https://usuario:contraseña@123.45.67.89:8080'
-}
+url = 'https://api.example.com/datos'
+datos = {'nombre': 'Juan', 'edad': 30}
+headers = {'User-Agent': 'Mozilla/5.0'}
+proxy = {'http': 'http://proxy.example.com:8080'}
 
-encabezados = {'User-Agent': 'Mi-Aplicacion/1.0'}
-
-respuesta = requests.post('https://api.ejemplo.com/datos', headers=encabezados, proxies=proxies)
+respuesta = requests.post(url, json=datos, headers=headers, proxies=proxy)
 ```
+En este ejemplo, se utiliza un servidor proxy especificado en el diccionario proxy, y se modifica el encabezado User-Agent a través del diccionario headers.
 
 ## 3.  ¿Cómo podemos obtener el código de una solicitud HTTP devuelta por el servidor si, en el objeto 
 de respuesta, tenemos la respuesta del servidor?
@@ -106,21 +111,22 @@ de respuesta, tenemos la respuesta del servidor?
 ```
 import requests
 
-respuesta = requests.get('https://api.ejemplo.com/datos')
-codigo_respuesta = respuesta.status_code
-print(codigo_respuesta)
+url = 'https://api.example.com/data'
+naswer = requests.get(url)
+
+status_code = naswer.status_code
+print(status_code)
 ```
+En este ejemplo, codigo_estado contendrá el código de estado HTTP devuelto por el servidor.
  
 ## 4. ¿Qué mecanismo se utiliza para mejorar el proceso de autenticación básico mediante el uso de un 
 algoritmo criptográfico hash unidireccional? 
 
 
-El mecanismo utilizado para mejorar el proceso de autenticación básico mediante el uso de un algoritmo criptográfico hash unidireccional es la autenticación Digest. Este mecanismo utiliza un hash MD5 para cifrar la contraseña y evitar que se envíe en texto plano
-
+El mecanismo utilizado para mejorar el proceso de autenticación básico conocido como el "Digest Authentication" es útil mediante el uso de un algoritmo criptográfico hash unidireccional no solo porque  envía las credenciales (nombre de usuario y contraseña) en texto plano, sino que además se envía un hash de las credenciales junto con algunos datos adicionales. El servidor puede entonces hallar el mismo hash y compararlo con el hash recepcionado para autenticar al cliente.
 
 ## 5. ¿Qué encabezado se utiliza para identificar el navegador y el sistema operativo que usamos para 
 enviar solicitudes a una URL?. 
 
-
-El encabezado utilizado para identificar el navegador y el sistema operativo que se utiliza para enviar solicitudes a una URL es el encabezado User-Agent. Este encabezado proporciona información sobre el cliente que realiza la solicitud.
+El encabezado HTTP User-Agent guarda información sobre el software cliente (navegador web, aplicación, etc.) y el sistema operativo en el que se ejecuta. Por ejemplo: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
 
