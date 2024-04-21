@@ -1,12 +1,18 @@
 # COMANDOS EN LINUX
-### A continuación se presentará la realización de trabajo ejecutado, con resultados mostrados en pantalla y con explicación:
+
+ A continuación se presentará la realización de trabajo ejecutado, con resultados mostrados en pantalla y con explicación:
 
 ## What is the shell
+
 Bien! Para comenzar en la terminal escribiremos cualquier idea para ver el output:
+
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/15dcb6e1-c922-4d5f-8877-aff19b62a7b0)
+
  Hemos recibido un mensaje de error quejándonos de que no puede entender el comando
  
+ 
 ## NAVIGATION 
+
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/0f1b290a-8557-4c10-8fba-2a5a64a4f645)
 
 Cuando iniciamos sesión por primera vez en nuestro sistema Linux, el directorio de trabajo se establece en nuestro directorio de inicio. Aquí es donde ponemos nuestros archivos. En la mayoría de los sistemas, El directorio de inicio se llamará /home/user_name,pero podemos personalizarlo.
@@ -16,15 +22,19 @@ Para listar los archivos en el directorio de trabajo, usamos el comando.ls
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/55ea1f36-6820-4f18-aa61-aa9a52f209e2)
 
 Lo que veremos significa desde el directorio raíz (representado por la barra diagonal inicial en el nombre de la ruta) Hay un directorio llamado "usr" que contiene un directorio llamado "bin" con ./usr/bin
+
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/e98af35c-019e-47d2-8305-26f026eb5f5a)
 
 En seguida, Cambiemos el directorio de trabajo a /usr/bin otra vez:
+
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/1945e2df-1881-4459-917b-ad79c37c3141)
 
 Si queremos cambiar el directorio de trabajo a la variable padre de los cuales  podríamos hacer eso de dos maneras diferentes. En primer lugar, con un nombre de ruta absoluto:/usr/bin/usr
+
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/ac1d3a6a-0140-4fcc-bfb9-9f6cfa3f9546)
 
 o con nombre de ruta relativo:
+
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/8142e8cf-45c3-49f6-9696-e2b835dfe2fc)
 
 también usando un valor absoluto, tan como se muestra:
@@ -37,76 +47,98 @@ Para reducir términos:
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/bfb5a617-b1df-4d87-8c97-3e90f9a07086)
 
 ## MANIPULATING FILES
+
 Con el siguiente comando de todo el código HTML de archivos de un directorio a otro, solo copiaría archivos que no existían en el directorio de destino o eran más recientes que las versiones del directorio de destino.
+
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/d73111d6-9606-4fef-ad44-c9618befcabc)
 
-### Cp command sirve para copiar archivos y directorios
+ Cp command sirve para copiar archivos y directorios
+
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/e467d464-2d4c-497c-b846-69db2e3b4499)
 
 O copiar varios de ambos ,tanto archivos y directorios a un archivo o directorio distinto:
+
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/1e4ed274-a134-4265-8f5b-24013633b34a)
 
 Si quieres editar el nombre de tu archivo, ejecuta mv seguido del archivo elegido mv:
+
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/67cb4ac9-324d-437d-b0b8-ae89779e5ca9)
 
 y para mover de dirección tu archivo, opta por mv también!:
+
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/7b249b7c-857b-4814-9e6f-f0237c661eac)
 
 En el caso de que decidas eliminar el archivo y/o directorio, trabaja con : rm, pero lastimosamente, no podrás recuperarlos una vez suprimidos en Linux:
+
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/be62d232-bfbc-4423-9768-635960863213)
 
 Y para crear directorios, a través de mkdir lo harás!  :D
+
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/8a0ba4ad-129b-4fc3-beed-776288a48a52)
 
 
 ## WORKING WITH COMMANDS
 
-### Interacción con los comandos iniciales de linux, por ejemplo, vemos 3 comandos distintos, , ls es un alias por el comando añadido de color=auto". 
+ Interacción con los comandos iniciales de linux, por ejemplo, vemos 3 comandos distintos, , ls es un alias por el comando añadido de color=auto". 
+ 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/25d58a56-02d7-44d5-becc-c3921dbb6be7)
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/055538c7-1348-47e1-9660-77007165bf82)
+
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/de4fe3c5-9a19-429a-a37d-f5ce1973104f)
 
-### Which sirve para programas funcionales que pueden ejecutarse, no ni alias que son sustitutos de programas ejecutables reales.
+ Which sirve para programas funcionales que pueden ejecutarse, no ni alias que son sustitutos de programas ejecutables reales.
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/b2652bf9-22d0-4ee4-9562-81782ad12871)
 
-### Aquí se extiende el recurso de ayuda con respecto a su contenido:
+Aquí se extiende el recurso de ayuda con respecto a su contenido:
+
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/d6e9c3fc-88d0-44d8-bbb6-f17b5cd1fda5)
 
-### Elementos opcionales son mutuamente excluyentes simbolizados por corchetes :
+Elementos opcionales son mutuamente excluyentes simbolizados por corchetes :
+
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/d6f681fd-fcd1-46ab-a04f-2543e1464536)
 
-### A veces puede que no encuentre --help la ayuda necesaria, dado que algunos programas no admiten la variable del comando original de help.
+A veces puede que no encuentre --help la ayuda necesaria, dado que algunos programas no admiten la variable del comando original de help.
+
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/253e8c05-5b06-4970-80c0-593d503e0d65)
 
-### Man sirve para llamar a manual en el comando, programa es el nombre del comando a visualizar...
+ Man sirve para llamar a manual en el comando, programa es el nombre del comando a visualizar...
+
 ![man](https://github.com/Fx2048/COMU_REDES/assets/131219987/604ae4c4-1351-4dde-8f16-05f061fed4dc)
 
-### ... con una descripción larga sobre dicho contenido:Con nombre,sinopsis, descripción:
+... con una descripción larga sobre dicho contenido:Con nombre,sinopsis, descripción:
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/906b75f4-b7c4-4769-9d6f-d5302138e548)
 
 ## I/O Redirection
-### Dado que el output al archivo fue redirigido, no contamos con resultados a la vista, pero... 
+
+Dado que el output al archivo fue redirigido, no contamos con resultados a la vista, pero... 
+
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/a8786fb7-3aaa-49ee-b503-5083fd665702)
-### ... Cada que se repiten el comando anterior, para anexarlos al archivo los resultados incluímos ">>" así:
+
+ ... Cada que se repiten el comando anterior, para anexarlos al archivo los resultados incluímos ">>" así:
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/44862da1-5d5f-4b3d-9765-0c177323809f)
-### o bueno quizá no resultó de primeras, pero esto es porque el archivo no existe, y si existiese, sería un archivo mucho más largo, ya que se extendería al último lo que hemos puesto de salida.. [continuará]
 
-### Aquí observamos que se puede redirigir la salida standar, el caracter < procesa el contenido , y no se redirigió a otro archivo, lo cual veremos que no siempre sucede.
+ o bueno quizá no resultó de primeras, pero esto es porque el archivo no existe, y si existiese, sería un archivo mucho más largo, ya que se extendería al último lo que hemos puesto de salida.. [continuará]
+
+Aquí observamos que se puede redirigir la salida standar, el caracter < procesa el contenido , y no se redirigió a otro archivo, lo cual veremos que no siempre sucede.
+
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/9bc1c8c4-1a36-4c67-98f3-40cdacbce1b0)
 
-### Aquí por ejemplo, se redirigió el resultado a este archivo, y nos apareció de la manera que mostraremos a continuación :
+ Aquí por ejemplo, se redirigió el resultado a este archivo, y nos apareció de la manera que mostraremos a continuación :
+
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/9c89fb6e-0987-4e25-afa6-5e879dd4b3d9)
 
-### Prosiguiendo:
-### Con el comando ls -l | less nos aparece así , es muy importante porque permite que cualquier comando tenga una salida de desplazamiento.lsless"| less"
+ Prosiguiendo:
+Con el comando ls -l | less nos aparece así , es muy importante porque permite que cualquier comando tenga una salida de desplazamiento.lsless"| less"
+
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/c46cc878-75a2-47ad-86cb-f95b848bf69e)
 
 
-### Plus: Con tar tzvf name_of_file.tar.gz | less  podemos ver el directorio como un archivo en el sistema de linux targzip 
+ Plus: Con tar tzvf name_of_file.tar.gz | less  podemos ver el directorio como un archivo en el sistema de linux targzip 
+ 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/ee4ab919-0109-4f64-b1db-315f906f2bf0)
 
 ## Expansion
@@ -152,6 +184,7 @@ En esta parte, la expansión aritmética usa la forma de $((expression)) la cual
 La expansión aritmética solo admite números enteros (números enteros, sin decimales), pero puede realizar un buen número de operaciones diferentes.
 
 ![operacion 2+2](https://github.com/Fx2048/COMU_REDES/assets/131219987/f709aa15-8892-4c41-b9ec-928ad5847af2)
+
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/b1a49ea9-44c7-4bea-9bbe-23376219d044)
 
 
@@ -169,6 +202,7 @@ A continuación, se muestra un ejemplo en el que se utilizan los operadores de d
 
 
  Ahora, podemos crear Varias cadenas de texto de un patrón que contiene llaves. He aquí un ejemplo:
+ 
  ![Front-A-Back Front-B-Back Front-C-Back](https://github.com/Fx2048/COMU_REDES/assets/131219987/47d914e5-e210-400d-b0ae-f25fc98b7699)
 
   A continuación, se muestra un ejemplo con un rango de números enteros:
@@ -204,15 +238,18 @@ La sustitución de comandos nos permite usar la salida de un comando como una ex
 ![imPhotos file_list.txt snap sorted_file_list.txt user_space_report.txte](https://github.com/Fx2048/COMU_REDES/assets/131219987/532d0481-2f22-4558-a3df-c55921a11e31)
 
 O de esta manera opcionalmente:
+
 ![ls -l $(which cp)](https://github.com/Fx2048/COMU_REDES/assets/131219987/22c909ea-5765-4013-94a1-c604caab8c89)
 
 En esta parte los pipelines se convirtieron en lista de argumentos del comando de la lista, Es una sintax alternate para sustitución de comando en viejos programas de shell donde es soportado dentro.Su uso usa comillas inversa en lugar del signo de dólar y paréntesis:bash
+
 ![file $(ls /usr/bin/* | grep bin/zip)](https://github.com/Fx2048/COMU_REDES/assets/131219987/96fcb854-e73d-4b4f-b215-05167f7cd81c)
 
 
-Hemos tomado la siguiente expresión de echo this is a test para 
+Hemos tomado la siguiente expresión de echo this is a test 
 
 ![echo this is a     teste](https://github.com/Fx2048/COMU_REDES/assets/131219987/a58d31a1-99d1-46bf-b375-ee952ef36409)
+
 
 En el primer ejemplo, la división de palabras por parte del shell eliminó el espacio en blanco adicional en la lista de argumentos del comando echo. En el segundo ejemplo, el parámetro expansion sustituyó el valor de "$1" por una cadena vacía porque era un variable indefinida. El shell proporciona un mecanismo llamado quoting to suprimir selectivamente las expansiones no deseadas
 
@@ -220,6 +257,7 @@ En el primer ejemplo, la división de palabras por parte del shell eliminó el e
 
 
  Visualizamos a continuación dos argumentos separados en lugar del único argumento deseado:two words.txt:
+ 
 ![ls -l two words.txt](https://github.com/Fx2048/COMU_REDES/assets/131219987/e7303f48-c2c3-4a72-baa5-0883e6e4fe13)
 
 Al usar comillas dobles, podemos detener la división de palabras y obtener el resultado deseado; Además, incluso puede reparar el daño
@@ -229,6 +267,7 @@ Al usar comillas dobles, podemos detener la división de palabras y obtener el r
 
 
 ![echo "$USER $((2+2)) $(cal)"](https://github.com/Fx2048/COMU_REDES/assets/131219987/7b6c131c-f1ac-44a0-8a37-b55bfc46710b)
+
 En nuestro ejemplo anterior, vimos Cómo la división de palabras parece eliminar espacios adicionales en nuestro texto
 
 sin comillas Los espacios, tabulaciones y saltos de línea no se consideran parte del texto. Solo sirven como separadores. Dado que separan las palabras en diferentes argumentos, nuestro ejemplo La línea de comandos contiene un comando seguido de cuatro argumentos distintos. Si añadimos Comillas dobles: 
@@ -236,6 +275,7 @@ sin comillas Los espacios, tabulaciones y saltos de línea no se consideran part
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/bd4a0537-5c22-43fb-9048-1a56ccfcb862)
 
 Veremos una línea de comandos con un argumento que Incluye los espacios incrustados y las nuevas líneas aquí:
+
 ![echo $(cal)](https://github.com/Fx2048/COMU_REDES/assets/131219987/5b1317a6-98bf-462a-a10d-25ed9559462d)
 
 
@@ -298,6 +338,7 @@ En otro caso, algunas distribuciones establecen la contraseña de la cuenta de r
 
 Para cambiar propiedad de archivos, es imprescindible contar con la clave de seguridad para acceder al modo privilegios de superusuario, ya que es necesario contar con autorización suya para gestionar el procedimiento.
 y es por ello que antecede a la solicitud el comando sudochown
+
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/8caf0825-515f-4ef2-a37a-513aaf4f601d)
 
 Adicional a ello, se establece una forma de cambiar la propiedad de grupo de un archivo o directorio:
@@ -335,9 +376,11 @@ el siguiente comando imprime una lista de las señales que admite:
 Ahora, pasaremos  a obtener el id del proceso para terminar: con ps
 Emitiendo un comando para ese IDP con kill
 y si no se termina, porque ignora la señal, seguiremos enviando estas solicitudes de manera más estricta para que termine en una de ellas.
+
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/cdcec7d4-dcf3-4b97-aa1d-8c5f44a28bb3)
 
 Emitiremos una señal SIGTERM al programa problemático, usando una señal number en lugar de la name signal, pspsgrepkillkillkill
+
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/123cf947-2da6-4f4b-ae2e-fdcc94453a70)
 
 Y ahora, si el proceso no acaba, como habíamos dicho previamente, forzaremos con SIGKILL signal:
@@ -346,6 +389,7 @@ Y ahora, si el proceso no acaba, como habíamos dicho previamente, forzaremos co
 
 
 ## WRITING SHELL SCRIPTS 
+
 ### Writing Our First Script and Getting It to Work
 Para ejecutar nuestro primer guión con sheel, procedemos con chmod, el 755 nos da permiso de lectura, escritura y ejecución, aclaración, con 700 , este script será privado.
 
@@ -413,7 +457,7 @@ Podemos crear nuestros alias directamente en el archivo símbolo del sistema; si
 
 ### Here Scripts
 
-
+```
 ESTRUCTURA DE UN FILE HTML:
 <html>
 <cabeza>
@@ -428,13 +472,16 @@ ESTRUCTURA DE UN FILE HTML:
 </html>
 Con este comnado se puede  producir lo anterior contenido
 sysinfo_page > sysinfo_page.html
+```
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/b8b593cf-a53a-4eeb-a556-ce4a63b6930c)
 
 
 
 ### Command Substitution and Constants
+
 Los caracteres "$( )" le dicen al shell, "sustituye los resultados de la comando cerrado", una técnica conocida como sustitución de comandos. En nuestro script, queremos que el shell inserte los resultados del comando que genera la fecha y hora actuales. El comando tiene muchas características y opciones de formato. Para verlos todos, probamos esto:date +"%x %r %Z"
+
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/5836911c-9e9a-42e1-b21d-62733e4eb06a)
 
 ### Some Real Work
@@ -574,26 +621,44 @@ El shell puede realizar una variedad de aritméticas comunes (y no tan comunes) 
 
 ### Flow Control - Part 2
 
+Podemos construir este tipo de rama con múltiples declaraciones. En el siguiente ejemplo, evaluamos algunas entradas Del usuario:if
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/dfdf0ec3-1d75-4f6f-83d8-0b2ee96be0e4)
+
+El comando tiene la siguiente forma:case
 
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/037fdad5-455e-492a-95a2-03bc76af4cc4)
 
-
+ Aquí hay un Ejemplo para mostrar cómo funciona esto:word| el patrón especial "" coincidirá cualquier cosa, por lo que se utiliza para detectar casos que no coincidían con los patrones anteriores. 
+ 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/e1417f7a-5bbc-408f-aebf-825246439861)
 
+Eso proporciona un comando incorporado llamado , que se puede usar para construir Un programa equivalente:case
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/7a371311-777d-496a-8461-136cc9fc9d86)
+
+El comando tiene la siguiente forma:case
+
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/afdec8d5-fadd-4e48-9a37-f0a45134c7fd)
 
+case Ejecuta selectivamente instrucciones si coincide con un patrón. Podemos tener cualquier número de patrones y Declaraciones. Los patrones pueden ser texto literal o comodines. Podemos tener múltiples patrones separados por el carácter "". Aquí hay un Ejemplo para mostrar cómo funciona esto:word|
+
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/fee36fcf-32dd-4296-9004-3457098b2aa2)
+
+El comando hace que un bloque de código sea ejecutado una y otra vez, siempre y cuando el estado de salida de un comando especificado sea verdadero. Aquí hay un ejemplo simple de un programa que cuenta de cero a nueve:while
 
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/99f9ef0b-96f0-46d4-a185-743f80d578a8)
 
+El comando funciona exactamente de la misma manera, excepto que el bloque de código se repite siempre que la salida del comando especificado status es false. En el siguiente ejemplo, observe cómo se ha cambiado la expresión dada al comando del ejemplo para lograr el mismo resultado:untiltestwhile
+
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/4099c2b2-ddf8-442a-aa10-490deb81d1ec)
 
+En el siguiente ejemplo, usamos nuestro nuevo conocimiento de bucles y casos para construir un Aplicación simple basada en menús:El propósito del bucle en este programa es para volver a mostrar el menú cada vez que se haya completado una selección. El bucle Continúe hasta que la selección sea igual a 0, la opción "Salir". defendemos contra las entradas del usuario que no son opciones válidas con .until
+
 ![building a menu](https://github.com/Fx2048/COMU_REDES/assets/131219987/fbbe3ec7-b1af-41bc-a6ab-242f96088ab6)
+
+Para que este programa se vea mejor cuando se ejecute, podemos mejorarlo de la siguiente manera: agregar una función que le pida al usuario que presione la tecla Intro después de cada selección se ha completado y borra la pantalla antes de que se muestre el menú. se muestra de nuevo. Aquí está el ejemplo mejorado:
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/14f3f531-a2fc-4e27-bb93-07e56b65875e)
 
@@ -601,32 +666,66 @@ El shell puede realizar una variedad de aritméticas comunes (y no tan comunes) 
 
 ### Positional Parameters
 
+
+La última vez que dejamos nuestro guión, se veía algo así:
+Tenemos la mayoría de las cosas funcionando, pero hay varias características más que podemos agregar:
+
+Deberíamos poder especificar el nombre del archivo de salida en la línea de comandos, así como establecer un valor predeterminado nombre del archivo de salida si no se especifica ningún nombre.
+
+Ofrezcamos un modo interactivo que solicitar un nombre de archivo y advertir al usuario si el archivo existente y solicitar al usuario que sobrescriba eso.
+
+Naturalmente, queremos tener una opción de ayuda que mostrará un mensaje de uso.
+Todas estas características implican el uso de opciones y argumentos de línea de comandos. Para manejar opciones en la línea de comandos, usamos una función en el shell llamada parámetros posicionales. Los parámetros posicionales son una serie de variables ( a través de ) que contienen el contenido de la línea de comandos. $0$9
+
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/dc94b39c-ba48-460c-a12d-415ebf8f422d)
 
+
+Imaginemos la siguiente línea de comandos:
 
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/301ed4b4-3ad4-4ed7-a433-fbae1e7830bc)
 
+Si se tratara de un script de shell bash, podríamos leer cada uno de ellos en la línea de comandos, ya que los parámetros posicionales contienen el atributo siguiente: some_program
+
+$0 contendría "some_program"
+$1 contendría "palabra1"
+$2 contendría "word2"
+$3 contendría "word3"
+
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/b70f7e1f-1a46-4826-9b8d-6536d351c0b6)
+
+Hay un par de maneras de hacer esto. En primer lugar, podríamos simplemente Compruebe si contiene algo así: $1
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/ae544f52-d9c3-42ba-86be-2dc32d842dda)
 
-
+En segundo lugar, el shell mantiene una variable llamada que contiene El número de elementos de la línea de comandos, además del nombre del comando (). $#$0
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/9817781a-89c4-4949-b58f-79ace2867df0)
+
+Este es el código que usaremos para procesar nuestra línea de comandos:Este código es un poco complicado, así que tenemos que explicarlo.
+
+Las dos primeras líneas son bastante fáciles. Establecemos la variable para que esté vacía. Esto indicará que el interactivo no se ha solicitado el modo. A continuación, establecemos la variable en contienen un nombre de archivo predeterminado. Si no se especifica nada más en la línea de comandos, Se utilizará este nombre de archivo. interactivefilename
+
+Después de establecer estas dos variables, tenemos la configuración predeterminada, en caso de que el El usuario no especifica ninguna opción.
+
+A continuación, construimos un bucle que hará un ciclo a través de todos los elementos de la línea de comandos y procese cada uno con . El detectará cada uno de ellos posible y procesarla en consecuencia.whilecasecase
+
+Ahora viene la parte complicada. ¿Cómo funciona ese bucle? Se basa en la magia de .shift
 
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/e2d85334-ea9e-4f1c-b31a-15cea8bc0e6e)
 
-
+shift, por otra parte, es una orden interna de shell que opera en el parámetros posicionales. Cada vez que invocamos , "desplaza" todos los parámetros posicionales hacia abajo en uno. se convierte en , se convierte en , se convierte en , y así sucesivamente. Pruebe esto:shift$2$1$3$2$4$3
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/f8628a02-b263-407e-b915-caba988b5f13)
 
 
-
+Tendremos que mover algunas cosas y agregar una función de uso para obtener Esta nueva rutina se integró en nuestro guión. También agregaremos algo de código de prueba a Comprobar que el procesador de línea de comandos funciona correctamente. Nuestro guión ahora se ve así:
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/88456d9e-2a98-4f76-a1ae-3f1ea5b74dae)
 
+El modo interactivo se implementa con el siguiente código:
+rimero, verificamos si el modo interactivo está activado, de lo contrario no tenemos cualquier cosa que hacer. A continuación, le pedimos al usuario el nombre del archivo. Fíjemonos en la forma en que el prompt está redactado:
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/b38d61fc-2c65-4e98-b6cc-5033de7344ec)
 
@@ -636,23 +735,40 @@ El shell puede realizar una variedad de aritméticas comunes (y no tan comunes) 
 
 
 
+
 ### Flow Control - Part 3
+
+Ahora que hemos aprendido sobre los parámetros posicionales, es hora de cubrir el declaración de control de flujo restante, se usa para construir bucles. funciona así:forwhileuntilforfor
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/640d7128-381d-4cf6-8feb-e6373164e45b)
 
 
-
+En esencia, asigna una palabra de la lista de palabras a la variable especificada, ejecuta los comandos y lo repite una y otra vez. y así sucesivamente hasta que se hayan agotado todas las palabras. He aquí un ejemplo:for
+En este ejemplo, a la variable se le asigna la cadena "", entonces se ejecuta la instrucción, A continuación, se asigna a la variable la cadena "", y se ejecuta la instrucción, y así sucesivamente, hasta que todos los Se han asignado palabras en la lista de palabras.iword1echo "$i"iword2echo "$i"
+Lo interesante de las muchas formas Podemos construir la lista de palabras. Se pueden utilizar todo tipo de expansiones. En En el siguiente ejemplo, construiremos la lista de palabras usando el comando sustitución:for
+Aquí tomamos el archivo y contamos el número de palabras en el archivo y el número de caracteres en cada palabra..bash_profile
+La variable shell contiene la lista de la línea de comandos Argumentos. Esta técnica se utiliza a menudo para procesar una lista de archivos en el archivo línea de comandos. Aquí hay otro ejemplo:"$@"
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/d3d73995-8f2f-4013-89ef-9ca62d0d01d8)
 
+A continuación se muestra otro script de ejemplo. Este compara los archivos en dos directorios y enumera los archivos del primer directorio que faltan en el directorio segundo.
+
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/233a9108-9c6f-4f55-98cd-42bbbff816ec)
 
+Pasemos ahora al verdadero trabajo. Vamos a mejorar la función para generar más información. Recordemos que nuestra versión anterior se veía Así:home_space
+
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/7e523b30-0c2f-472c-ae9a-d0d16b0be4e0)
+
+Aquí está la nueva versión:
+
 
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/01f2f4e3-01dc-40db-ba5d-cdfb514dab1f)
 
+## Esta versión cierra automáticamente la terminal de UBUNTU:
 
+```
+ 
 #!/bin/bash
 
 # cmp_dir - program to compare two directories
@@ -686,43 +802,64 @@ for filename in "$1"/*; do
     fi
 done
 echo "$missing files missing"
-----sale de la terminal de ubuntu-------
 
-![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/f10aa340-e3a3-448b-9bb7-49fdc7dcc744)
+```
+----Termima la sesión de la terminal de ubuntu-------
 
-![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/9420e40b-c942-422e-afe9-2732a9f8313e)
 
-![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/fb610b2b-6e08-4032-9147-0bc795d598e0)
 
 
 ### Errors and Signals and Traps (Oh My!) - Part 1 
 
+Es muy importante verificar el estado de salida de los programas a los que llamamos en nuestro Scripts. También es importante que nuestros scripts devuelvan un estado de salida significativo cuando terminen. Había una vez un administrador de sistemas Unix que escribió un script para un sistema de producción que contiene las siguientes 2 líneas de código:
+
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/c3d0af8f-197d-429d-a24e-ec5d0a9c540f)
+
+Hay varias formas en que podemos obtener y responder al estado de salida de un programa. En primer lugar, podemos examinar el contenido de la variable de entorno. contendrá el estado de salida del Último comando ejecutado. Podemos ver este trabajo con lo siguiente:$?$? En esta versión, examinamos el estado de salida del comando y si no es cero, imprimimos un mensaje de error en error estándar y Termine el script con un estado de salida de 1.cd
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/aafb70d4-1039-4a7f-9bf0-5013d21361a5)
 
 
-
+Entonces, para verificar el estado de salida, podríamos escribir el script de esta manera:
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/0ae81cf1-1d8f-4152-8147-8084bb2277b7)
 
+Si bien esta es una solución funcional al problema, hay más métodos que nos ahorrarán algo de teclear. El siguiente enfoque que podemos intentar es Utilice la instrucción directamente, ya que evalúa el estado de salida de órdenes que se le dan.if
+
+Usando , podríamos escribirlo de esta manera:if
+
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/f78e5cd2-a3f8-489a-9dbf-6c71f48eaf4b)
 
+Dado que comprobaremos si hay errores a menudo en nuestros programas, tiene sentido para escribir una función que muestre mensajes de error. 
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/76d6c815-f427-4f5b-a202-3e30e7b0cbe1)
 
+Finalmente, podemos simplificar aún más nuestro script usando AND y OR operadores de control. Para explicar cómo funcionan, aquí hay una cita de la página del manual:bash
+"Los operadores de control && y || denotan listas AND y listas OR, respectivamente. Una lista AND tiene el formato
+command2 se ejecuta si, y solo si, devuelve un estado de salida distinto de cero. El estado de salida de las listas AND y OR es el estado de salida del último comando ejecutado en la lista."command1
+
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/b33ff737-4ba9-4260-a72f-c5773f1086b3)
+
+"Los operadores de control && y || denotan listas AND y listas OR, respectivamente. Una lista AND tiene el formato
+command2 se ejecuta si, y solo si, devuelve un estado de salida distinto de cero. El estado de salida de las listas AND y OR es el estado de salida del último comando ejecutado en la lista."command1
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/521fb28b-0305-409a-aa33-09e91c5f7497)
 
+De nuevo, podemos usar los comandos y para ver Este trabajo:truefalse
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/a1609e97-d84c-44ec-a2a2-e8f7732c4936)
 
+Usando esta técnica, podemos escribir una versión aún más simple:
+
+
+
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/a325e0d3-7b9c-421e-98c9-167146cbedb4)
+
+Si no se requiere una salida en caso de error, incluso podemos hacer esto:
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/c0661f68-2996-455f-a4ac-7d196f072d3e)
 
-
+```
 
 PROGNAME="$(basename $0)"
 
@@ -746,22 +883,35 @@ error_exit()
 
 echo "Example of error with line number and message"
 error_exit "$LINENO: An error has occurred."
-
+```
 -------------cierra el programa------------
 
 
 ### Errors and Signals and Traps (Oh My!) - Part 2
 
+Después de iniciar este script, parecerá que se cuelga. En realidad, como la mayoría programas que parecen colgarse, en realidad está atrapado dentro de un bucle. En este caso, Está esperando que el comando devuelva una salida distinta de cero estatus, lo que nunca hace. Una vez iniciado, el script continuará hasta bash recibe una señal que lo detendrá. Podemos enviar una señal de este tipo escribiendo Ctrl-c, la señal llamada SIGINT (abreviatura de SIGnal INTerrupt). true
+
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/df7325d7-a123-46f5-b145-fd375b007f8d)
 
+Este script procesa el archivo de texto especificado en la línea de comandos con el comando y Almacena el resultado en un archivo temporal. A continuación, pregunta al usuario si desea Imprime el archivo. Si el usuario escribe "y", el archivo temporal se pasa a El programa de impresión (sustituya por si no hay un impresora conectada al sistema).prlprlesslpr
+Si bien necesita un nombre de archivo pasado en la línea de comandos, no verifica que haya recibido uno, y no comprueba que el archivo exista realmente. Pero el problema que queremos Lo que se centra aquí es que cuando el script termina, deja atrás el archivo temporal.
+Las buenas prácticas dictan que eliminemos el archivo temporal cuando finalice el script. Esto es fácilmente Para ello, agregue lo siguiente al final del script:$TEMP_FILE
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/ddb76f6a-5e28-4aed-bd33-cf69a5e8cb53)
 
+El comando nos permite ejecutar un comando cuando nuestro script recibe una señal. Funciona así:trap
+"signals" es una lista de señales a interceptar y "arg" es un comando a ejecutar cuando se recibe una de las señales. Para nuestro script de impresión, podríamos manejar El problema de la señal de esta manera:
+
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/350ebabd-4df3-44fb-9102-c2165104fc7d)
+
+
+ Podríamos ser inteligentes y usar ";" y poner múltiples comandos en el archivo string para obtener un comportamiento más complejo, pero francamente, es feo. Una mejor manera sería crear una función a la que se llame cuando queramos realizar cualquier acciones al final de un guión. Para nuestros propósitos, llamaremos a esta función .trapclean_up
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/f2df76e4-7f2d-475f-8f83-437f8b7d56c5)
 
+El uso de una función de limpieza es una buena idea para nuestro manejo de errores rutinas también. Después de todo, cuando un programa termina (por la razón que sea), deberíamos limpiar después de nosotros mismos. Aquí está la versión terminada de nuestro programa con Manejo mejorado de errores y señales:
 
+```
 PROGNAME="$(basename $0)"
 
 # Create a temporary file name that gives preference
@@ -813,8 +963,11 @@ if [ "$REPLY" = "y" ]; then
   lpr "$TEMP_FILE" || error_exit "cannot print file"
 fi
 clean_up
+```
 ----------cietrra el programa-----------
 
+n buen nombre de archivo ayudará a identificar quién escribió el archivo, pero no será totalmente predecible. En el script anterior, la siguiente línea de código creó El archivo temporal :$TEMP_FILE
+La variable es dependiendo de la disponibilidad del directorio.
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/39ab2631-3af6-446a-99fa-4dab8486967b)
 
