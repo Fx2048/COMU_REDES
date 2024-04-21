@@ -345,5 +345,26 @@ Y ahora, si el proceso no acaba, como habíamos dicho previamente, forzaremos co
 
 
 ## WRITING SHELL SCRIPTS 
+### Writing Our First Script and Getting It to Work
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/85e76973-77b6-4619-ab0c-9fa492c30e73)
 
-## A Closer Look at Long Format Desde Ubuntu terminal en Window
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/1fc647ef-3579-460b-ae7b-5f3e4e9afd21)
+
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/c834c2d6-d8f7-489a-ad76-7579617cd522)
+
+
+### Editing the Scripts We Already Have
+### Here Scripts
+### Variables
+### Command Substitution and Constants
+### Shell Functions
+### Some Real Work
+### Flow Control - Part 1
+### Stay Out of Trouble
+### Keyboard Input and Arithmetic
+### Flow Control - Part 2
+### Positional Parameters
+### Flow Control - Part 3
+### Errors and Signals and Traps (Oh My!) - Part 1
+### Errors and Signals and Traps (Oh My!) - Part 2
