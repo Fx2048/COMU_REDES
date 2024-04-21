@@ -1,5 +1,6 @@
 <H1>Programación HTTP</H1> 
-## INTRODUCCIÓN:
+
+# INTRODUCCIÓN:
 
 <p>En esta actividad se presentará el protocolo HTTP y veremos como podemos recuperar y manipularcontenido web usando Python. También echamos un vistazo a la biblioteca estándar de urllib, asícomo a request y los paquetes httpx. Además, veremos el módulo request de terceros, que es unaalternativa muy popular a urllib. También veremos mecanismos de autenticación HTTP y cómopodemos administrarlos con el módulo request.Esta actividad nos proporcionará la base para familiarizarnos con diferentes alternativas dentro dePython cuando necesitemos usar un módulo que proporcione diferentes funcionalidades pararealizar solicitudes a un servicio web o API REST</p>
 
