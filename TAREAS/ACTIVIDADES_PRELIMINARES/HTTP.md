@@ -74,8 +74,53 @@ Aquí estamos usando el método ```urllib.request.urlopen () ``` para enviar una
 : archivo digest_authentication.py
 
 # Preguntas:
-1. ¿Cómo podemos realizar una solicitud POST con el módulo requests pasando una estructura dedatos de tipo diccionario que se enviaría al cuerpo de la solicitud?
-   
-3. ¿Cuál es la forma correcta de realizar una solicitud POST a través de un servidor proxy y modificarla información de los encabezados al mismo tiempo?
-4. ¿Cómo podemos obtener el código de una solicitud HTTP devuelta por el servidor si, en el objetode respuesta, tenemos la respuesta del servidor?
-5. ¿Qué mecanismo se utiliza para mejorar el proceso de autenticación básico mediante el uso de unalgoritmo criptográfico hash unidireccional?5. ¿Qué encabezado se utiliza para identificar el navegador y el sistema operativo que usamos paraenviar solicitudes a una URL?
+## 1. ¿Cómo podemos realizar una solicitud POST con el módulo requests pasando una estructura dedatos de tipo diccionario que se enviaría al cuerpo de la solicitud?
+
+```
+import requests
+# Se realiza de la siguiente manera.
+datos = {'nombre': 'John', 'edad': 30}
+respuesta = requests.post('https://api.ejemplo.com/datos', json=datos)
+```
+
+## 2.  ¿Cuál es la forma correcta de realizar una solicitud POST a través de un servidor proxy y modificar 
+la información de los encabezados al mismo tiempo?
+
+
+```
+import requests
+
+proxies = {
+    'http': 'http://usuario:contraseña@123.45.67.89:8080',
+    'https': 'https://usuario:contraseña@123.45.67.89:8080'
+}
+
+encabezados = {'User-Agent': 'Mi-Aplicacion/1.0'}
+
+respuesta = requests.post('https://api.ejemplo.com/datos', headers=encabezados, proxies=proxies)
+```
+
+## 3.  ¿Cómo podemos obtener el código de una solicitud HTTP devuelta por el servidor si, en el objeto 
+de respuesta, tenemos la respuesta del servidor?
+
+```
+import requests
+
+respuesta = requests.get('https://api.ejemplo.com/datos')
+codigo_respuesta = respuesta.status_code
+print(codigo_respuesta)
+```
+ 
+## 4. ¿Qué mecanismo se utiliza para mejorar el proceso de autenticación básico mediante el uso de un 
+algoritmo criptográfico hash unidireccional? 
+
+
+El mecanismo utilizado para mejorar el proceso de autenticación básico mediante el uso de un algoritmo criptográfico hash unidireccional es la autenticación Digest. Este mecanismo utiliza un hash MD5 para cifrar la contraseña y evitar que se envíe en texto plano
+
+
+## 5. ¿Qué encabezado se utiliza para identificar el navegador y el sistema operativo que usamos para 
+enviar solicitudes a una URL?. 
+
+
+El encabezado utilizado para identificar el navegador y el sistema operativo que se utiliza para enviar solicitudes a una URL es el encabezado User-Agent. Este encabezado proporciona información sobre el cliente que realiza la solicitud.
+
