@@ -32,15 +32,50 @@ import urllib.parse
 from urllib.request import urlopenresponse = urlopen('https://elearning.uni.edu/')response...response.readline()
 ```
 
-Aquí estamos usando el método ```urllib.request.urlopen () ``` para enviar una solicitud y recibir unarespuesta para el recurso en una dirección web, en este caso una página HTML.Luego imprimimos la primera línea del HTML que recibimos, con el método``` readline()``` del objeto derespuesta. El método ```urlopen ()``` también admite la especificación de un tiempo de espera para lasolicitud que representa el tiempo de espera en la solicitud; es decir, si la página tarda más de lo queindicamos, dará como resultado un error.En el ejemplo podemos ver que el método``` urlopen ()``` devuelve una instancia de la clase ```http.client.HTTPResponse.``` El objeto de respuesta nos devuelve información con datos solicitados yde respuesta.Si obtenemos una respuesta en formato JSON, podemos usar el módulo Python json para procesar larespuesta``` json```.Revisa el código ```json_response.py```, explica los resultados
-
-
+Aquí estamos usando el método ```urllib.request.urlopen () ``` para enviar una solicitud y recibir unarespuesta para el recurso en una dirección web, en este caso una página HTML.Luego imprimimos la primera línea del HTML que recibimos, con el método``` readline()``` del objeto derespuesta. El método ```urlopen ()``` también admite la especificación de un tiempo de espera para lasolicitud que representa el tiempo de espera en la solicitud; es decir, si la página tarda más de lo queindicamos, dará como resultado un error.En el ejemplo podemos ver que el método``` urlopen ()``` devuelve una instancia de la clase ```http.client.HTTPResponse.``` El objeto de respuesta nos devuelve información con datos solicitados yde respuesta.Si obtenemos una respuesta en formato JSON, podemos usar el módulo Python json para procesar larespuesta``` json```.Revisa el código ```json_response.py```, explica los resultados.
 
 # ANÁLISIS
-Rsultados del código: 
+## 1. Análisis,Ejecución y Resultados del código 
+: request_http_client.py 
+
+## 2.Análisis,Ejecución y Resultados del código 
+: json_response.py
+## 3.Análisis,Ejecución y Resultados del código 
+: get_headers_response_request.py
+## 4.Análisis,Ejecución y Resultados del código 
+: get_emails_url_request.py 
+## 5.Análisis,Ejecución y Resultados del código 
+:  download_file.py 
+## 6.Análisis,Ejecución y Resultados del código 
+: count_words_file.py
+## 7.Análisis,Ejecución y Resultados del código 
+:  request_headers.py
+
+## 8.Análisis,Ejecución y Resultados del código 
+: archivo get_images_links_url.py 
+
+## 9.Ejecución y Resultados del código 
+: archivo testing_api_rest_get_method.py 
+## 10.Análisis,Ejecución y Resultados del código 
+: testing_api_rest_post_method.py. 
+## 11.Análisis,Ejecución y Resultados del código 
+: httpx_basic.py 
+## 12.Análisis,Ejecución y Resultados del código 
+: digo httpx_asyncio.py
+## 13.Análisis,Ejecución y Resultados del código 
+: archivo httpx_asyncio_http2.py
+## 14.Análisis,Ejecución y Resultados del código 
+: archivo httpx_http2_trio.py. 
+
+## 15.Análisis,Ejecución y Resultados del código 
+: archivo basic_authentication.py
+
+## 16.Análisis,Ejecución y Resultados del código 
+: archivo digest_authentication.py
 
 # Preguntas:
 1. ¿Cómo podemos realizar una solicitud POST con el módulo requests pasando una estructura dedatos de tipo diccionario que se enviaría al cuerpo de la solicitud?
-2. ¿Cuál es la forma correcta de realizar una solicitud POST a través de un servidor proxy y modificarla información de los encabezados al mismo tiempo?
-3. ¿Cómo podemos obtener el código de una solicitud HTTP devuelta por el servidor si, en el objetode respuesta, tenemos la respuesta del servidor?
-4. ¿Qué mecanismo se utiliza para mejorar el proceso de autenticación básico mediante el uso de unalgoritmo criptográfico hash unidireccional?5. ¿Qué encabezado se utiliza para identificar el navegador y el sistema operativo que usamos paraenviar solicitudes a una URL?
+   
+3. ¿Cuál es la forma correcta de realizar una solicitud POST a través de un servidor proxy y modificarla información de los encabezados al mismo tiempo?
+4. ¿Cómo podemos obtener el código de una solicitud HTTP devuelta por el servidor si, en el objetode respuesta, tenemos la respuesta del servidor?
+5. ¿Qué mecanismo se utiliza para mejorar el proceso de autenticación básico mediante el uso de unalgoritmo criptográfico hash unidireccional?5. ¿Qué encabezado se utiliza para identificar el navegador y el sistema operativo que usamos paraenviar solicitudes a una URL?
