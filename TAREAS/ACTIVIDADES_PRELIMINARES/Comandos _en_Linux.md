@@ -353,8 +353,45 @@ Y ahora, si el proceso no acaba, como habíamos dicho previamente, forzaremos co
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/c834c2d6-d8f7-489a-ad76-7579617cd522)
 
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/79d434a7-5fb3-4720-aba1-b409435742ae)
+
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/e2b987fe-42bc-4908-bd7d-090726d5c5be)
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/e1051284-00fb-43cf-b9ec-03b0e0891951)
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/b3f61db7-f5d6-49fd-a443-7f42859d0f99)
+
+
+
+
+
+========================
+========================
+
 
 ### Editing the Scripts We Already Have
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/0788efa7-8ee7-4592-97b7-b178a5e543cb)
+
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/3894cd17-830a-4900-a4bd-abe85432eaa2)
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/5a4cbc32-0c95-406c-a9dd-f87797387178)
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/201720d1-b7e1-4ff2-9a72-e4f7a1b6bc8c)
+
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/e0a02f79-f7cf-479e-b24f-b73ccdca2780)
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/4682d51f-effd-4697-bf72-e52e8ac5e67c)
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/313dc6d3-e685-47f9-8c99-95a53d20e0fd)
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/d8ab4ca9-3d85-4ae5-ae09-a2dd3e28dd5f)
+
+==================
+==================
 ### Here Scripts
 ### Variables
 ### Command Substitution and Constants
