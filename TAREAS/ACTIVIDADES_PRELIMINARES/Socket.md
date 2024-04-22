@@ -1,6 +1,6 @@
-#Programando sockets
+# Programando sockets
 
-#Introducción
+# Introducción
 
 Para esta actividad utiliza: pip3 install python-socketio, pip3 install aiohttp y el conjunto decódigos alojados en:
 
