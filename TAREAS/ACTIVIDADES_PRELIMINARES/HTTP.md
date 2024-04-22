@@ -958,8 +958,29 @@ if response.status_code == 200:
     print('Login exitoso :'+response.text)
 ```
 Resultado:
+````
+Ingresa el nombre de usuario:S1
+··········
+Response.status_code:401
 
+````
 Análisis:
+
+Se imporan los módulos: requests, HTTTPBasicAuth, y getpass.
+Solicitud de credenciales: Pide al usuario así como un registro de su user y una contraseña.
+Luego se realiza una solicitud GET a ‘https://api.github.com/user’, que es la URL de la API de GitHub para obtener información del usuario autenticado.
+
+Se utiliza HTTPBasicAuth para pasar las credenciales ingresadas.
+
+Luego, se imprime el código de estado  de respuesta HTTP.
+
+Para terminar con el código de  200, que significa que la autenticación fue exitosa y se imprime la respuesta de la API.
+ Para lo cual, la respuesta es 401, lo que indica que la autenticación ha fallado. Esto puede deberse a varias razones, como:
+
+El nombre de usuario o la contraseña son incorrectos.
+La cuenta de GitHub puede tener la autenticación en dos pasos activada, y el script no está manejando este caso.
+La API de GitHub puede requerir tokens de acceso personal en lugar de nombres de usuario y contraseñas para la autenticación.
+
 
 ## 17.Análisis,Ejecución y Resultados del código : archivo digest_authentication.py
 Código:
@@ -991,7 +1012,51 @@ if response.status_code == 200:
 ```
 
 Resultado:
+````
+Ingresa el usuario:S1
+··········
+Headers request : 
+User-Agent --> python-requests/2.31.0
+Accept-Encoding --> gzip, deflate
+Accept --> */*
+Connection --> keep-alive
+Cookie --> stale_after=never; fake=fake_value
+Authorization --> Digest username="S1", realm="me@kennethreitz.com", nonce="ecccf54c23801769cf91c30dd4f4cdd3", uri="/digest-auth/auth/user/pass", response="96d2cad7e995ddabf56290fb9bf9bde1", opaque="e638f9b9a314262c7dfb48bd0aa122bc", algorithm="MD5", qop="auth", nc=00000001, cnonce="5f4af38aed379192"
+Response.status_code:401
+````
 Análisis:
+
+Este código es un ejemplo de cómo realizar una solicitud HTTP utilizando autenticación de resumen de mensajes (digest authentication) en Python. Veamos el análisis paso a paso:
+
+Importación de módulos:
+Se importan los módulos necesarios: requests para realizar la solicitud HTTP, HTTPDigestAuth para la autenticación de resumen de mensajes y getpass para obtener la contraseña de forma segura.
+
+Solicitud de credenciales al usuario:
+El usuario ingresa su nombre de usuario y contraseña mediante la función input() y getpass.getpass() respectivamente.
+
+Definición de la URL:
+La variable url contiene la dirección a la que se enviará la solicitud. En este caso, es ‘http://httpbin.org/digest-auth/auth/user/pass’.
+
+Realización de la solicitud GET con autenticación digest:
+
+Se utiliza requests.get(url, auth=HTTPDigestAuth(user, password)) para realizar la solicitud HTTP.
+
+La autenticación digest se configura con el nombre de usuario (user) y la contraseña (password).
+
+Impresión de los encabezados de la solicitud:
+Se imprimen los encabezados de la solicitud utilizando response.request.headers.
+
+Verificación del estado de la respuesta:
+Si el estado de la respuesta es 200 (éxito), se imprime “Inicio de sesión exitoso” y se muestra el contenido JSON de la respuesta.
+
+También se imprimen los encabezados de la respuesta utilizando response.headers.
+
+En resumen, este código realiza una solicitud HTTP con autenticación digest y muestra los encabezados de la solicitud y la respuesta. La respuesta actual tiene un estado de 401 (no autorizado), lo que significa que la autenticación falló. Puede deberse a un nombre de usuario o contraseña incorrectos o a un problema con el servidor.
+
+
+
+
+
 # Preguntas:
 ## 1. ¿Cómo podemos realizar una solicitud POST con el módulo requests pasando una estructura dedatos de tipo diccionario que se enviaría al cuerpo de la solicitud?
 
