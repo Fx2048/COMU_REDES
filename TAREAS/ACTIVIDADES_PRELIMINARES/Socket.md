@@ -1,0 +1,13 @@
+#Programando sockets
+#Introducción
+Para esta actividad utiliza: pip3 install python-socketio, pip3 install aiohttp y el conjunto decódigos alojados en: https://github.com/kapumota/Actividades-CC8280/tree/main/SocketsWebSockets es una tecnología que proporciona comunicación en tiempo real entre un cliente y unservidor a través de una conexión TCP, eliminando la necesidad de que los clientes verifiquencontinuamente si los puntos finales API tienen actualizaciones o contenido nuevo.
+Los clientes creanuna única conexión a un servidor WebSocket y esperan escuchar nuevos eventos o mensajes delservidor.La principal ventaja de WebSockets es que son más eficientes porque reducen la carga de la red yenvían información en forma de mensajes a una gran cantidad de clientes. Entre las principalescaracterísticas de WebSockets, podemos destacar las siguientes:
+• Proporcionan comunicación bidireccional (dúplex completo) a través de una únicaconexión TCP.
+• Proporcionan comunicación en tiempo real entre un servidor y sus clientes conectados.
+Esto permite la aparición de nuevas aplicaciones orientadas a la gestión de eventos deforma asincrónica.• Proporcionan simultaneidad y mejoran el rendimiento, optimizando los tiempos derespuesta y dando como resultado aplicaciones web más confiables
+# Metodología:
+Para implementar un servidor basado en socket.io, necesitamos introducir otros módulos comoasyncio y aiohttp:
+asyncio es un módulo de Python que nos ayuda a realizar la programación concurrente deun solo hilo en Python. Está disponible en Python 3.7; la documentación se puedeencontrar en https://docs.python.org/3/library/asyncio.html.• aiohttp es una biblioteca para crear aplicaciones cliente y servidor integradas en asyncio.El módulo utiliza las ventajas de WebSockets de forma nativa para comunicarse entrediferentes partes de la aplicación de forma asincrónica. La documentación está disponibleen http://aiohttp.readthedocs.io/en/stable.
+Revisa el código web_socket_server.py donde implementamos un servidor socket.io usando elframework aiohttp, el cual, en un nivel bajo, usa asyncio
+En el código anterior, implementamos un servidor basado en socket.io que usa el módulo aiohttp.Como puedes ver en el código, hemos definido dos métodos: el método index (), que devolverá unmensaje de respuesta basado en la solicitud del punto final raíz "/", y el método print message (),que imprime el identificador del socket y los datos emitidos por el evento. Este método está anotadocon @ socketio.on ("message"). Esta anotación hace que la función escuche eventos de tipo
+# Análisis de los códigos:
