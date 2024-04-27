@@ -5,11 +5,50 @@
 ## Código:
 ````
 from flask import Flask, request
+from functools import lru_cache
+
 app = Flask(__name__)
+
 # Diccionario para almacenar el contenido distribuido en el CDN
 content_cache = {}
 
-@app.route('/<path:path>', methods=['GET'])
+# Simulación de contenido en el servidor de origen
+origin_content = {
+    '/index.html': '<html><body><h1>Bienvenido a mi sitio web!</h1></body></html>',
+    '/about.html': '<html><body><h1>Acerca de nosotros</h1><p>Somos una empresa dedicada a...</p></body></html>',
+    # Agrega más contenido simulado según sea necesario
+}
+
+# Simulación de la ubicación geográfica de los usuarios
+user_locations = {
+    'user1': 'USA',
+    'user2': 'EUROPE',
+    'user3': 'ASIA',
+    # Agrega más ubicaciones de usuarios según sea necesario
+}
+
+# Simulación de latencias entre los usuarios y los servidores de borde
+latency_map = {
+    ('USA', 'EdgeServer1'): 20,
+    ('EUROPE', 'EdgeServer1'): 100,
+    ('ASIA', 'EdgeServer1'): 200,
+    # Agrega más asignaciones de latencia según sea necesario
+}
+
+# Función para obtener la latencia entre un usuario y un servidor de borde
+def get_latency(user_location, edge_server):
+    return latency_map.get((user_location, edge_server), float('inf'))
+
+# Función para encontrar el servidor de borde más cercano a un usuario
+def find_closest_edge_server(user_location):
+    return min(latency_map, key=lambda x: get_latency(user_location, x[1]))[1]
+
+# Simulación de la función fetch_from_origin para obtener contenido del servidor de origen
+def fetch_from_origin(path):
+    return origin_content.get(path, None)
+
+# Ruta para manejar las solicitudes GET
+@app.route('/``', methods=['GET'])
 def get_content(path):
     # Verificar si el contenido está en caché
     if path in content_cache:
@@ -20,61 +59,113 @@ def get_content(path):
         # Almacenar el contenido en caché
         content_cache[path] = origin_content
         return origin_content
-
 ````
 # Resultado
+````
+C:\Users\PROPIETARIO\PycharmProjects\pythonProject\venv\Scripts\python.exe C:\Users\PROPIETARIO\PycharmProjects\pythonProject\main.py 
 
-![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/2a6f3ff2-a7d0-4347-b604-c54a0e234963)
+Process finished with exit code 0
+````
 
 # Codificación Análisis
 ````
-
-Inicialización de Flask: app = Flask(__name__) crea una nueva aplicación Flask.
-Creación de un diccionario para almacenar contenido: content_cache = {} es un diccionario que se utiliza para almacenar el contenido que se distribuye a través del CDN.
-Definición de una ruta y una función de vista: @app.route('/<path:path>', methods=['GET']) define una ruta en la aplicación Flask. Cuando se realiza una solicitud GET a esta ruta, se llama a la función get_content(path).
-Función de vista get_content(path): Esta función verifica si el contenido solicitado ya está en caché (if path in content_cache). Si es así, devuelve el contenido desde la caché. Si no, obtiene el contenido del servidor de origen (fetch_from_origin(path)), lo almacena en la caché y luego lo devuelve.
-Función fetch_from_origin(path): Esta función simula la obtención de contenido del servidor de origen. En una implementación real de un CDN, aquí es donde se descargaría el contenido de la base de datos, sistema de archivos, o servidor remoto.
-Ejecución de la aplicación Flask: if __name__ == '__main__': app.run(debug=True) inicia la aplicación Flask en modo de depuración cuando se ejecuta el script directamente.
+Simulación de datos:
+Se agregaron diccionarios para simular el contenido en el servidor de origen, la ubicación geográfica de los usuarios y las latencias entre los usuarios y los servidores de borde.
+Función para obtener la latencia:
+Se agregó una función get_latency para obtener la latencia entre un usuario y un servidor de borde.
+Función para encontrar el servidor de borde más cercano:
+Se agregó una función find_closest_edge_server para encontrar el servidor de borde más cercano a un usuario basado en la latencia.
+Implementación de la función fetch_from_origin:
+Se agregó una simulación de la función fetch_from_origin para obtener contenido del servidor de origen.
+Actualización de la ruta para manejar solicitudes GET:
+La ruta ahora incluye el patrón /<path:path> para manejar cualquier ruta de contenido solicitada.
+Se implementó la función get_content para manejar las solicitudes GET. Verifica si el contenido está en caché y, si no lo está, lo obtiene del servidor de origen y lo almacena en caché antes de devolverlo.
 ````
 # Resultado análisis:
 ````
-Se describirá acontinuación el significado de lo que vimos en los resultados:
+C:\Users\PROPIETARIO\PycharmProjects\pythonProject\venv\Scripts\python.exe: Esta es la ruta al intérprete de Python que se utilizó para ejecutar tu script. En este caso, estás utilizando un intérprete de Python que está dentro de un entorno virtual (venv), que es una práctica común para aislar las dependencias de tu proyecto.
+C:\Users\PROPIETARIO\PycharmProjects\pythonProject\main.py: Esta es la ruta al script de Python que se ejecutó.
+Process finished with exit code 0: Esta es una notificación del sistema que indica que tu script ha terminado de ejecutarse. Un código de salida de 0 generalmente significa que el programa se ejecutó con éxito sin errores.
 
-Serving Flask app '__main__': Esto indica que estás sirviendo tu aplicación Flask y '__main__' es el nombre del módulo donde se está ejecutando tu aplicación.
-Debug mode: on: Esto significa que has activado el modo de depuración de Flask. En este modo, Flask te proporcionará información adicional sobre cualquier error que ocurra mientras se ejecuta tu aplicación.
-WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.: Esta es una advertencia que te indica que estás utilizando el servidor de desarrollo incorporado de Flask. Este servidor no está diseñado para su uso en un entorno de producción.
-Running on http://127.0.0.1:5000: Esto te indica la dirección en la que se está ejecutando tu aplicación. En este caso, se está ejecutando en tu máquina local (127.0.0.1) en el puerto 5000.
-Press CTRL+C to quit: Esta es una indicación de cómo puedes detener el servidor. Puedes hacerlo presionando las teclas CTRL+C en tu teclado.
-Restarting with stat: Esto significa que el servidor se reiniciará automáticamente si detecta cambios en tus archivos de código fuente.
 ````
 #  Problema 2: Implementación de un servidor autoritario de DNS
+## Código:
+````
+import dns.message
+import dns.rdatatype
+import dns.rdataclass
+import dns.flags
+import dns.query
+import socket
+
+# Diccionario para almacenar los registros de recursos (RR)
+resource_records = {
+    # Aquí deberías agregar tus registros de recursos
+    # Por ejemplo: 'example.com': {'A': '192.0.2.1'}
+}
+
+def process_dns_query(query_message):
+    # Lógica para procesar la consulta DNS y generar una respuesta
+    # Aquí deberías buscar en tu base de datos de registros de recursos y construir la respuesta DNS apropiada
+    response_message = dns.message.make_response(query_message)
+    for question in query_message.question:
+        records = resource_records.get(question.name.to_text(), {})
+        record_type = dns.rdatatype.to_text(question.rdtype)
+        record_data = records.get(record_type)
+        if record_data:
+            rrset = dns.rrset.from_text(question.name, 3600, dns.rdataclass.IN, question.rdtype, record_data)
+            response_message.answer.append(rrset)
+    return response_message
+
+def main():
+    server_address = '127.0.0.1'
+    server_port = 53
+    server_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    server_socket.bind((server_address, server_port))
+
+    while True:
+        # Recibir y procesar solicitudes DNS entrantes
+        query_data, client_address = server_socket.recvfrom(512)
+        query_message = dns.message.from_wire(query_data)
+        response_message = process_dns_query(query_message)
+        # Enviar respuesta al cliente DNS
+        server_socket.sendto(response_message.to_wire(), client_address)
+
+if __name__ == "__main__":
+    main()
 
 ````
- import dns.message
- import dns.rdatatype
- import dns.rdataclass
- import dns.flags
- import dns.query
- def process_dns_query(query_message):
- # Lógica para procesar la consulta DNS y generar una respuesta
- # Aquí deberías buscar en tu base de datos de registros de recursos y construir la
- respuesta DNS apropiada
- return response_message
- def main():
- server_address = '127.0.0.1'
- server_port = 53
- while True:
- # Recibir y procesar solicitudes DNS entrantes
- query_data, _ = server_socket.recvfrom(1024)
- query_message = dns.message.from_wire(query_data)
- response_message = process_dns_query(query_message)
- # Enviar respuesta al cliente DNS
- server_socket.sendto(response_message.to_wire(), client_address)
- if __name__ == "__main__":
- main()
+# Resultados:
 ````
+C:\Users\PROPIETARIO\PycharmProjects\pythonProject\venv\Scripts\python.exe C:\Users\PROPIETARIO\PycharmProjects\pythonProject\main.py 
+Traceback (most recent call last):
+  File "C:\Users\PROPIETARIO\PycharmProjects\pythonProject\main.py", line 101, in <module>
+    main()
+  File "C:\Users\PROPIETARIO\PycharmProjects\pythonProject\main.py", line 89, in main
+    server_socket.bind((server_address, server_port))
+PermissionError: [WinError 10013] Intento de acceso a un socket no permitido por sus permisos de acceso
+
+Process finished with exit code 1
+
+````
+
+# Análisis de código :
+````
+Este código crea un servidor DNS básico que escucha en el puerto 53 UDP y responde a las consultas DNS entrantes. Las respuestas se generan en función de los registros de recursos almacenados en el diccionario resource_records. Por favor, ten en cuenta que este es un ejemplo muy básico y no maneja muchos aspectos de un servidor DNS real, como la autenticación, el manejo de errores, la escalabilidad, entre otros. Te recomendaría investigar más sobre estos temas si estás interesado en implementar un servidor DNS real
+````
+# Análisis de resultado:
+```
+El error PermissionError: [WinError 10013] Intento de acceso a un socket no permitido por sus permisos de acceso indica que el programa no tiene permisos suficientes para enlazar el socket a la dirección y puerto especificados. Esto puede ocurrir debido a restricciones de permisos en el sistema operativo o porque el puerto está siendo utilizado por otro proceso.
+
+Para corregir este problema, hay varias opciones que puedes intentar:
+
+Ejecutar el programa como administrador: Intenta ejecutar el programa con permisos de administrador. Los permisos de administrador pueden otorgar los privilegios necesarios para enlazar el socket al puerto especificado.
+Cambiar el puerto: Si el puerto 5353 está reservado o en uso por otro proceso, intenta cambiar el puerto a uno diferente que esté disponible. Puedes cambiar server_port = 5353 a un puerto diferente, como server_port = 5354.
+Cerrar el programa que utiliza el puerto: Si sabes qué programa está utilizando el puerto 5353, puedes cerrarlo temporalmente para liberar el puerto y permitir que tu programa se ejecute.
+Verificar el firewall: Asegúrate de que tu firewall no esté bloqueando el acceso al puerto especificado. Puedes intentar desactivar temporalmente el firewall para ver si eso resuelve el problema.
+```
 #  Problema 3: Diseño de un sistema de gestión de dominios (DNS)
-
+## Código:
 ````
  from flask import Flask, request, jsonify
  app = Flask(__name__)
@@ -101,6 +192,32 @@ Restarting with stat: Esto significa que el servidor se reiniciará automáticam
  if __name__ == '__main__':
  app.run(debug=True)
 ````
+# Análisis de código:
+
+1.Importaciones de bibliotecas:
+Se importan las clases necesarias de la biblioteca Flask para crear la aplicación web, manejar las solicitudes HTTP y generar respuestas JSON.
+2. Creación de la aplicación Flask:
+
+Se crea una instancia de la clase Flask para crear la aplicación web.
+
+3. Base de datos ficticia:
+Se define una estructura de datos, en este caso un diccionario, para simular una base de datos donde se almacenarán los nombres de dominio y sus direcciones IP asociadas.
+4. Ruta para registrar dominios:
+ Se define una ruta /register que acepta solicitudes POST para registrar nuevos dominios.
+La función register_domain() extrae el nombre de dominio y la dirección IP de la solicitud JSON.
+Verifica si el dominio ya está registrado en la base de datos.
+Si el dominio no está registrado, lo agrega a la base de datos y devuelve un mensaje de éxito
+5. Ruta para resolver dominios:
+Se define una ruta /resolve/<domain_name> que acepta solicitudes GET para resolver nombres de dominio.
+La función resolve_domain() toma el nombre de dominio como parámetro de la URL.
+Verifica si el dominio está registrado en la base de datos.
+Si el dominio está registrado, devuelve el nombre de dominio y su dirección IP asociada.
+6. Inicio de la aplicación:
+Se asegura de que el servidor Flask se ejecute solo si el script se ejecuta directamente (no cuando se importa como un módulo).
+Ejecuta la aplicación Flask en modo de depuración para facilitar la detección y corrección de errores durante el desarrollo.
+
+# Resultado
+# Análisis de resultado:
 #  Problema 4: Optimización de la resolución de nombres de dominio (DNS)
 
 ````
