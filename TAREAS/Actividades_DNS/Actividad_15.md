@@ -202,24 +202,57 @@ Se crea una instancia de la clase Flask para crear la aplicación web.
 
 3. Base de datos ficticia:
 Se define una estructura de datos, en este caso un diccionario, para simular una base de datos donde se almacenarán los nombres de dominio y sus direcciones IP asociadas.
-4. Ruta para registrar dominios:
+
+5. Ruta para registrar dominios:
  Se define una ruta /register que acepta solicitudes POST para registrar nuevos dominios.
 La función register_domain() extrae el nombre de dominio y la dirección IP de la solicitud JSON.
 Verifica si el dominio ya está registrado en la base de datos.
 Si el dominio no está registrado, lo agrega a la base de datos y devuelve un mensaje de éxito
-5. Ruta para resolver dominios:
+
+6. Ruta para resolver dominios:
 Se define una ruta /resolve/<domain_name> que acepta solicitudes GET para resolver nombres de dominio.
 La función resolve_domain() toma el nombre de dominio como parámetro de la URL.
 Verifica si el dominio está registrado en la base de datos.
 Si el dominio está registrado, devuelve el nombre de dominio y su dirección IP asociada.
-6. Inicio de la aplicación:
+
+7. Inicio de la aplicación:
 Se asegura de que el servidor Flask se ejecute solo si el script se ejecuta directamente (no cuando se importa como un módulo).
+
 Ejecuta la aplicación Flask en modo de depuración para facilitar la detección y corrección de errores durante el desarrollo.
 
 # Resultado
+````
+C:\Users\PROPIETARIO\PycharmProjects\pythonProject\venv\Scripts\python.exe C:\Users\PROPIETARIO\PycharmProjects\pythonProject\main.py 
+Traceback (most recent call last):
+  File "C:\Users\PROPIETARIO\PycharmProjects\pythonProject\main.py", line 101, in <module>
+    main()
+  File "C:\Users\PROPIETARIO\PycharmProjects\pythonProject\main.py", line 89, in main
+    server_socket.bind((server_address, server_port))
+PermissionError: [WinError 10013] Intento de acceso a un socket no permitido por sus permisos de acceso
+
+Process finished with exit code 1
+````
+
+
 # Análisis de resultado:
+
+El error PermissionError: [WinError 10013] Intento de acceso a un socket no permitido por sus permisos de acceso indica que el programa no tiene permisos suficientes para enlazar el socket a la dirección y puerto especificados. Esto puede ocurrir debido a restricciones de permisos en el sistema operativo o porque el puerto está siendo utilizado por otro proceso.
+
+Cuando un programa intenta enlazar un socket a una dirección y puerto específicos, el sistema operativo verifica si tiene los permisos necesarios para hacerlo. Si el programa no tiene los permisos adecuados, se produce este error.
+
+Para solucionar este problema, puedes intentar lo siguiente:
+
+Ejecutar el programa como administrador: Intenta ejecutar el programa con permisos de administrador. Los permisos de administrador pueden otorgar los privilegios necesarios para enlazar el socket al puerto especificado.
+
+Cambiar el puerto: Si el puerto 5353 está reservado o en uso por otro proceso, intenta cambiar el puerto a uno diferente que esté disponible. Puedes cambiar server_port = 5353 a un puerto diferente, como server_port = 5354.
+
+Cerrar el programa que utiliza el puerto: Si sabes qué programa está utilizando el puerto 5353, puedes cerrarlo temporalmente para liberar el puerto y permitir que tu programa se ejecute.
+Verificar el firewall: Asegúrate de que tu firewall no esté bloqueando el acceso al puerto especificado. Puedes intentar desactivar temporalmente el firewall para ver si eso resuelve el problema.
+
+
 #  Problema 4: Optimización de la resolución de nombres de dominio (DNS)
 
+# Código 
 ````
 # (utilizando dnspython)
  import dns.resolver
@@ -239,6 +272,15 @@ Ejecuta la aplicación Flask en modo de depuración para facilitar la detección
  domain_name = 'example.com'
  dns_lookup(domain_name)
 ````
+# Análisis de código:
+
+# Resultados:
+```
+```
+# Análisis de resultados
+
+
+
 
 #  Problema 5: Implementación de un sistema de registro de dominios
 
@@ -261,3 +303,9 @@ Ejecuta la aplicación Flask en modo de depuración para facilitar la detección
  # Base de datos ficticia para almacenar los dominios registrados
  domain_database = {}
 ````
+# Análisis de código:
+
+# Resultados:
+```
+```
+# Análisis de resultados
