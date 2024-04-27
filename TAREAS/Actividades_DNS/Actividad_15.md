@@ -38,7 +38,7 @@ Ejecución de la aplicación Flask: if __name__ == '__main__': app.run(debug=Tru
 ````
 # Resultado análisis:
 ````
-El resultado que ves es la salida estándar de tu aplicación Flask cuando la ejecutas en modo de desarrollo. Aquí te explico qué significa cada línea:
+Se describirá acontinuación el significado de lo que vimos en los resultados:
 
 Serving Flask app '__main__': Esto indica que estás sirviendo tu aplicación Flask y '__main__' es el nombre del módulo donde se está ejecutando tu aplicación.
 Debug mode: on: Esto significa que has activado el modo de depuración de Flask. En este modo, Flask te proporcionará información adicional sobre cualquier error que ocurra mientras se ejecuta tu aplicación.
