@@ -254,58 +254,115 @@ Verificar el firewall: Asegúrate de que tu firewall no esté bloqueando el acce
 
 # Código 
 ````
-# (utilizando dnspython)
- import dns.resolver
- def dns_lookup(domain_name):
- try:
- # Realizar una consulta DNS para el nombre de dominio dado
- result = dns.resolver.resolve(domain_name, 'A')
- for ip_address in result:
- print('IP Address:', ip_address.to_text())
- except dns.resolver.NoAnswer:
- print('No se encontraron registros de recursos para el dominio:', domain_name)
- except dns.resolver.NXDOMAIN:
- print('El dominio no existe:', domain_name)
- except dns.exception.Timeout:
- print('La consulta DNS ha excedido el tiempo de espera:', domain_name)
- if __name__ == "__main__":
- domain_name = 'example.com'
- dns_lookup(domain_name)
+import dns.resolver
+
+def dns_lookup(domain_name):
+    try:
+        # Realizar una consulta DNS para el nombre de dominio dado
+        result = dns.resolver.resolve(domain_name, 'A')
+        for ip_address in result:
+            print('IP Address:', ip_address.to_text())
+    except dns.resolver.NoAnswer:
+        print('No se encontraron registros de recursos para el dominio:', domain_name)
+    except dns.resolver.NXDOMAIN:
+        print('El dominio no existe:', domain_name)
+    except dns.exception.Timeout:
+        print('La consulta DNS ha excedido el tiempo de espera:', domain_name)
+
+if __name__ == "__main__":
+    domain_name = 'example.com'
+    dns_lookup(domain_name)
+
 ````
+# Resultados 
+```
+C:\Users\PROPIETARIO\PycharmProjects\pythonProject\venv\Scripts\python.exe C:\Users\PROPIETARIO\PycharmProjects\pythonProject\main.py 
+  File "C:\Users\PROPIETARIO\PycharmProjects\pythonProject\main.py", line 143
+    result = dns.resolver.resolve(domain_name, 'A')
+    ^
+IndentationError: expected an indented block after 'try' statement on line 141
+
+Process finished with exit code 1
+```
 # Análisis de código:
 
-# Resultados:
-```
-```
+Importación de módulos: El código importa el módulo dns.resolver, que se utiliza para realizar consultas DNS.
+Función dns_lookup:
+
+
+Esta función toma un parámetro domain_name, que es el nombre de dominio para el que se realizará la consulta DNS.
+Dentro del bloque try, intenta realizar la consulta DNS utilizando dns.resolver.resolve().
+Si la consulta DNS tiene éxito y se obtienen resultados, itera sobre los resultados y los imprime en la consola.
+Maneja excepciones como dns.resolver.NoAnswer, dns.resolver.NXDOMAIN y dns.exception.Timeout, que se producen en caso de que no se encuentren registros de recursos, el dominio no exista o la consulta DNS exceda el tiempo de espera respectivamente.
+
+Bloque if __name__ == "__main__":: Este bloque asegura que el código dentro de él solo se ejecute cuando el script se ejecute directamente, no cuando se importe como un módulo en otro script. Define el nombre de dominio como 'example.com' y llama a la función dns_lookup() con este nombre de dominio.
+Para corregir el error de indentación, asegúrate de que todas las líneas dentro del bloque try estén indentadas correctamente, probablemente con cuatro espacios o un tabulador. 
+
 # Análisis de resultados
 
-
+El error de "IndentationError" que se muestra en la salida se produce debido a un problema de indentación en el código. La línea de código que inicia el bloque try debe tener una indentación adicional para indicar que todo el código dentro de ese bloque está dentro del try.
 
 
 #  Problema 5: Implementación de un sistema de registro de dominios
 
 ````
-#Ejemplo de código en Python (con Flask)
- @app.route('/register', methods=['POST'])
- def register_domain():
- domain_name = request.json.get('domain_name')
- owner_info = request.json.get('owner_info')
- # Verificar si el dominio ya está registrado
- if domain_name in domain_database:
- return jsonify({'message': 'Domain already registered'}), 400
- # Registrar el nuevo dominio
- domain_database[domain_name] = owner_info
- return jsonify({'message': 'Domain registered successfully'}), 200
- if __name__ == '__main__':
- app.run(debug=True)
- from flask import Flask, request, jsonify
- app = Flask(__name__)
- # Base de datos ficticia para almacenar los dominios registrados
- domain_database = {}
+import dns.resolver
+
+def dns_lookup(domain_name):
+    try:
+        # Realizar una consulta DNS para el nombre de dominio dado
+        result = dns.resolver.resolve(domain_name, 'A')
+        for ip_address in result:
+            print('IP Address:', ip_address.to_text())
+    except dns.resolver.NoAnswer:
+        print('No se encontraron registros de recursos para el dominio:', domain_name)
+    except dns.resolver.NXDOMAIN:
+        print('El dominio no existe:', domain_name)
+    except dns.exception.Timeout:
+        print('La consulta DNS ha excedido el tiempo de espera:', domain_name)
+
+if __name__ == "__main__":
+    domain_name = 'example.com'
+    dns_lookup(domain_name)
+
 ````
 # Análisis de código:
+Este código realiza una consulta DNS para un nombre de dominio dado utilizando la biblioteca `dnspython`. Aquí está la explicación paso a paso:
+
+1. Importa la biblioteca `dns.resolver`, que proporciona funciones para realizar consultas DNS.
+   
+2. Define una función llamada `dns_lookup` que toma un parámetro `domain_name`, que es el nombre de dominio para el que se realizará la consulta DNS.
+
+3. En el bloque `try`, se intenta realizar una consulta DNS para el nombre de dominio dado utilizando `dns.resolver.resolve()`. El segundo argumento `'A'` especifica el tipo de registro de recursos que se está buscando, en este caso, registros de tipo A que resuelven nombres de dominio a direcciones IP.
+
+4. Si la consulta DNS tiene éxito y se obtienen resultados, itera sobre los resultados y los imprime en la consola usando `ip_address.to_text()` para convertir la dirección IP en un formato legible.
+
+5. Si la consulta DNS no devuelve ningún resultado (NoAnswer), imprime un mensaje indicando que no se encontraron registros de recursos para el dominio dado.
+
+6. Si el dominio no existe (NXDOMAIN), imprime un mensaje indicando que el dominio no existe.
+
+7. Si la consulta DNS excede el tiempo de espera especificado, imprime un mensaje indicando que la consulta DNS ha excedido el tiempo de espera.
+
+8. En la parte final del script, se comprueba si el script se está ejecutando como el programa principal (es decir, no ha sido importado como un módulo en otro script). Si es así, se define el nombre de dominio como `'example.com'` y se llama a la función `dns_lookup()` con este nombre de dominio.
+
+En resumen, este código realiza una consulta DNS para el nombre de dominio `'example.com'` y muestra la dirección IP asociada con este nombre de dominio si existe. Si no se encuentran registros de recursos para el dominio o si el dominio no existe, se imprime un mensaje correspondiente.
 
 # Resultados:
+
+
 ```
+ C:\Users\PROPIETARIO\PycharmProjects\pythonProject\venv\Scripts\python.exe C:\Users\PROPIETARIO\PycharmProjects\pythonProject\main.py 
+  File "C:\Users\PROPIETARIO\PycharmProjects\pythonProject\main.py", line 143
+    result = dns.resolver.resolve(domain_name, 'A')
+    ^
+IndentationError: expected an indented block after 'try' statement on line 141
+
+Process finished with exit code 1
 ```
+
 # Análisis de resultados
+Análisis de requisitos: Identificar los requisitos del sistema, incluyendo la capacidad de registrar nuevos dominios, verificar la disponibilidad de nombres de dominio, gestionar la información del propietario del dominio y gestionar la base de datos de dominios registrados.
+Diseño de la base de datos: Diseñar la estructura de la base de datos para almacenar la información de los dominios registrados, incluyendo detalles como el nombre de dominio, la información del propietario, la fecha de registro y el estado del dominio.
+Desarrollo de la interfaz de usuario: Crear una interfaz de usuario intuitiva para que los usuarios puedan interactuar con el sistema y registrar nuevos dominios. Esto puede incluir formularios de registro, páginas de búsqueda de disponibilidad de nombres de dominio y paneles de administración de dominios.
+Implementación de la lógica de negocio: Escribir el código para las funciones principales del sistema, como el registro de nuevos dominios, la verificación de disponibilidad de nombres de dominio y la gestión de la información del propietario del dominio. Esto puede incluir la validación de datos de entrada y la generación de respuestas adecuadas para el usuario.
+Pruebas y depuración: Realizar pruebas exhaustivas para verificar el correcto funcionamiento del sistema en diferentes escenarios, incluyendo el registro de nuevos dominios, la búsqueda de disponibilidad de nombres de dominio y la gestión de dominios existentes. Utilizar herramientas de depuración para identificar y corregir errores.
