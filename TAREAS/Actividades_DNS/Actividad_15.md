@@ -361,8 +361,21 @@ Process finished with exit code 1
 ```
 
 # Análisis de resultados
+
 Análisis de requisitos: Identificar los requisitos del sistema, incluyendo la capacidad de registrar nuevos dominios, verificar la disponibilidad de nombres de dominio, gestionar la información del propietario del dominio y gestionar la base de datos de dominios registrados.
+
 Diseño de la base de datos: Diseñar la estructura de la base de datos para almacenar la información de los dominios registrados, incluyendo detalles como el nombre de dominio, la información del propietario, la fecha de registro y el estado del dominio.
-Desarrollo de la interfaz de usuario: Crear una interfaz de usuario intuitiva para que los usuarios puedan interactuar con el sistema y registrar nuevos dominios. Esto puede incluir formularios de registro, páginas de búsqueda de disponibilidad de nombres de dominio y paneles de administración de dominios.
-Implementación de la lógica de negocio: Escribir el código para las funciones principales del sistema, como el registro de nuevos dominios, la verificación de disponibilidad de nombres de dominio y la gestión de la información del propietario del dominio. Esto puede incluir la validación de datos de entrada y la generación de respuestas adecuadas para el usuario.
-Pruebas y depuración: Realizar pruebas exhaustivas para verificar el correcto funcionamiento del sistema en diferentes escenarios, incluyendo el registro de nuevos dominios, la búsqueda de disponibilidad de nombres de dominio y la gestión de dominios existentes. Utilizar herramientas de depuración para identificar y corregir errores.
+
+Desarrollo de la interfaz de usuario: 
+
+Crear una interfaz de usuario intuitiva para que los usuarios puedan interactuar con el sistema y registrar nuevos dominios. Esto puede incluir formularios de registro, páginas de búsqueda de disponibilidad de nombres de dominio y paneles de administración de dominios.
+
+
+Implementación de la lógica de negocio:
+
+Escribir el código para las funciones principales del sistema, como el registro de nuevos dominios, la verificación de disponibilidad de nombres de dominio y la gestión de la información del propietario del dominio. Esto puede incluir la validación de datos de entrada y la generación de respuestas adecuadas para el usuario.
+
+
+Pruebas y depuración:
+
+Realizar pruebas exhaustivas para verificar el correcto funcionamiento del sistema en diferentes escenarios, incluyendo el registro de nuevos dominios, la búsqueda de disponibilidad de nombres de dominio y la gestión de dominios existentes. Utilizar herramientas de depuración para identificar y corregir errores.
