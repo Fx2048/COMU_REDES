@@ -1,5 +1,6 @@
 
-# ACTIVIDAD 12: Construyendo una área de red local
+# ACTIVIDAD 12: 
+# Construyendo una área de red local
 
 ##### Aspectos básicos de la actividad
 
