@@ -1,4 +1,5 @@
-# ACTIVIDAD 15 : DNS
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/ed32fbc1-6ea4-4a1e-ad60-9632b1e31518)
+
 
 # Problema 1: Diseño de un sistema de distribución de contenidos (CDN)
 
