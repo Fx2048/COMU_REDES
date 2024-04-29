@@ -1,6 +1,4 @@
-
-# ACTIVIDAD 12: 
-# Construyendo una área de red local
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/1d64d695-6f1d-4ddb-8cfd-ddad655c0ab2)
 
 ##### Aspectos básicos de la actividad
 
