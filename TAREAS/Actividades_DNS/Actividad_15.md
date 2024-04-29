@@ -1,4 +1,4 @@
-![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/ed32fbc1-6ea4-4a1e-ad60-9632b1e31518)
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/9d107bb4-4026-4c46-950a-670bafe70778)
 
 
 # Problema 1: Diseño de un sistema de distribución de contenidos (CDN)
