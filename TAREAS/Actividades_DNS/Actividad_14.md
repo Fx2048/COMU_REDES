@@ -1,5 +1,4 @@
-# Actividad 14: Herramientas para TCP/IP
-
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/d5f3b263-5faa-4d93-8b2f-8a26997b470e)
 
 ## Problema 1: Simulación de un ataque de reconocimiento y mitigación 
 
