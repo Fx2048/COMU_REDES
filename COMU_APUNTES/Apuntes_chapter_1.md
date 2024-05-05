@@ -59,3 +59,81 @@ Los checksums se calculan en base a las direcciones IP y otros campos en el enca
 - Número de puerto externo: El número de puerto único asignado por el dispositivo NAT para identificar el dispositivo interno y la aplicación específicos.
 
 Esta información es necesaria para que el dispositivo NAT pueda enrutar correctamente el tráfico entrante y saliente entre los dispositivos internos y la red externa, asegurando que los paquetes se envíen y se reciban del dispositivo y la aplicación internos correctos.
+
+
+
+1. En un paquete TCP, las primeras cuatro líneas que proporcionaste representan lo siguiente:
+
+- 20: Esta es la longitud del encabezado TCP en bytes (20 bytes o 20 * 4 = 80 bits).
+- 10001: Este es el número de puerto de origen en decimal (10001 en binario).
+- 16384: Este es el número de puerto de destino en decimal (16384 en binario).
+- 16385: Este es el número de secuencia en decimal (16385 en binario).
+
+2. El número total de mensajes enviados entre el cliente y el servidor para una página web dividida en seis paquetes, incluyendo la solicitud original del cliente y cualquier reconocimiento, depende del mecanismo de control de flujo utilizado:
+
+a. Detener y esperar: 12 mensajes (6 paquetes de datos del servidor y 6 reconocimientos del cliente).
+b. Ventana deslizante con un tamaño de ventana de 3: 8 mensajes (6 paquetes de datos del servidor y 2 reconocimientos del cliente).
+c. Ventana deslizante con un tamaño de ventana de 5: 7 mensajes (6 paquetes de datos del servidor y 1 reconocimiento del cliente).
+d. Ventana deslizante con un tamaño de ventana de 10: 6 mensajes (6 paquetes de datos del servidor y no se requieren reconocimientos del cliente).
+
+3. Las redes de Clase E están reservadas para fines experimentales en el espacio de direcciones IPv4. El rango de direcciones reservadas para las redes de Clase E es de 240.0.0.0 a 255.255.255.254, lo que proporciona un total de 268,435,456 direcciones IPv4.
+
+4. Dada la dirección IP 133.85.101.61:
+
+- Si esta es parte de una red clasificada, pertenece a la Clase B (128.0.0.0 a 191.255.255.255). La dirección de red sería 133.85.0.0.
+- Si esta no es una red clasificada (direccionamiento sin clases), no es posible determinar la dirección de red sin conocer la máscara de subred o la longitud del prefijo. La dirección de red puede variar dependiendo de la máscara de subred o el prefijo utilizado.
+
+5. Dada la dirección IP 217.204.83.169 y la máscara de red 255.255.240.0:
+
+- La dirección de red se calcula realizando una operación AND a nivel de bit entre la dirección IP y la máscara de red: 217.204.80.0
+- La dirección del host se calcula realizando una operación AND a nivel de bit entre la dirección IP y el inverso de la máscara de red: 0.0.3.169
+- La dirección de difusión se calcula realizando una operación OR a nivel de bit entre la dirección de red y el inverso de la máscara de red: 217.204.95.255
+
+6. Dada la máscara de red 255.224.0.0, el valor del prefijo de la red es /11. La longitud del prefijo se calcula contando el número de bits 1 consecutivos en la máscara de red, comenzando desde el bit más a la izquierda.
+
+7. Suponiendo que la dirección de red es 185.44.0.0/16, y la organización quiere crear 16 subredes de igual tamaño, el rango de direcciones IP para la primera subred sería:
+
+- Dirección de red de la primera subred: 185.44.0.0
+- Dirección de difusión de la primera subred: 185.44.15.255
+- Rango de direcciones IP para hosts en la primera subred: 185.44.0.1 a 185.44.15.254
+
+8. Si la máscara de red es 255.255.128.0, la máscara de host adecuada para esta red es 0.0.127.255. La máscara de host se calcula invirtiendo la máscara de red (complemento a nivel de bit).
+
+9. Si un router recibe un paquete cuyo tamaño es de 16000 bytes y la Unidad Máxima de Transmisión (MTU) del router es de 4000 bytes, el router creará 4 fragmentos. Los detalles de cada fragmento son los siguientes:
+
+- Fragmento 1: Desplazamiento de fragmento = 0, bit MF (Más Fragmentos) = 1
+- Fragmento 2: Desplazamiento de fragmento = 4000, bit MF = 1
+- Fragmento 3: Desplazamiento de fragmento = 8000, bit MF = 1
+- Fragmento 4: Desplazamiento de fragmento = 12000, bit MF = 0 (Último fragmento)
+
+10. Reescribiendo las direcciones IPv6 dadas utilizando los atajos permitidos al eliminar los 0 iniciales y combinar grupos de dígitos hexadecimales:
+
+a. 1234:5678:0:9a:bcde:f012:3:1234
+b. fe08:fe00::12:3456
+c. 2001:2002:2003:2004:2005:2006:2007:2008
+d. ee69:e000:0:1:2345:6789:0:1
+
+11. Suponiendo que la computadora está en una red con la dirección de red IPv6 2001:19af:5000:0000:0013:c854, y su dirección MAC es a4:f8:9e:0b:b9, la dirección IPv6 generada por SLAAC (Autoconfiguración de Direcciones Sin Estado) sería:
+
+2001:19af:5000:0:a6f8:9eff:fe0b:b9
+
+En SLAAC, el identificador de interfaz (los últimos 64 bits de la dirección IPv6) se deriva de la dirección MAC insertando "ff:fe" entre el tercer y cuarto byte de la dirección MAC y luego invirtiendo el séptimo bit (el bit universal/local) del primer byte.
+
+12. Suponiendo que hay 7 mil millones de personas en el planeta, y cada persona posee dos dispositivos que requieren direcciones IP:
+
+- Con IPv4, hay aproximadamente 4.3 mil millones de direcciones disponibles. Si cada persona posee dos dispositivos, habría aproximadamente 0.3 direcciones IPv4 disponibles por dispositivo (4.3 mil millones / (7 mil millones * 2)).
+- Con IPv6, hay aproximadamente 3.4 x 10^38 direcciones disponibles. Si cada persona posee dos dispositivos, habría aproximadamente 2.4 x 10^28 direcciones IPv6 disponibles por dispositivo (3.4 x 10^38 / (7 mil millones * 2)).
+
+13. Para asignar a un servidor la dirección IPv4 estática de 168.75.166.21 con un prefijo de dirección IP de 168.75.128.0/18 y una puerta de enlace de 168.75.166.1 en RedHat Linux, normalmente editarías el archivo de configuración de red (por ejemplo, /etc/sysconfig/network-scripts/ifcfg-eth0) y agregarías las siguientes líneas:
+
+```
+DEVICE=eth0
+BOOTPROTO=static
+IPADDR=168.75.166.21
+NETMASK=255.255.192.0
+GATEWAY=168.75.166.1
+```
+
+Reemplaza `eth0` con el nombre de la interfaz de red apropiada para tu servidor. Esta configuración establece la dirección IP, la máscara de red (derivada del prefijo /18) y la puerta de enlace predeterminada para el servidor.
+
+Después de guardar el archivo, es posible que necesites reiniciar el servicio de red o reiniciar el servidor para que los cambios surtan efecto.
