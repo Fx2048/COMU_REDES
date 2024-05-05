@@ -49,3 +49,31 @@ Esta configuración en estrella con switches en cada ala reduce la longitud de l
 16. En una VLAN, un puerto de tipo general puede pertenecer a múltiples VLAN y puede etiquetar tráfico para una o más VLAN. Un puerto de tipo trunk, por otro lado, está diseñado para llevar tráfico de varias VLAN y etiqueta todo el tráfico que pasa a través de él con un ID de VLAN.
 
 17. Para el tipo de puerto de acceso de una VLAN, todos los puertos deben conectarse a un dispositivo final, como una computadora o un servidor. Estos puertos deben estar sin etiquetar, lo que significa que no añaden una etiqueta de VLAN al tráfico que pasa a través de ellos.
+
+Anexo::
+def binario_a_hexadecimal(binario):
+    # Convertir la cadena binaria a un entero
+    decimal = int(binario, 2)
+    
+    # Convertir el entero a una cadena hexadecimal
+    hexadecimal = hex(decimal)[2:].zfill(len(binario) // 4)
+    
+    return hexadecimal.upper()
+
+def hexadecimal_a_binario(hexadecimal):
+    # Convertir la cadena hexadecimal a un entero
+    decimal = int(hexadecimal, 16)
+    
+    # Convertir el entero a una cadena binaria
+    binario = bin(decimal)[2:].zfill(len(hexadecimal) * 4)
+    
+    return binario
+
+# Ejemplo de uso
+binario = "10101010"
+hexadecimal = binario_a_hexadecimal(binario)
+print(f"Binario: {binario} => Hexadecimal: {hexadecimal}")
+
+hexadecimal = "AA"
+binario = hexadecimal_a_binario(hexadecimal)
+print(f"Hexadecimal: {hexadecimal} => Binario: {binario}")
