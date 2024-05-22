@@ -1,6 +1,6 @@
 # LABORATORY FROM 4.1 AMAZON WEB SERVICES: CREATE A BUCKET
 Description Notes about the Session:
-# Task 1:
+# Tasks:
 ## Properties
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/545c0702-1fc4-47ea-b01a-ec404e7a5512)
 
@@ -56,7 +56,8 @@ punto de enlace
 bucket s3
 wordpress
 static site
-jekill
+karpathy rnn https://karpathy.github.io/2015/05/21/rnn-effectiveness/
+jekill https://jekyllrb.com/docs/github-pages/
 grupos de seguridad
 bash
 json
