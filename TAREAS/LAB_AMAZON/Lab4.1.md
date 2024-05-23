@@ -1,4 +1,4 @@
-# S2 simulation on the laboratory experience
+# EC2 simulation on the laboratory experience
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/5aebe8df-c23d-4562-9b16-fc44c268bcdd)
 
