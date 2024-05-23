@@ -12,7 +12,14 @@
 
 
 
-![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/385985ec-bbf0-42e2-b48c-36c3a61d56ff)
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/ae7e91fb-10a3-4754-bace-5f5a6d528d76)
 
-![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/769c25a0-3fdb-4585-8a24-1840f2cd3a9e)
-![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/b0513974-ee3c-4903-8003-a2a8fbc81a05)
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/6039d4ca-f224-48f2-add1-d9ba24ba404c)
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/da4c7b29-3db8-48e7-b868-531b99c55516)
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/0b009a95-5e1a-4e00-b907-100859ccc5b5)
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/ad7c8962-66d7-415c-a00d-57b52236c153)
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/d69373a7-f56d-41e6-b30e-16bd513a4bb5)
