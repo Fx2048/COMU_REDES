@@ -1,4 +1,5 @@
-# Laboratorio del módulo 6: Asociar un volumen de EBS
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/95680ef4-ddfc-4198-b596-ab253aa25240)
+
 
  Crearás una instancia de Amazon Elastic Compute 
  
@@ -66,3 +67,5 @@ Luego comprobamos que la página funciona correctamente al actualizarla:
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/bb7cba37-21ac-4dad-9188-54f878c4b9ea)
 
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/ac8ad09b-1d44-4f33-afd0-0599f98c4bee)
