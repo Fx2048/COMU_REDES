@@ -1,3 +1,5 @@
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/b5faff18-7042-4bde-a6db-e6cd1aa5d8e5)
+
 # EC2 simulation on the laboratory experience
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/5aebe8df-c23d-4562-9b16-fc44c268bcdd)
@@ -14,3 +16,5 @@
 
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/f6cad6d0-1112-4618-bf5b-3b0f23900da0)
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/a915c000-b486-4c29-bb45-635d71a63b73)
