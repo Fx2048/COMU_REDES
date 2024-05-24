@@ -63,9 +63,6 @@ Luego comprobamos que la página funciona correctamente al actualizarla:
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/21946c6c-b2c0-48b3-959d-530911ef86c7)
 
-# Final
 
-![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/bb7cba37-21ac-4dad-9188-54f878c4b9ea)
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/43e72e0f-b453-429f-8ec8-f9547560d708)
 
-
-![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/ac8ad09b-1d44-4f33-afd0-0599f98c4bee)
