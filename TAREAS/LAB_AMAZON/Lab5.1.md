@@ -1,3 +1,5 @@
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/edccb9c4-75ce-4e9e-8a2c-8f3118b7f812)
+
 # CloudFront como CDN para un sitio web
 
 
@@ -23,3 +25,6 @@
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/ad7c8962-66d7-415c-a00d-57b52236c153)
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/d69373a7-f56d-41e6-b30e-16bd513a4bb5)
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/a920a85e-17a4-4777-bb67-15ea264492db)
+
