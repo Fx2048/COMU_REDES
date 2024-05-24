@@ -1,3 +1,5 @@
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/add62f63-fcd2-4223-99d2-56f8ca0efb55)
+
 # LABORATORY FROM 4.2 AMAZON WEB SERVICES: CREATE A BUCKET
 Description Notes about the Session:
 # Tasks:
@@ -68,5 +70,7 @@ entorno propietario finalidad
 capa 7 capa 2  
 
 ````
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/d79215c7-5eba-46fd-ad1a-11b958602210)
 
 
