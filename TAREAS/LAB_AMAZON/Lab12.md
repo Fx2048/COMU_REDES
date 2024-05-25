@@ -20,4 +20,6 @@ e ingreso al dominio: http://mylabapp-env.eba-jmmmsmny.us-east-1.elasticbeanstal
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/1a708329-06c1-4cd1-adfa-3fb0a8df7c37)
 esta pila se creó automáticamente: 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/746dfa8e-60e1-42fa-b6cc-674e75ebdc27)
-Luego dice que mis parámetros no son válidos :c
+
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/c3bd6df6-fe77-4161-ae18-6d1eae31e583)
