@@ -16,3 +16,5 @@ echo '<html><h1>Hello World! This is server 2.</h1></html>' > /var/www/html/inde
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/240b9411-649e-4530-bceb-0f9aa42915e8)
 
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/4841e342-8141-43cb-8af3-3686765afeee)
+
