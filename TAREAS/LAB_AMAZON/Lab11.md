@@ -8,7 +8,7 @@ yum -y install httpd
 systemctl enable httpd
 systemctl start httpd
 echo '<html><h1>Hello World! This is server 2.</h1></html>' > /var/www/html/index.html
-````
+`````
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/4dbb20fe-7161-48d1-9f58-d1c52fab9553)
 
 
