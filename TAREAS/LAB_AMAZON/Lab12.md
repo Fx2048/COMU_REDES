@@ -22,4 +22,4 @@ esta pila se creó automáticamente:
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/746dfa8e-60e1-42fa-b6cc-674e75ebdc27)
 
 
-![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/c3bd6df6-fe77-4161-ae18-6d1eae31e583)
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/8d78d8a5-3198-4896-b428-6a7600e41258)
