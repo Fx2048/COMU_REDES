@@ -1,3 +1,4 @@
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/46c2ec5c-5de9-4dc7-9ea6-1599006f1f84)
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/1b0d7f03-b721-4cb7-ab28-face88dbdaf0)
 `````
@@ -20,3 +21,6 @@ echo '<html><h1>Hello World! This is server 2.</h1></html>' > /var/www/html/inde
 
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/b6d7cab7-525c-40cd-9649-e8c9a310d581)
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/2c5d70eb-94c9-4205-8a14-895afd466323)
+
