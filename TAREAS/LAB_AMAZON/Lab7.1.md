@@ -32,11 +32,23 @@
 
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/adea7570-4c2d-422f-a1a3-2f83d0222a25){
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/96f71678-9461-4c6d-887d-512a0253750c)
 
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/d5039191-8b42-4bc7-89f3-8f8b1abf0dcc)
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/e83cad0f-e13e-40e0-8970-81f4efb11ab8)
+
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/5c860670-37ae-4ac3-8760-73070b5ac6bd)
+
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/e39a0dfd-3d27-4f81-b4a8-265e26d7e914)
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/915d74b4-cc3e-447f-89b3-882ca2cf8e04)
 
 Anexos:
 
-¡Claro! El fragmento que proporcionaste es una **política de AWS Identity and Access Management (IAM)** escrita en formato JSON. Esta política define permisos para realizar ciertas acciones en recursos específicos dentro de AWS. Permíteme explicarte cada parte y luego proporcionaré un pseudocódigo y un ejemplo en Python.
+
 
 1. **Versión**:
    - La versión de la política. En este caso, es "2012-10-17".
@@ -49,7 +61,6 @@ Anexos:
      - `cloudwatch:ListMetrics`, `cloudwatch:GetMetricStatistics`, `cloudwatch:Describe*`: Permite acceder a métricas y estadísticas de CloudWatch.
      - `autoscaling:Describe*`: Permite describir recursos de Auto Scaling (escalado automático).
 
-Ahora, aquí tienes un pseudocódigo y un ejemplo en Python para crear una política similar:
 
 ```python
 import boto3
@@ -102,3 +113,5 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"Error al crear la política: {str(e)}")
 ```
+
+
