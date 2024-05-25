@@ -1,3 +1,4 @@
+# [PDF](https://github.com/Fx2048/COMU_REDES/blob/main/TAREAS/PDF'S%20homework%20activities/My%20Estimate%20-%20AWS%20Pricing%20Calculator.pdf)
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/c60e676a-f1ca-441c-b1e4-b80b7c88e7b7)
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/15de3e67-4fc6-49c7-9692-11f3d94ad70c)
@@ -6,4 +7,4 @@
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/10c23012-85a9-47e7-acc5-3514152e307f)
 
 
-[PDF](https://github.com/Fx2048/COMU_REDES/blob/main/TAREAS/PDF'S%20homework%20activities/My%20Estimate%20-%20AWS%20Pricing%20Calculator.pdf)
+
