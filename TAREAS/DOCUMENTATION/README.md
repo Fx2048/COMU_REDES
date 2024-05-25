@@ -1,1 +1,1 @@
-# GALLERY FROM multimedia and photos and material about the lab
+# RESOURCES ABOUT THE COURSE
