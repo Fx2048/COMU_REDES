@@ -1,5 +1,6 @@
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/e60a325e-11c3-4386-be7b-51615bf5b8d9)
 # policy assigned speciffied to S3 amazon
+````
 {
     "Version": "2012-10-17",
     "Statement": [
@@ -30,7 +31,7 @@
     ]
 }
 
-
+````
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/adea7570-4c2d-422f-a1a3-2f83d0222a25){
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/96f71678-9461-4c6d-887d-512a0253750c)
 
