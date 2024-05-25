@@ -47,6 +47,10 @@
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/915d74b4-cc3e-447f-89b3-882ca2cf8e04)
 
+#INSTANCIAS EN EC2 PARA USER 2 , al iniciar sesión; a comparación de User 1, que tenía acceso a sopport Amazon S3 , en cambio, el user 2, no puede acceder a estos, dado que no tiene permiso, solo para visualizar, y tampoco puede editar desde las instancias de C2
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/7b0dc41b-1934-4402-a80b-3cb41082e2a1)
+
 Anexos:
 
 
