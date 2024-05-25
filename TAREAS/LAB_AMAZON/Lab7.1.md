@@ -51,7 +51,11 @@
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/7b0dc41b-1934-4402-a80b-3cb41082e2a1)
 
-Anexos:
+Aquí el user 3 puede acceder a Amazon C2 para detener una instancia,porque a diferencia de los anteriores, está asociado como administrador de este servicio, y tiene los permisos respectivos :)
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/1cc8bf70-05a8-4f9c-ac18-fe4918f679d6)
+
+# Anexos:
 
 
 
