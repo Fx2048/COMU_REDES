@@ -1,9 +1,9 @@
 
-# First bucket error, after, this was created  again , with bucket name: awsbucketlab4bernal
+# First bucket error from the bucket creation , after, this was created  again , with bucket name: awsbucketlab4bernal
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/54887920-3c0c-426a-a7de-4e713b160ed2)
 
 
-FORMAT FROM POLICY BUCKET 
+# FORMAT FROM POLICY BUCKET 
 ````
 {
     "Version": "2012-10-17",
