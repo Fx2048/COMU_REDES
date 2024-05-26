@@ -33,3 +33,5 @@
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/52ad1d33-ba2b-4147-af4e-7ae743c7e9e7)
 
 [zipeado de log](https://github.com/Fx2048/COMU_REDES/blob/main/TAREAS/DOCUMENTATION/Fx2048-training_job_47zaTnL7T1arMx_WUswFvw_logs.tar.gz)
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/46c328db-6f9c-4fdf-8980-ca5a65a3e01f)
+
