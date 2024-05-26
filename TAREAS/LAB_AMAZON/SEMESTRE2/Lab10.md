@@ -21,7 +21,7 @@
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/eb9c0e4a-e6be-4bc0-8b4b-87b752226c81)
 
-![insertar fotograma de video]()
+![insertar fotograma de video](https://github.com/Fx2048/COMU_REDES/blob/main/TAREAS/DOCUMENTATION/videoframe_240722.png)
 
 
 # Evaluate a simulation
@@ -31,3 +31,5 @@
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/306e6c6f-8968-409e-a31e-8b1534d40635)
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/52ad1d33-ba2b-4147-af4e-7ae743c7e9e7)
+
+[zipeado de log](https://github.com/Fx2048/COMU_REDES/blob/main/TAREAS/DOCUMENTATION/Fx2048-training_job_47zaTnL7T1arMx_WUswFvw_logs.tar.gz)
