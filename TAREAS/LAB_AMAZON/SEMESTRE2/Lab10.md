@@ -37,3 +37,7 @@
 
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/3a038cb0-380d-4594-bf8d-08510c232d3c)
+
+
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/315ec319-ca3b-4724-9f5e-3aa0178bd5d4)
