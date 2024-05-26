@@ -12,3 +12,5 @@ export const handler = async (mytestevent) => {
 # Overview all the events created log stream:
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/7488f259-dfc1-40ea-b702-8771f631f345)
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/3b771100-8394-415f-b491-b00ea67049c9)
