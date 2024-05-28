@@ -1,6 +1,6 @@
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/b5faff18-7042-4bde-a6db-e6cd1aa5d8e5)
 
-# EC2 simulation on the laboratory experience
+# Instructions from EC2 simulation on the laboratory experience
 
 
 
