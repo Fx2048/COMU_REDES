@@ -47,15 +47,26 @@ En la pestaña “Permisos”, selecciona “Editar”.
 
 ````
 Guarda los cambios.
+
 Subir un Documento HTML:
+
 Descarga el archivo “index.html” y guárdalo en tu equipo local.
+
 En la consola de S3, selecciona la pestaña “Objetos”.
+
 Carga el archivo “index.html” en el bucket.
+
+
 Asegúrate de que esté seleccionada la clase de almacenamiento “Estándar”.
+
 Probar el Sitio Web:
+
 En la pestaña “Propiedades”, habilita el alojamiento de sitios web estáticos.
+
 Define “index.html” como el documento de índice.
+
 Copia la URL del punto de enlace de sitio web del bucket
+
 
 
 Description Notes about the Session:
