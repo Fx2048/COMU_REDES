@@ -2,6 +2,135 @@
 
 # EC2 simulation on the laboratory experience
 
+
+
+# Lab 4 :Laboratorio 1 del módulo 4: Lanzamiento de una instancia de EC2Instructions
+ Acceso a la consola de administración de AWS
+
+Tarea 1. Comenzar a crear la instancia y asignarle un nombre
+
+Selecciona el menú Servicios, localiza los servicios de Computación y selecciona EC2.
+
+ 
+
+1. Selecciona el botón Lanzar instancia en medio de la página y luego selecciona Lanzar instancia en el menú desplegable.
+Pon un nombre a la instancia: Web Server 1
+
+# Tarea 2. Imágenes de aplicación y SO
+
+Selecciona una AMI:Amazon Linux 2023,
+
+#Tarea 3 Elegir el tipo de instancia
+
+Tipo de instancia:t2.micro---Tipos de recursos asignados a la instancia
+
+# Tarea 4 Seleccionar un par de claves
+
+Menú : nombre de par de claves: vockey(conexión  a instancia por SSH)
+
+# Tarea 5. Configuración de red
+
+
+Editar en configuración de red
+
+ajusted predeterminados en VPC, y subred, 
+
+Manten ajuste de Asignar automáticamente la IP pública como habilitar
+
+En firewall ,selecciona Crear grupo de seguridad,  y configura el grupo de seguridad
+
+Manten Crear un nuevo grupo de seguridad, 
+
+En nombre introduce Web Server
+
+Description: Security for my server
+
+Eliminar la regla de entrada SSH predeterminada
+
+# Tarea 6. Configurar el almacenamiento
+
+Confirugrar alamacenamiento configuracion predetemrinada, (volumen de arranque)
+
+# Tarea 7: Detalles avanzados
+En detallles avanzados de datos de usuario: Programa:
+#!/bin/bash
+yum update -y
+yum -y install httpd
+systemctl enable httpd
+systemctl start httpd
+echo '<html><h1>Hello World!</h1></html>' > /var/www/html/index.html
+
+# Tarea 8: Revisar la instancia y lanzarla
+
+En resumen, lanza la instancia
+
+y visualiza un mensaje de éxito
+ 
+En ver todas las instancias, arrancará la instancia, y selecciona Web Server 1, y revisa a detalles de la parte inferior,actualiza la instancia, y ...
+
+# Tarea 9. Acceder a la instancia de EC2
+En detalles copia el valor de DIrección IPV4 pública y visualiza en navegador, Ow no! La página no se carga porque debes primero, actualizar el grupo de seguridad!
+
+Así que , 
+
+# Tarea 10 Actualizar el grupo de seguridad
+Ve a consola de administración de EC2, 
+Revisa la consola de administración de Ec2, 
+Ve a Red y seguridad, y selecciona grupos de seguridad, accede a  Web Server de tu instancia EC2,  y click en Reglas de Entrada
+
+# Tarea 11: Crear una regla de entrada
+
+Selecciona Editar reglas de entradas  y Añade una regla 
+Configura lo siguiente:
+
+Tipo: HTTP
+Fuente: Cualquier lugar-IPv4
+Selecciona Guardar reglas
+La nueva regla HTTP de entrada crea una entrada para las direcciones IP IPv4 IP (0.0.0.0/0) y IPv6 (::/0).
+
+ # Tarea 12. Probar la regla
+Actualiza la página que contenía al IP direction Public
+y dice Hello World!
+# 4.2 Laboratorio 2 del módulo 4: Creación de un bucket de S3
+Crear un Bucket de S3:
+Ve a la consola de administración de AWS y selecciona el servicio S3.
+Haz clic en “Crear bucket”.
+Introduce un nombre único para el bucket (siguiendo las pautas de nomenclatura).
+Elige una región para el bucket.
+Quita la marca de “Bloquear todo el acceso público”.
+Confirma la advertencia y crea el bucket.
+Añadir una Política de Bucket para Acceso Público:
+En la pestaña “Permisos”, selecciona “Editar”.
+Copia y pega la siguiente política de bucket (reemplazando “example-bucket” con el nombre real del bucket):
+JSON
+````
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "PublicReadGetObject",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": ["s3:GetObject"],
+            "Resource": ["arn:aws:s3:::example-bucket/*"]
+        }
+    ]
+}
+````
+Código generado por IA. Revisar y usar cuidadosamente. Más información sobre preguntas frecuentes.
+Guarda los cambios.
+Subir un Documento HTML:
+Descarga el archivo “index.html” y guárdalo en tu equipo local.
+En la consola de S3, selecciona la pestaña “Objetos”.
+Carga el archivo “index.html” en el bucket.
+Asegúrate de que esté seleccionada la clase de almacenamiento “Estándar”.
+Probar el Sitio Web:
+En la pestaña “Propiedades”, habilita el alojamiento de sitios web estáticos.
+Define “index.html” como el documento de índice.
+Copia la URL del punto de enlace de sitio web del bucket
+
+
+
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/5aebe8df-c23d-4562-9b16-fc44c268bcdd)
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/9bc4ff76-aec6-4d4e-b817-91fe94befe9a)
