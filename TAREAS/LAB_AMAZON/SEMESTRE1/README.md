@@ -241,7 +241,19 @@ Copia la URL del punto de enlace de sitio web del bucket
 
 
 # Módulo 5
+CDN Servicio de entrega de contenido rápida, demultimedia, 
 
+AWS DIRECT Connect, solucion de servicio de nube dedicada desde su entorno en instalaciones a AWS, 
+
+Almacenamiento en caché, almacen de datos que recupera rápidamente información
+
+Red de entrega de contenido CDN: Sistema de servidores distribuídos que entrega páginas y otro contenido web a un usuario, segun , localidad, origen,  y servidor de entrega 
+
+Distribución : indica donde obtener información almacenando al caché  en ub. de brode, con seguimiento y administración de entrega
+
+Ubicación de borde: Almacenar datos para reducir latencia 
+
+Origen HTTP Protocol bucket de Amazon s3
 
 # Módulo 6
 # Módulo 7
