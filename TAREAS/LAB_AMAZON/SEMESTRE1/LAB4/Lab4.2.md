@@ -2,16 +2,29 @@
 
 # LABORATORY FROM 4.2 AMAZON WEB SERVICES: CREATE A BUCKET
 # 4.2 Laboratorio 2 del módulo 4: Creación de un bucket de S3
+
 Crear un Bucket de S3:
+
 Ve a la consola de administración de AWS y selecciona el servicio S3.
+
 Haz clic en “Crear bucket”.
+
 Introduce un nombre único para el bucket (siguiendo las pautas de nomenclatura).
+
+
 Elige una región para el bucket.
+
 Quita la marca de “Bloquear todo el acceso público”.
+
 Confirma la advertencia y crea el bucket.
+
 Añadir una Política de Bucket para Acceso Público:
+
+
 En la pestaña “Permisos”, selecciona “Editar”.
+
 ## Policy Permissions for Bucket
+
 ####  for the policy version  and edit intructions
 
 ````
