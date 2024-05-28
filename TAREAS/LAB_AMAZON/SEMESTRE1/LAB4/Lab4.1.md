@@ -91,43 +91,6 @@ La nueva regla HTTP de entrada crea una entrada para las direcciones IP IPv4 IP 
  # Tarea 12. Probar la regla
 Actualiza la página que contenía al IP direction Public
 y dice Hello World!
-# 4.2 Laboratorio 2 del módulo 4: Creación de un bucket de S3
-Crear un Bucket de S3:
-Ve a la consola de administración de AWS y selecciona el servicio S3.
-Haz clic en “Crear bucket”.
-Introduce un nombre único para el bucket (siguiendo las pautas de nomenclatura).
-Elige una región para el bucket.
-Quita la marca de “Bloquear todo el acceso público”.
-Confirma la advertencia y crea el bucket.
-Añadir una Política de Bucket para Acceso Público:
-En la pestaña “Permisos”, selecciona “Editar”.
-Copia y pega la siguiente política de bucket (reemplazando “example-bucket” con el nombre real del bucket):
-JSON
-````
-{
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Sid": "PublicReadGetObject",
-            "Effect": "Allow",
-            "Principal": "*",
-            "Action": ["s3:GetObject"],
-            "Resource": ["arn:aws:s3:::example-bucket/*"]
-        }
-    ]
-}
-````
-Código generado por IA. Revisar y usar cuidadosamente. Más información sobre preguntas frecuentes.
-Guarda los cambios.
-Subir un Documento HTML:
-Descarga el archivo “index.html” y guárdalo en tu equipo local.
-En la consola de S3, selecciona la pestaña “Objetos”.
-Carga el archivo “index.html” en el bucket.
-Asegúrate de que esté seleccionada la clase de almacenamiento “Estándar”.
-Probar el Sitio Web:
-En la pestaña “Propiedades”, habilita el alojamiento de sitios web estáticos.
-Define “index.html” como el documento de índice.
-Copia la URL del punto de enlace de sitio web del bucket
 
 
 
