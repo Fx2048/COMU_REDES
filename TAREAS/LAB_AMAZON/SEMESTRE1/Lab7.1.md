@@ -183,3 +183,4 @@ if __name__ == "__main__":
 ```
 
 
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/5faeb5a6-2983-4bce-8f1a-5f25ff4cccdb)
