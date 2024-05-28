@@ -222,11 +222,16 @@ SimpleNotification Service -Notificar a otros servicios en la nube
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/e74b2362-efb1-40a0-b625-5235dcb7e800)
 
+Cloudwatch confugurar alarma,y sns para enviar mensjaes
+
+cloud watch monitorea, y aws trail registra,
+
+para crear una alarma, suscribes a un tema el user  
 
 # Módulo 10
 Base de datos relacional-Coleccion de conjuntos de datos organizados como registros y columnas en tablas
 
-Amazon Relational Database Service (Amazon RDS) Crear y administrar DB relacionals cloud
+Amazon Relational Database Service (Amazon RDS) Crear y administrar DB relacionals cloud MSQL
 
 Amazon Dynamo DB Pares valor-no relacional
 
@@ -234,9 +239,9 @@ Base de datos no relacional-(No SQL) , par valor -diferentres
 
 Amazon Redshift Service Storage AWS BIGDATA-Bussiness
 
-Procesamiento de transacciones En Línea OLTP -Category process data Transacciones, Edita,suprime little datos from BD.Online Transaction Processing (OLTP)
+Procesamiento de transacciones En Línea OLTP -Category process data Transacciones, Edita,suprime little datos from BD.Online Transaction Processing (OLTP) no relacional
 
-OLAP (procesameinto analítico en Línea -Mtdo. extraer consultar datos de forma eficiente y selectiva para analizar desde diferentes puntos de vista.Online analytical processing(OLAP)
+OLAP (procesameinto analítico en Línea -Mtdo. extraer consultar datos de forma eficiente y selectiva para analizar desde diferentes puntos de vista.Online analytical processing(OLAP) relacional
 
 Amazon Aurora -Motor de DB relacional compatible con MYSQL, y postgreSQL, for cloud(rentable simple)
 
@@ -252,6 +257,7 @@ Amazon Elastic Cache Escalado y funcionamiento de memoria caché.Mejor rendimein
 
 Caché:capa de storage de datos de alta velocidad  transitorios, y rápidos
 
+Escalado vertical(storage for ec2) and horizontal (ec2)
 Almacenamiento de datos en caché:reutiliza eficiently datos recuperados o calculados , los datos se pueden utilizar con (STORAGE)Ram, componente de software.
 
 Elastic Load Balancing dirige a EC2,IP, y LAmbda (storage) dada la sobrecarga .
