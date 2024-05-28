@@ -206,7 +206,7 @@ WAF , Protege las cuentas mediante reglas de seguridad web-trafico web específi
 
 DDOS)DENEGACIÓN de servicio distribuído(Intento malicioso de que un sistea no esté disponible para usuarios finales
 
-Ispector Seguridad automátizada, 
+Ispector Seguridad automátizada, notifica pero no resuelve
 
 Artifact Acceso a informes de seguridad y conformidad de AWS.
 
