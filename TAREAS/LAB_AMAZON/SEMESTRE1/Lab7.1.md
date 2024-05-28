@@ -1,6 +1,6 @@
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/e60a325e-11c3-4386-be7b-51615bf5b8d9)
 
-Configuración de IAM en AWS
+# Instructions  from Configuración de IAM en AWS :
 
 
 1. Acceso a la Consola de Administración de AWS
@@ -56,7 +56,8 @@ Verifica que puedas acceder a los recursos y realizar las acciones permitidas.
 
 Si ya no necesitas los usuarios, grupos o políticas, elimínalos para mantener 
 una gestión ordenada
--------------------------------------------------
+_________________________________________________________________________________________________________________
+_________________________________________________________________________________________________________________
 
 # policy assigned speciffied to S3 amazon
 ````
