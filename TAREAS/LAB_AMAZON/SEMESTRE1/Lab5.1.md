@@ -4,10 +4,13 @@
 
 Instrucciones para Laboratorio 5 sobre el uso de CloudFront como CDN para un sitio web:
 
-Configuración Inicial: Preparar el entorno de AWS y verificar que tienes acceso a los servicios necesarios.
-Creación de un Bucket S3: Subir el contenido estático del sitio web al bucket de S3 y configurarlo para alojamiento web.
-Configuración de CloudFront: Crear una distribución de CloudFront que utilice el bucket de S3 como origen.
-Pruebas y Validación: Acceder al sitio web a través de la URL de CloudFront y verificar que el contenido se entrega correctamente.
+* Configuración Inicial: Preparar el entorno de AWS y verificar que tienes acceso a los servicios necesarios.
+
+* Creación de un Bucket S3: Subir el contenido estático del sitio web al bucket de S3 y configurarlo para alojamiento web.
+
+* Configuración de CloudFront: Crear una distribución de CloudFront que utilice el bucket de S3 como origen.
+
+* Pruebas y Validación: Acceder al sitio web a través de la URL de CloudFront y verificar que el contenido se entrega correctamente.
 
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/fa8eb931-0cdf-47e4-918d-6fe0ceb2f6a7)
