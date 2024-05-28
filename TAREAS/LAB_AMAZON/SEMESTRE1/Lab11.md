@@ -1,5 +1,18 @@
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/46c2ec5c-5de9-4dc7-9ea6-1599006f1f84)
 
+ Instrucctions from the Charge Equilibrium 
+Configuración Inicial: Crea una VPC con un bloque CIDR y adjunta una puerta de enlace a internet.
+
+Subredes y EC2: Establece dos subredes públicas en zonas de disponibilidad diferentes y lanza dos instancias EC2.
+
+Grupo de Destino: Crea un grupo de destino y registra las instancias EC2 como objetivos.
+
+ALB: Configura un Balanceador de Carga de Aplicaciones (ALB), define sus propiedades y enlázalo con el grupo de destino.
+
+Pruebas: Accede a la URL pública del ALB para verificar que las solicitudes se distribuyen entre las dos instancias.
+
+________________________________________________________________________________
+________________________________________________________________________________
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/1b0d7f03-b721-4cb7-ab28-face88dbdaf0)
 `````
 # user data script ------
