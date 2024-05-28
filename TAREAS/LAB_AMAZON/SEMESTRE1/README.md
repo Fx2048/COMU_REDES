@@ -202,7 +202,7 @@ Suppervise the activity from your account AWS
 # Módulo 8
 A. Shield Servicio de protecion contra DDOS en AWS
 
-WAF , Protege las cuentas mediante reglas de seguridad web
+WAF , Protege las cuentas mediante reglas de seguridad web-trafico web específico
 
 DDOS)DENEGACIÓN de servicio distribuído(Intento malicioso de que un sistea no esté disponible para usuarios finales
 
