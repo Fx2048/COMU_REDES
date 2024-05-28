@@ -1,6 +1,6 @@
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/edccb9c4-75ce-4e9e-8a2c-8f3118b7f812)
 
-# CloudFront como CDN para un sitio web Instrucciones para Laboratorio 5 sobre el uso de CloudFront como CDN para un sitio web:
+# Instrucciones para Laboratorio 5 sobre el uso de CloudFront como CDN para un sitio web:
 
 * Configuración Inicial: Preparar el entorno de AWS y verificar que tienes acceso a los servicios necesarios.
 
