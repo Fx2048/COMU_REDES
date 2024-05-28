@@ -129,7 +129,20 @@ Ubicación de borde: Almacenar datos para reducir latencia
 
 Origen HTTP Protocol bucket de Amazon s3
 
+CloudFront funciona con las ubicaciones de borde que forman parte de la infraestructura global de AWS.almacenamiento en caché de los datos solicitados con frecuencia en las ubicaciones de borde. Aunque la solicitud inicial pide a CloudFront que cargue el archivo en la memoria caché, las solicitudes posteriores se pueden satisfacer mucho más rápido y parte del trabajo se puede descargar desde el servidor de origen.
+
+
 # Módulo 6
+(A. EBS) A.elastic Block Store Alm. para instancias EC2
+
+A. Elastic COmpute CLoud .Escalable service web 
+
+Unidad de Disco Duro(HDD) Almacena datos , disco giratorio- Hard Dsik Drive
+
+Operaciones de entrada y salida por segundo(IOPS), Medida de rendimiento frecuente para comparar dispositivos de almacenamiento HDD y SSD
+
+Unidad de estado Sólido(SSD) memoria flash en disk giratorio. solid state drive
+
 # Módulo 7
 # Módulo 8
 # Módulo 9
