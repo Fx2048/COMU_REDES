@@ -1,5 +1,7 @@
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/95680ef4-ddfc-4198-b596-ab253aa25240)
 
+# Instructions : 
+
 Asociar un Volumen EBS a una Instancia EC2
 
 Accede a la Consola de Administración de AWS:
@@ -61,7 +63,8 @@ Ejecuta df -h para verificar que el volumen esté montado correctamente.
 
 Asegúrate de que los datos sean accesibles en el directorio de montaje.
 
------------------------------------------------
+_______________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________
  Crearás una instancia de Amazon Elastic Compute 
  
  Cloud (Amazon EC2) y, a continuación,
