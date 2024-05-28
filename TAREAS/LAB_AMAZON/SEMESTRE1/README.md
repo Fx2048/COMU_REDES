@@ -312,6 +312,9 @@ Confianza: En el contexto de las cadenas de bloques, la confianza se refiere a l
 
 Transparencia: La transparencia en una cadena de bloques se refiere a la visibilidad de todas las transacciones y registros para todos los participantes. Cada cambio es visible y auditable.
 
+Amazon Athena es una herramienta de consulta que sigue el estándar ANSI y te permite consultar datos, incluidos grandes volúmenes de datos, en dos pasos sencillos:
 
 # Módulo 16
 El Kit de Desarrollo en la Nube de AWS (AWS CDK) es un marco de desarrollo de software de código(anywhere) abierto que permite a los desarrolladores definir y gestionar su infraestructura de nube mediante código, no elimina ide, ni es un servicio integrado
+
+Docker empaqueta una aplicación de tal manera que garantiza que todos los recursos necesarios para ejecutar la aplicación estén presentes.
