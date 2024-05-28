@@ -1,3 +1,6 @@
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/ce2c6730-fef0-41e6-abd8-d83168f3a65f)
+
+
 # Configuración de Elastic Beanstalk y CloudFormation en AWS
 
 1. Acceso a la Consola de Administración de AWS
