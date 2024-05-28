@@ -266,14 +266,13 @@ Memoria de Acceso Aleatorio (RAM).No almacena cerrada la sesión, y al no haber 
 # Módulo 12
 A. Elastick BeansTALK: administra detalles de aprovisionamiento,balanceo,escalado,monitoreo
 
-CloudFormation: crear conjunto de recursos de aws erelacionados
+CloudFormation: crear conjunto de recursos de aws erelacionados mediante infraestructura de código personalizado
 
 pila Conjunto de recursos de AWS administrados con una sola unidad.
 
 # Módulo 13
 
-Machine Learning (ML): Es un campo de la inteligencia artificial que se enfoca 
-en desarrollar algoritmos y modelos que permiten a las computadoras aprender a partir de datos y mejorar su rendimiento con la experiencia. Se utiliza para tareas como clasificación, regresión, agrupamiento y recomendación.
+Machine Learning (ML): IA include, desarrollar algoritmos y modelos que permiten a las computadoras aprender a partir de datos y mejorar su rendimiento con la experiencia. Se utiliza para tareas como clasificación, regresión, agrupamiento y recomendación.
 
 Inteligencia Artificial (IA): La IA se refiere a la capacidad de las máquinas para realizar tareas que normalmente requieren inteligencia humana. Esto incluye el procesamiento del lenguaje natural, la visión por computadora, la toma de decisiones y más.
 
@@ -289,9 +288,9 @@ DeepLens: Es una cámara inteligente desarrollada por AWS que procesa informaci�
 
 Calculadora de costo mensual de AWS: Es una herramienta que permite estimar el costo de los servicios de AWS que se utilizan en función de los recursos y la configuración seleccionada.
 
-AWS Support: Es un servicio de soporte técnico proporcionado por AWS. Ofrece diferentes niveles de soporte para ayudar a los clientes a resolver problemas y obtener asistencia técnica.
+AWS Support: Es un servicio de soporte técnico proporcionado por AWS. Ofrece diferentes niveles de soporte para ayudar a los clientes a resolver problemas y obtener asistencia técnica.(developer-24hras)/ enterprise. empresa. business, and basic
 
-Organizaciones: Es un servicio que permite administrar múltiples cuentas de AWS como una sola entidad. Se utiliza para centralizar la facturación, la administración de políticas y la organización de recursos.
+Organizaciones: Es un servicio que permite administrar múltiples cuentas de AWS como una sola entidad. Se utiliza para centralizar la facturación, la administración de políticas (simplifica varios permisos para muchas cuentas)y la organización de recursos.
 
 Facturación unificada: Es un enfoque que permite consolidar la facturación de múltiples cuentas de AWS en una sola factura. Esto facilita la gestión financiera y la visibilidad de los costos.
 
@@ -315,4 +314,4 @@ Transparencia: La transparencia en una cadena de bloques se refiere a la visibil
 
 
 # Módulo 16
-El Kit de Desarrollo en la Nube de AWS (AWS CDK) es un marco de desarrollo de software de código abierto que permite a los desarrolladores definir y gestionar su infraestructura de nube mediante código
+El Kit de Desarrollo en la Nube de AWS (AWS CDK) es un marco de desarrollo de software de código(anywhere) abierto que permite a los desarrolladores definir y gestionar su infraestructura de nube mediante código, no elimina ide, ni es un servicio integrado
