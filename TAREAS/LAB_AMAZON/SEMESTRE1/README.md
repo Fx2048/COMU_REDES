@@ -144,6 +144,61 @@ Operaciones de entrada y salida por segundo(IOPS), Medida de rendimiento frecuen
 Unidad de estado Sólido(SSD) memoria flash en disk giratorio. solid state drive
 
 # Módulo 7
+IAM Impplies applied controls for access informatic resources
+
+Rol IAM identity for create your account and have speccified policies.
+
+User Components: Name and credentials
+
+Security Group:firewall
+
+Policy Define Permissions.
+
+Amazon Inspector Help to the client identify vulnerabilities  while a production environment goes run.
+
+Group,Speccified permissions for lot of users, facilitate the  permissions by users administration 
+
+Rooter User-for sign-up in the website
+
+Credential-
+multiFactor Authentication Enability(MFA)-Independents data
+
+JavaScript Object notation(Json) Sintaxis to save data
+
+Multifactor Authentication-indenpendent categories
+Block Access clave from users rooter from account AWS, 
+
+Create individual users from IAM, 
+
+Create user groups for assign policies to users from IAM
+
+Give less priviledges
+
+JSON policies, 
+
+and Applied managed Policies by the client 
+
+
+Applied access level for review the policies from IAM
+
+Configure a safe passwords policy for users
+
+
+Enable MFA
+
+Applied Rols for applications executed in A. EC2 instances
+Divide policies
+
+
+Don't share access clave
+
+Change the credentials  regularly
+
+Suprime innecesary credentials
+
+Suppervise the activity from your account AWS
+
+
 # Módulo 8
 # Módulo 9
 # Módulo 10
