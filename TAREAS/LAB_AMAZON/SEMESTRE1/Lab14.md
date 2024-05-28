@@ -1,6 +1,6 @@
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/243e2c7f-20fc-4f6b-8842-85e6c854a1d1)
 
-# Uso del Calculador de Precios de AWS
+# Instrucciones de uso del Calculador de Precios de AWS
 
 El Calculador de Precios de AWS es una herramienta que te permite estimar los costos de los servicios de AWS según tus necesidades específicas. A continuación, se presentan los pasos para utilizar esta herramienta:
 
