@@ -1,3 +1,56 @@
+# Configuración de Elastic Beanstalk y CloudFormation en AWS
+
+1. Acceso a la Consola de Administración de AWS
+
+Inicia sesión en tu cuenta de AWS.
+
+Ve a la Consola de Administración de AWS.
+
+2. Navegación a la Sección de Elastic Beanstalk
+
+En el menú de servicios, busca “Computación” y selecciona “Elastic Beanstalk”.
+
+Aquí encontrarás herramientas para crear y administrar aplicaciones web.
+
+3. Creación de una Aplicación en Elastic Beanstalk
+
+Haz clic en “Crear aplicación”.
+
+Asigna un nombre a tu aplicación (por ejemplo, “MiAplicacion”).
+
+Selecciona la plataforma adecuada (por ejemplo, PHP, Python, Java, etc.).
+
+Configura las opciones de entorno y escalado según tus necesidades.
+
+4. Despliegue de una Aplicación
+
+Sube tu código de aplicación (por ejemplo, un archivo ZIP) o utiliza una aplicación de muestra.
+
+Elastic Beanstalk creará los recursos necesarios para ejecutar la aplicación 
+
+(instancias EC2, balanceadores de carga, etc.).
+
+5. Configuración de CloudFormation
+
+Ve a la sección “Servicios” y selecciona “CloudFormation”.
+
+Crea una pila de CloudFormation para definir la infraestructura de tu aplicación.
+
+Utiliza plantillas YAML o JSON para describir los recursos (instancias, bases de datos, etc.).
+
+6. Validación y Pruebas
+
+Accede a la URL de tu aplicación en Elastic Beanstalk para verificar que funcione correctamente.
+
+Monitorea los eventos y recursos creados por CloudFormation.
+
+7. Eliminación de Recursos (Opcional)
+
+Si ya no necesitas la aplicación o la pila de CloudFormation, elimínalas para evitar costos innecesarios.
+
+______________________________________________________________________________
+______________________________________________________________________________
+
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/e98059c0-17a7-4e87-9f3c-4ee1c8acd432)
 
