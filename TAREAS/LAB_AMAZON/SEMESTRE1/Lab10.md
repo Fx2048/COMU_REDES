@@ -1,4 +1,4 @@
-![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/50953f12-efb2-46f4-b0a7-3fe0e118a1a0)
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/32fdae73-b36e-4b80-b03c-114332131ed1)
 
 # Configuración de Amazon RDS en AWS
 
