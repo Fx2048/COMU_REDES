@@ -1,6 +1,7 @@
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/7ad6001a-2b8b-4483-a7ee-cd7ec5933142)
 
-# Monitoreo en AWS
+# Monitoreo en AWS Instructions:
+
 1. Acceso a la Consola de Administración de AWS
 
 Inicia sesión en tu cuenta de AWS.
@@ -81,4 +82,4 @@ mantener una gestión ordenada.
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/97537ae9-285a-4b4e-b1f9-49f2c9beba2f)
 
 
-![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/7f28e52e-ee81-44b1-9a9e-832880a9192b)
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/f561d8b2-f78f-471e-a23d-483181614486)
