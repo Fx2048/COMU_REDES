@@ -1,4 +1,63 @@
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/e60a325e-11c3-4386-be7b-51615bf5b8d9)
+
+Configuración de IAM en AWS
+
+
+1. Acceso a la Consola de Administración de AWS
+
+Inicia sesión en tu cuenta de AWS.
+
+Ve a la Consola de Administración de AWS.
+
+2. Navegación a la Sección de IAM
+
+En el menú de servicios, busca “Almacenamiento” y selecciona “EC2”.
+
+En el panel de navegación izquierdo, selecciona “Volúmenes”.
+
+3. Creación de un Usuario IAM
+
+Ve a la sección “Usuarios” en IAM.
+
+Haz clic en “Agregar usuario”.
+
+Asigna un nombre de usuario y selecciona el tipo de acceso (programático o de 
+consola).
+
+Configura los permisos y grupos para el usuario.
+
+4. Creación de un Grupo IAM
+
+Ve a la sección “Grupos” en IAM.
+
+Haz clic en “Crear grupo”.
+
+Asigna un nombre al grupo y selecciona las políticas que deseas asociar.
+
+Agrega usuarios al grupo.
+
+5. Creación de una Política IAM Personalizada
+
+Ve a la sección “Políticas” en IAM.
+
+Haz clic en “Crear política”.
+
+Define los permisos necesarios para tu caso de uso.
+
+Asocia la política con un grupo o usuario.
+
+6. Pruebas de Acceso
+
+Inicia sesión con las credenciales del usuario IAM.
+
+Verifica que puedas acceder a los recursos y realizar las acciones permitidas.
+
+7. Eliminación de Recursos (Opcional)
+
+Si ya no necesitas los usuarios, grupos o políticas, elimínalos para mantener 
+una gestión ordenada
+-------------------------------------------------
+
 # policy assigned speciffied to S3 amazon
 ````
 {
