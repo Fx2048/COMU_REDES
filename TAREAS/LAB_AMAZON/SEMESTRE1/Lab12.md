@@ -79,3 +79,6 @@ esta pila se creó automáticamente:
 
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/8d78d8a5-3198-4896-b428-6a7600e41258)
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/3d470b66-f324-4be0-8714-c1cfa98e6cc0)
+
