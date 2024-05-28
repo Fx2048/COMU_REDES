@@ -11,6 +11,8 @@ Instrucciones para Laboratorio 5 sobre el uso de CloudFront como CDN para un sit
 * Configuración de CloudFront: Crear una distribución de CloudFront que utilice el bucket de S3 como origen.
 
 * Pruebas y Validación: Acceder al sitio web a través de la URL de CloudFront y verificar que el contenido se entrega correctamente.
+_______________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
 
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/fa8eb931-0cdf-47e4-918d-6fe0ceb2f6a7)
