@@ -210,7 +210,15 @@ Ispector Seguridad automátizada, notifica pero no resuelve
 
 Artifact Acceso a informes de seguridad y conformidad de AWS.
 
+
 # Módulo 9
+CloudWatch-Monitoreo recursos AWS
+CloudTrail - Registro y monitoreo de cada acción llevado a cabo en cuenta AWS para seguridad
+
+Config Service for analysis, auditar, evaluar config. from AWS resources
+SimpleNotification Service -Notificar a otros servicios en la nube
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/e74b2362-efb1-40a0-b625-5235dcb7e800)
 
 # Módulo 10
 # Módulo 11
