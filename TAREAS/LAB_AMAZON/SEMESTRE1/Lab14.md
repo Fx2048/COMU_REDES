@@ -30,7 +30,8 @@ grupos de servicios y totales generales.
 El Calculador de Precios de AWS ofrece transparencia en los precios, mostrando 
 cómo se calculan los costos para tus configuraciones de servicios.
 
-
+______________________________________________________________________________
+______________________________________________________________________________
 
 # [PDF](https://github.com/Fx2048/COMU_REDES/blob/main/TAREAS/PDF'S%20homework%20activities/My%20Estimate%20-%20AWS%20Pricing%20Calculator.pdf)
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/c60e676a-f1ca-441c-b1e4-b80b7c88e7b7)
