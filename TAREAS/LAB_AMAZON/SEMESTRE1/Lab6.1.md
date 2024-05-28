@@ -1,6 +1,67 @@
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/95680ef4-ddfc-4198-b596-ab253aa25240)
 
+Asociar un Volumen EBS a una Instancia EC2
 
+Accede a la Consola de Administración de AWS:
+
+Inicia sesión en tu cuenta de AWS.
+
+Ve a la Consola de Administración de AWS.
+
+Navega a la sección de Volumenes de EBS:
+
+En el menú de servicios, busca “Almacenamiento” y selecciona “EC2”.
+
+En el panel de navegación izquierdo, selecciona “Volúmenes”.
+
+Crea un Volumen EBS:
+
+Haz clic en “Crear volumen”.
+
+Configura el tipo de volumen, tamaño y otras opciones según tus necesidades.
+
+Asegúrate de que el volumen esté en la misma zona de disponibilidad que la 
+instancia a la que deseas asociarlo.
+
+Asocia el Volumen a la Instancia:
+
+Selecciona el volumen recién creado.
+
+En el menú “Acciones”, elige “Adjuntar volumen”.
+
+Especifica el ID de la instancia EC2 a la que deseas adjuntar el volumen.
+
+Asegúrate de que la instancia esté en la misma zona de disponibilidad que el volumen.
+
+Monta el Volumen en la Instancia:
+
+Conéctate a la instancia EC2 mediante SSH o RDP.
+
+Utiliza comandos como lsblk o fdisk -l para identificar el dispositivo del 
+volumen recién adjuntado (por ejemplo, /dev/xvdf).
+
+
+Formatea el volumen con un sistema de archivos (por ejemplo, mkfs.ext4 
+/dev/xvdf).
+
+Crea un directorio de montaje (por ejemplo, sudo mkdir /mnt/myvolume).
+
+Monta el volumen en el directorio (por ejemplo, sudo mount /dev/xvdf 
+/mnt/myvolume).
+
+Configura el Montaje Permanente (Opcional):
+
+Edita el archivo /etc/fstab para que el volumen se monte automáticamente al reiniciar la instancia.
+
+Agrega una línea como esta al archivo: /dev/xvdf /mnt/myvolume ext4 defaults 0 0.
+
+Verifica el Montaje:
+
+Ejecuta df -h para verificar que el volumen esté montado correctamente.
+
+Asegúrate de que los datos sean accesibles en el directorio de montaje.
+
+-----------------------------------------------
  Crearás una instancia de Amazon Elastic Compute 
  
  Cloud (Amazon EC2) y, a continuación,
