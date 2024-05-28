@@ -1,6 +1,6 @@
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/add62f63-fcd2-4223-99d2-56f8ca0efb55)
 
-# LABORATORY FROM 4.2 AMAZON WEB SERVICES: CREATE A BUCKET
+# Instructions from LABORATORY FROM 4.2 AMAZON WEB SERVICES: CREATE A BUCKET
 # 4.2 Laboratorio 2 del módulo 4: Creación de un bucket de S3
 
 Crear un Bucket de S3:
