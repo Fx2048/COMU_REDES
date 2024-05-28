@@ -1,6 +1,6 @@
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/46c2ec5c-5de9-4dc7-9ea6-1599006f1f84)
 
- Instrucctions from the Charge Equilibrium 
+# Instructions from the Charge Equilibrium 
 Configuración Inicial: Crea una VPC con un bloque CIDR y adjunta una puerta de enlace a internet.
 
 Subredes y EC2: Establece dos subredes públicas en zonas de disponibilidad diferentes y lanza dos instancias EC2.
