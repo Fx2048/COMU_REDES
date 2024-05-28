@@ -1,6 +1,6 @@
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/32fdae73-b36e-4b80-b03c-114332131ed1)
 
-# Configuración de Amazon RDS en AWS
+# Instructions from Configuración de Amazon RDS en AWS
 
 1. Acceso a la Consola de Administración de AWS
 
