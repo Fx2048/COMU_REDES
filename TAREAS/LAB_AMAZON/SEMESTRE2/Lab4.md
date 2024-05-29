@@ -2,6 +2,7 @@
 # First bucket error from the bucket creation , after, this was created  again , with bucket name: awsbucketlab4bernal
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/54887920-3c0c-426a-a7de-4e713b160ed2)
 
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/5d3bf9ff-8090-4cc0-a98b-63bdf2f4306e)
 
 # FORMAT FROM POLICY BUCKET 
 ````
