@@ -150,7 +150,7 @@ base de datos no relacionales en AWS
 
 elasiticidad con autoescaling | 
 
-
+__________________________________________________________
 Wordpress
 an account free for Learning
 
@@ -160,4 +160,8 @@ SIN CUESTIONARIO, EC2, Y REDES, VPC HTTP , WORDPRESS, LAMBDA
 AUTOSCALING, APPS ML, en entorno de nube
 
 
-servidore de web dinamico, 
+servidore de web dinamico, aligment, cores, consola, interface, project,   entender el flujo, 
+````
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/3a04404f-d19c-4827-a815-e8fa27b82dec)
+
+````
