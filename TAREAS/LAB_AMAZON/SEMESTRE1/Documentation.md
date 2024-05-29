@@ -79,5 +79,66 @@ Seguridad VPC: AWS ofrece grupos de seguridad y listas de control de acceso a la
 
 Conectividad y VPN: Se pueden establecer conexiones seguras entre VPCs mediante interconexiones de VPC y conectar la VPC a redes corporativas a través de VPNs o Direct Connect para una conexión más dedicada y privada.
 
+# Amazon Comprehend 
+
+utiliza el procesamiento de lenguaje natural (NLP) para extraer información sobre el contenido de los documentos. Genera información a partir del reconocimiento de entidades, frases clave, lenguaje, opiniones y otros elementos comunes en un documento. 
+
+aprendizaje por refuerzo,
+
+ai learn to walk deep reinforcement learning, 
+
+que es amazon pcomprehend, 
+
+servicios de inteloigencia artiifcial en aws  machine learning en aws 
+
+sdk kit de desarrollo y blueprint
+
+autoscaling y funciones lambdas | 
+
+video:aws cloud trail simply security analysis resource change tracking and troubleshooting | 
+
+mateiral de certificacion de aws |
+
+amazon web service |
+
+video aws global cloud infraestructure 
+
+why use aws industry blueprints for data & ai | 
+
+estructura global  de aws|  
+
+lecture nivel gratuito de aws |
+
+adminstracion de acceso e identidad  | 
+
+sobre s3 | 
+
+sobre vpc 
+
+| redes y nube| 
+
+route53 y cloudFront|
+
+lectura sservicios ec2 y ebs |
+
+video amazon elastic block store (ebs) overview) | 
+
+caracterísiticas de amazon ec2|
+
+base de datos relacionales con aws |
+
+video what is amazon  dynamo DB | 
+
+
+base de datos no relacionales en AWS  
+
+
+
+| Aws high avalilty compute sql and storage  
+
+| alta disponiilida d y elastiicdiad en aws |
+
+elasiticidad con autoescaling | 
+
 
 
