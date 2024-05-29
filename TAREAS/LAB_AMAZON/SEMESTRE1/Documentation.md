@@ -119,6 +119,16 @@ sobre vpc
 
 route53 y cloudFront|
 
+
+Registro de Dominio: Explica cómo registrar un nombre de dominio con Amazon Route53, eligiendo entre varios TLDs y la importancia de renovar el arrendamiento del dominio.
+
+Zonas Alojadas: Detalla cómo crear zonas alojadas públicas y privadas en Route53 para gestionar el tráfico de dominios y subdominios.
+
+Políticas de Enrutamiento: Describe las políticas de enrutamiento de Route53, incluyendo enrutamiento simple, de conmutación por error, de geolocalización y de latencia, para optimizar la distribución del tráfico.
+
+Health Checks: Discute las comprobaciones de estado en Route53 para monitorear la salud de los recursos y asegurar la alta disponibilidad de los servicios.
+
+
 lectura sservicios ec2 y ebs |
 
 video amazon elastic block store (ebs) overview) | 
@@ -141,4 +151,13 @@ base de datos no relacionales en AWS
 elasiticidad con autoescaling | 
 
 
+Wordpress
+an account free for Learning
 
+
+SIN CUESTIONARIO, EC2, Y REDES, VPC HTTP , WORDPRESS, LAMBDA
+
+AUTOSCALING, APPS ML, en entorno de nube
+
+
+servidore de web dinamico, 
