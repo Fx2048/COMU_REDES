@@ -167,3 +167,36 @@ servidore de web dinamico, aligment, cores, consola, interface, project,   enten
 ````
 
 multiprpocesador  planificacion 
+
+
+Plataforma de Servicios: AWS es una plataforma de servicios en la nube que ofrece soluciones flexibles, escalables y confiables para empresas y desarrolladores1.
+Capacidades de AWS: Permite alojar tiendas en línea, ejecutar aplicaciones Java EE en redes privadas y crear sistemas altamente disponibles.
+Beneficios de AWS: Incluye innovación constante, servicios para problemas comunes, automatización y escalabilidad flexible.
+Costos y Facturación: AWS tiene un modelo de pago por uso, con un nivel gratuito para nuevos usuarios y precios competitivos basados en el consumo
+
+
+Amazon EC2 (Elastic Compute Cloud): Proporciona instancias de máquinas virtuales escalables en la nube. Los usuarios pueden elegir entre diferentes tipos de instancias según sus necesidades de cómputo, memoria y almacenamiento.
+Amazon S3 (Simple Storage Service): Ofrece almacenamiento de objetos altamente escalable y duradero. Es ideal para almacenar datos, archivos multimedia y copias de seguridad.
+AWS Lambda: Permite ejecutar código sin aprovisionar ni administrar servidores. Es útil para implementar funciones sin servidor y eventos basados en disparadores.
+Amazon RDS (Relational Database Service): Proporciona bases de datos relacionales gestionadas, como MySQL, PostgreSQL y SQL Server.
+Amazon VPC (Virtual Private Cloud): Permite crear redes virtuales aisladas en la nube con control sobre la topología de red, subredes, tablas de rutas y puertas de enlace.
+Amazon Route 53: Es un servicio de DNS escalable y altamente disponible que permite registrar dominios y administrar la resolución de nombres.
+Amazon ECS (Elastic Container Service): Facilita la implementación y administración de contenedores Docker en la nube.
+Amazon CloudFront: Es una red de entrega de contenido (CDN) que acelera la entrega de contenido web a nivel global.
+Amazon DynamoDB: Es una base de datos NoSQL totalmente administrada y escalable.
+AWS Elastic Beanstalk: Simplifica la implementación y administración de aplicaciones web en diferentes lenguajes de programación.
+Amazon SQS (Simple Queue Service): Proporciona colas de mensajes para la comunicación entre componentes de aplicaciones distribuidas.
+AWS IAM (Identity and Access Management): Controla el acceso a los recursos de AWS mediante políticas y roles.
+Amazon CloudWatch: Monitorea recursos y aplicaciones en AWS, proporcionando métricas, alarmas y registros.
+AWS CloudFormation: Permite definir y aprovisionar recursos de AWS como código.
+Amazon Glacier: Almacena datos de archivo a largo plazo a bajo costo.
+AWS Kinesis: Procesa y analiza datos en tiempo real.
+Amazon EMR (Elastic MapReduce): Proporciona un entorno escalable para procesamiento de big data utilizando Apache Hadoop y Spark.
+Seguridad y Buenas Prácticas:
+Grupos de seguridad: Configura reglas de firewall para controlar el tráfico de red hacia y desde las instancias de EC2.
+IAM Roles: Asigna permisos específicos a las instancias y servicios sin exponer credenciales.
+Encriptación: Utiliza SSL/TLS para cifrar datos en tránsito y KMS (Key Management Service) para gestionar claves de cifrado.
+Auditoría y Registro: Habilita CloudTrail para rastrear eventos y actividades en la cuenta de AWS.
+Actualizaciones y Parches: Mantén las instancias actualizadas con las últimas correcciones de seguridad.
+Respaldo y Recuperación: Realiza copias de seguridad periódicas y prueba la recuperación de datos.
+Monitorización y Alarmas: Configura alertas para detectar comportamientos anómalos o problemas de rendimiento
