@@ -165,3 +165,5 @@ servidore de web dinamico, aligment, cores, consola, interface, project,   enten
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/3a04404f-d19c-4827-a815-e8fa27b82dec)
 
 ````
+
+multiprpocesador  planificacion 
