@@ -1,55 +1,57 @@
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/32fdae73-b36e-4b80-b03c-114332131ed1)
 
-# Instructions from Configuración de Amazon RDS en AWS
 
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>CREANDO UNA INSTANCIA EN ERDS CON SQL</h1>
+<p>Instructions from Configuración de Amazon RDS en AWS
 1. Acceso a la Consola de Administración de AWS
-
 Inicia sesión en tu cuenta de AWS.
-
 Ve a la Consola de Administración de AWS.
-
 2. Navegación a la Sección de Amazon RDS
-
 En el menú de servicios, busca “Base de datos” y selecciona “RDS”.
-
 Aquí encontrarás herramientas para crear y administrar bases de datos 
 relacionales.
-
 3. Creación de una Instancia de Base de Datos RDS
-
 Haz clic en “Crear base de datos”.
-
 Elige el motor de base de datos que deseas utilizar (por ejemplo, MySQL, 
 PostgreSQL, SQL Server, etc.).
-
 Configura las opciones de instancia, como el tipo de instancia, la capacidad de 
 almacenamiento y la seguridad.
-
 4. Configuración de Seguridad y Acceso
-
 Define grupos de seguridad para controlar el acceso a la instancia de base de 
 datos.
-
 Configura las reglas de acceso (por ejemplo, desde qué direcciones IP se permite 
 el acceso).
-
 5. Pruebas de Conexión
-
 Utiliza una herramienta de cliente de base de datos (como MySQL Workbench o 
 pgAdmin) para conectarte a la instancia de RDS.
-
 Verifica que puedas realizar consultas y administrar la base de datos.
-
 6. Escalado y Copias de Seguridad
-
 Explora las opciones de escalado vertical (cambiar el tamaño de la instancia) y 
 escalado horizontal (creación de réplicas de lectura).
-
 Configura las copias de seguridad automáticas y manuales.
-
 7. Eliminación de Recursos (Opcional)
-
-Si ya no necesitas la instancia de RDS, elimínala para evitar costos innecesarios
+Si ya no necesitas la instancia de RDS, elimínala para evitar costos innecesarios </p>
 
 
 _____________________________________________________________
