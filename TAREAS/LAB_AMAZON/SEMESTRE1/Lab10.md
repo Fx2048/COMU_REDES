@@ -73,3 +73,5 @@ ANEXOS:
 [RESULTADO EN MYSQL](https://github.com/Fx2048/COMU_REDES/blob/main/TAREAS/DOCUMENTATION/sqlchallenge_save.trc)
 
 [SQL FILE](https://github.com/Fx2048/COMU_REDES/blob/main/TAREAS/DOCUMENTATION/SQL_PROOF.sql)
+
+[VÍDEO DE LA EXPOSICIÓN](https://www.canva.com/design/DAGGrMYJozs/sCpcXGqY05VcTI4uYJWGBQ/edit?utm_content=DAGGrMYJozs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
