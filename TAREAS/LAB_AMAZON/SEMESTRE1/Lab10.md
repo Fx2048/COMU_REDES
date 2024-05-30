@@ -60,5 +60,12 @@ fDpuFSfSpMgkDRqNC5PP
 
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/de40b86d-f8d1-4c12-9fd8-af5bbc59ccc2)
+````
+Edit text applied:
+lZaS44NpQtWkijGO5Oah
+38.253.148.100
+database-1.cirqo3xjp0l7.us-east-1.rds.amazonaws.com
+````
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/3160db57-f771-4ca3-87c9-22406cac8aca)
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/af5d5d85-9ed4-446c-8bd1-902e8a5f7245)
