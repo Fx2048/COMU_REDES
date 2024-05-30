@@ -69,3 +69,8 @@ database-1.cirqo3xjp0l7.us-east-1.rds.amazonaws.com
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/3160db57-f771-4ca3-87c9-22406cac8aca)
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/af5d5d85-9ed4-446c-8bd1-902e8a5f7245)
+
+ANEXOS:
+[RESULTADO EN MYSQL](https://github.com/Fx2048/COMU_REDES/blob/main/TAREAS/DOCUMENTATION/sqlchallenge_save.trc)
+
+[SQL FILE](https://github.com/Fx2048/COMU_REDES/blob/main/TAREAS/DOCUMENTATION/SQL_PROOF.sql)
