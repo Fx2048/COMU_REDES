@@ -1,6 +1,6 @@
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/32fdae73-b36e-4b80-b03c-114332131ed1)
 
-
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -56,9 +56,7 @@ Si ya no necesitas la instancia de RDS, elimínala para evitar costos innecesari
 
 _____________________________________________________________
 
-fDpuFSfSpMgkDRqNC5PP
 
-![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/27d0de18-67af-42fd-a6e4-163a5be05663)
 
 
 ![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/de40b86d-f8d1-4c12-9fd8-af5bbc59ccc2)
