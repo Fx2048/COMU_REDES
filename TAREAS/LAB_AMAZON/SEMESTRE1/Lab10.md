@@ -75,3 +75,5 @@ ANEXOS:
 [SQL FILE](https://github.com/Fx2048/COMU_REDES/blob/main/TAREAS/DOCUMENTATION/SQL_PROOF.sql)
 
 [VÍDEO DE LA EXPOSICIÓN](https://www.canva.com/design/DAGGrMYJozs/sCpcXGqY05VcTI4uYJWGBQ/edit?utm_content=DAGGrMYJozs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+[ARCHIVO TUTORIAL -NOT VOICE- EN DRIVE](https://drive.google.com/file/d/18FNUJWgS3rUXjs5FbuaM42XcbZUJbm3V/view?usp=sharing)
