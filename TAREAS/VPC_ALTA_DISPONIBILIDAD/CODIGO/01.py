@@ -1,4 +1,4 @@
-class Server:
+class Server:# Atributos de server
     def __init__(self, cpu_capacity, memory_capacity):
         """
         Clase que representa un servidor con atributos de capacidad de CPU, capacidad de memoria y carga actual.
@@ -10,7 +10,7 @@ class Server:
         self.cpu_capacity = cpu_capacity
         self.memory_capacity = memory_capacity
         self.current_load = 0
-
+#Aumentar capacidad de server
     def scale_up(self, additional_cpu, additional_memory):
         """
         Simula la escalabilidad vertical aumentando la capacidad del servidor.
@@ -22,6 +22,7 @@ class Server:
         self.cpu_capacity += additional_cpu
         self.memory_capacity += additional_memory
 
+#funciones en el cluster
 
 class ServerCluster:
     def __init__(self):
