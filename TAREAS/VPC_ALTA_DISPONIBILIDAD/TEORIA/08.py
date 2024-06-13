@@ -25,3 +25,19 @@ response = autoscaling.put_scaling_policy(
 
 # Imprimir la respuesta de la configuración de la política de escalado
 print("Política de escalado creada:", response)
+
+# Crear un grupo de Auto Scaling
+aws autoscaling create-auto-scaling-group \
+    --auto-scaling-group-name MyAutoScalingGroup \
+    --launch-configuration-name MyLaunchConfig \
+    --min-size 2 \
+    --max-size 5 \
+    --desired-capacity 3
+
+# Crear una política de escalado
+aws autoscaling put-scaling-policy \
+    --auto-scaling-group-name MyAutoScalingGroup \
+    --policy-name MyScalingPolicy \
+    --adjustment-type ChangeInCapacity \
+    --scaling-adjustment 1
+
