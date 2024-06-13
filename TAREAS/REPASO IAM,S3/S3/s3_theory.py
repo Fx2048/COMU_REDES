@@ -4,7 +4,7 @@ from botocore.exceptions import NoCredentialsError, PartialCredentialsError
 class BucketS3:
     """
     Clase para gestionar diversas operaciones en Amazon S3 como etiquetas de objetos,
-    configuración, copia de objetos, almacenamiento, etc.
+    configuraciÃ³n, copia de objetos, almacenamiento, etc.
     """
     
     def __init__(self, id_user, arn):
@@ -29,7 +29,7 @@ class BucketS3:
 #definir configurar lambda:
     def configure_lambda(self, function_name, role_arn, handler, zip_file):
     """
-    Configura una función Lambda para interactuar con objetos en S3.
+    Configura una funciÃ³n Lambda para interactuar con objetos en S3.
     """
         lambda_client = boto3.client('lambda')
     
@@ -43,12 +43,12 @@ class BucketS3:
                 Role=role_arn,
                 Handler=handler,
                 Code={'ZipFile': zip_data},
-                Description='Función Lambda para interactuar con S3',
+                Description='FunciÃ³n Lambda para interactuar con S3',
                 Timeout=15,
                 MemorySize=128,
                 Publish=True
             )
-            print(f'Función Lambda {function_name} creada.')
+            print(f'FunciÃ³n Lambda {function_name} creada.')
             return response
         except lambda_client.exceptions.ResourceConflictException as e:
             print(f'Error: {e}')
@@ -60,7 +60,7 @@ class BucketS3:
  #definir glacier flexible retrieval
     def glacier_flexible_retrieval(self, bucket_name, object_key):
     """
-    Inicia una solicitud de recuperación flexible para un objeto almacenado en Glacier.
+    Inicia una solicitud de recuperaciÃ³n flexible para un objeto almacenado en Glacier.
     """
         try:
             response = self.s3_client.restore_object(
@@ -71,7 +71,7 @@ class BucketS3:
                     'GlacierJobParameters': {'Tier': 'Standard'}
                 }
             )
-            print(f'Solicitud de recuperación flexible iniciada para el objeto {object_key}.')
+            print(f'Solicitud de recuperaciÃ³n flexible iniciada para el objeto {object_key}.')
             return response
         except self.s3_client.exceptions.ClientError as e:
             print(f'Error: {e}')
@@ -96,11 +96,11 @@ class BucketS3:
             print(f'Error: {e}')
 
         
-#definir replicación s3 rtc
+#definir replicaciÃ³n s3 rtc
 
     def replicacion_s3_rtc(self, source_bucket, destination_bucket, role_arn):
     """
-    Configura la replicación RTC (Replicación en Tiempo Real) entre dos buckets.
+    Configura la replicaciÃ³n RTC (ReplicaciÃ³n en Tiempo Real) entre dos buckets.
     """
         replication_configuration = {
             'Role': role_arn,
@@ -122,7 +122,7 @@ class BucketS3:
                 Bucket=source_bucket,
                 ReplicationConfiguration=replication_configuration
             )
-            print(f'Replicación RTC configurada entre {source_bucket} y {destination_bucket}.')
+            print(f'ReplicaciÃ³n RTC configurada entre {source_bucket} y {destination_bucket}.')
             return response
         except self.s3_client.exceptions.ClientError as e:
             print(f'Error: {e}')
@@ -135,54 +135,54 @@ class BucketS3:
     Controla las versiones de los objetos en un bucket.
 
     :param bucket_name: Nombre del bucket.
-    :param action: Acción a realizar ('modificar', 'eliminar', 'adicionar').
+    :param action: AcciÃ³n a realizar ('modificar', 'eliminar', 'adicionar').
     :param object_key: Clave del objeto a modificar/eliminar/adicionar.
-    :param version_id: ID de la versión del objeto a modificar/eliminar.
+    :param version_id: ID de la versiÃ³n del objeto a modificar/eliminar.
     """
         if action == 'modificar':
-            # Implementar la lógica para modificar versiones
-            # Por ejemplo, cambiar el almacenamiento de una versión específica
+            # Implementar la lÃ³gica para modificar versiones
+            # Por ejemplo, cambiar el almacenamiento de una versiÃ³n especÃ­fica
             try:
                 if not object_key or not version_id:
-                    raise ValueError("Para modificar una versión se requiere tanto object_key como version_id.")
+                    raise ValueError("Para modificar una versiÃ³n se requiere tanto object_key como version_id.")
                 response = self.s3_client.copy_object(
                     Bucket=bucket_name,
                     CopySource={'Bucket': bucket_name, 'Key': object_key, 'VersionId': version_id},
                     Key=object_key,
                     StorageClass='STANDARD_IA'  # Ejemplo: cambiar a Almacenamiento de Acceso Poco Frecuente
                 )
-                print(f'Versión {version_id} del objeto {object_key} modificada.')
+                print(f'VersiÃ³n {version_id} del objeto {object_key} modificada.')
                 return response
             except self.s3_client.exceptions.ClientError as e:
                 print(f'Error: {e}')
 
         elif action == 'eliminar':
-            # Implementar la lógica para eliminar versiones
+            # Implementar la lÃ³gica para eliminar versiones
             try:
                 if not object_key or not version_id:
-                    raise ValueError("Para eliminar una versión se requiere tanto object_key como version_id.")
+                    raise ValueError("Para eliminar una versiÃ³n se requiere tanto object_key como version_id.")
                 response = self.s3_client.delete_object(
                     Bucket=bucket_name,
                     Key=object_key,
                     VersionId=version_id
                 )
-                print(f'Versión {version_id} del objeto {object_key} eliminada.')
+                print(f'VersiÃ³n {version_id} del objeto {object_key} eliminada.')
                 return response
             except self.s3_client.exceptions.ClientError as e:
                 print(f'Error: {e}')
 
         elif action == 'adicionar':
-            # Implementar la lógica para adicionar versiones
+            # Implementar la lÃ³gica para adicionar versiones
             # En S3, adicionar versiones puede implicar cargar un nuevo objeto con la misma clave
             try:
                 if not object_key:
-                    raise ValueError("Para adicionar una versión se requiere object_key.")
+                    raise ValueError("Para adicionar una versiÃ³n se requiere object_key.")
                 response = self.s3_client.put_object(
                     Bucket=bucket_name,
                     Key=object_key,
-                    Body=b'Tu contenido aquí'  # Contenido del nuevo objeto/versión
+                    Body=b'Tu contenido aquÃ­'  # Contenido del nuevo objeto/versiÃ³n
                 )
-                print(f'Nueva versión del objeto {object_key} adicionada.')
+                print(f'Nueva versiÃ³n del objeto {object_key} adicionada.')
                 return response
             except self.s3_client.exceptions.ClientError as e:
                 print(f'Error: {e}')
@@ -191,7 +191,7 @@ class BucketS3:
 #definir enablement _mfa
     def enablement_mfa(self, bucket_name):
     """
-    Habilita MFA (autenticación multifactor) para operaciones de borrado en un bucket.
+    Habilita MFA (autenticaciÃ³n multifactor) para operaciones de borrado en un bucket.
     """
         mfa_delete_policy = {
             'Version': '2012-10-17',
@@ -253,9 +253,9 @@ class BucketS3:
 #definir  multiregion acccesss point
     def multi_region_access_point(self, name, regions):
     """
-    Crea un punto de acceso multirregión para un bucket.
+    Crea un punto de acceso multirregiÃ³n para un bucket.
 
-    :param name: Nombre del punto de acceso multirregión.
+    :param name: Nombre del punto de acceso multirregiÃ³n.
     :param regions: Lista de diccionarios con los nombres de los buckets y las regiones respectivas.
                     Ejemplo: [{'Bucket': 'bucket-name-1', 'Region': 'us-east-1'}, {'Bucket': 'bucket-name-2', 'Region': 'eu-west-1'}]
     """
@@ -274,7 +274,7 @@ class BucketS3:
                     ]
                 }
             )
-            print(f'Punto de acceso multirregión {name} creado.')
+            print(f'Punto de acceso multirregiÃ³n {name} creado.')
             return response
         except s3control_client.exceptions.ClientError as e:
             print(f'Error: {e}')
@@ -287,7 +287,7 @@ class BucketS3:
                 Bucket=bucket_name,
                 PublicAccessBlockConfiguration=block_options
             )
-            print(f'Bloqueo de acceso público configurado para el bucket {bucket_name}.')
+            print(f'Bloqueo de acceso pÃºblico configurado para el bucket {bucket_name}.')
         except self.s3_client.exceptions.ClientError as e:
             print(f'Error: {e}')
             #define metodo poprgramatico access para obtener configuracion de bloqueo acceso publcio 
@@ -296,7 +296,7 @@ class BucketS3:
             response = self.s3_client.get_public_access_block(Bucket=bucket_name)
             print(response)
         except self.s3_client.exceptions.NoSuchPublicAccessBlockConfiguration as e:
-            print(f'No hay configuración de bloqueo de acceso público para {bucket_name}: {e}')
+            print(f'No hay configuraciÃ³n de bloqueo de acceso pÃºblico para {bucket_name}: {e}')
         except NoCredentialsError:
             print('Error: No se encontraron credenciales.')
         except PartialCredentialsError:
@@ -305,10 +305,10 @@ class BucketS3:
 # Ejemplo de uso
 bucket_s3_instance = BucketS3(id_user="123456789012", arn="arn:aws:iam::123456789012:user/ExampleUser")
 
-# Crear un bucket en la región us-west-1
+# Crear un bucket en la regiÃ³n us-west-1
 bucket_s3_instance.create_bucket(bucket_name="mi-bucket-ejemplo", region="us-west-1")
 
-# Bloquear acceso público al bucket
+# Bloquear acceso pÃºblico al bucket
 block_options = {
     'BlockPublicAcls': True,
     'IgnorePublicAcls': False,
