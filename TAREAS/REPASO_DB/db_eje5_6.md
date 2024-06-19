@@ -28,3 +28,34 @@ La arquitectura Multi-AZ en Amazon RDS ofrece alta disponibilidad y durabilidad:
 
 - **Escenario crítico**:
   - Imagina una aplicación de comercio electrónico durante una venta masiva. La alta disponibilidad es crucial para evitar interrupciones del servicio y pérdida de ventas. Multi-AZ garantiza que la base de datos esté siempre disponible incluso si una AZ completa falla.
+ 
+````
+
+#importamos la libreria
+import networkx as nx
+# Clase de grafo:
+class Graph:
+    def __init__(self): #iniciamos
+        self.graph = nx.Graph()
+
+    def add_node(self, node):#añadimos nodos
+        self.graph.add_node(node)
+
+    def add_edge(self, node1, node2): #creamos lados relacionados
+        self.graph.add_edge(node1, node2)
+
+# Creación del grafo
+G = Graph()
+G.add_node("Alice")
+G.add_node("ZZ")
+G.add_edge("Alice", "ZZ")
+
+# Consultas en el grafo
+print("Nodos:", G.graph.nodes)
+print("Aristas:", G.graph.edges)
+
+````
+
+
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/c98ac17f-336f-428c-8c79-5ff8924576d4)
+
