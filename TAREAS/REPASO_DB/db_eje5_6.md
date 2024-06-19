@@ -1,6 +1,5 @@
-¡Claro! Vamos a abordar tus preguntas sobre copias de seguridad, recuperación y alta disponibilidad en Amazon RDS.
 
-## Copias de seguridad y recuperación en Amazon RDS
+## 5. Copias de seguridad y recuperación en Amazon RDS
 
 Amazon RDS proporciona varios mecanismos para respaldo y recuperación de bases de datos:
 
@@ -14,7 +13,7 @@ Amazon RDS proporciona varios mecanismos para respaldo y recuperación de bases 
    - Estas instantáneas se conservan hasta que las elimines explícitamente.
    - Proporcionan una forma de restaurar la instancia de base de datos a un estado conocido.
 
-## Alta disponibilidad con Multi-AZ
+## 6.  Alta disponibilidad con Multi-AZ
 
 La arquitectura Multi-AZ en Amazon RDS ofrece alta disponibilidad y durabilidad:
 
