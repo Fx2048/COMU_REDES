@@ -1,0 +1,23 @@
+credenciales_nodos={'NodoA':{'token':'token_a','roles':['editor']},
+                    'NodoB':{'token':'token_b','roles':['lector']},
+                    'ndooc':{'token':'token_c','roles':['editor','administrador']
+                                                        }}
+                    
+                             
+def suscribir_a_grupo(grupo,nodo,token):
+    credencial=credenciales_nodos.get(nodo)
+    if credencial and credencial['token']==token and 'lector' in credencial["roles"]:
+        if grupo not in suscripciones_multicast:
+            suscripciones:multicast[grupo]=[]
+        suscripciones_multicast[grupo].append(nodo)
+    else:
+        print(f"Acceso denegado para {nodo} en {grupo}")
+def enviar_mensaje_multicas(grupo,mensaje,nodo):
+    credencial=credenciales_nodos.get(nodo)
+    if credencial and 'editor' in credencial['roles']:
+        nodos =suscripciones_multicast.get(grupo,[])
+        for n in nodos:
+            n(mensaje)
+    else:
+        print(f"acceso denegado para publicar en {grupo} para {nodo}")
+    
