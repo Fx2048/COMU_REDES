@@ -1,6 +1,6 @@
 # LOAD BALANCING SIMULATION: 
 ## PREGUNTA:
-Ejercicio 3: Simulación de balanceadores de carga
+ Simulación de balanceadores de carga
 Objetivo: Simular la distribución de tráfico web utilizando balanceadores de carga.
 Instrucciones:
 • Implementa una clase LoadBalancer que distribuya las solicitudes entre varios servidores.
