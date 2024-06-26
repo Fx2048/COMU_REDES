@@ -4,6 +4,7 @@
  
 Objetivo: Simular la distribución de tráfico web utilizando balanceadores de carga.
 
+
 Instrucciones:
 
 • Implementa una clase LoadBalancer que distribuya las solicitudes entre varios servidores.
@@ -13,6 +14,33 @@ Network Load Balancer (NLB).
 
 • Implementa una función que distribuya solicitudes HTTP y TCP entre los servidores
 configurados.
+
+
+1. **Application Load Balancer (ALB)**:
+   - **Capa OSI**: Funciona en la **capa de aplicación (Capa 7)** del modelo OSI.
+   - **Enrutamiento avanzado**: Puede tomar decisiones de enrutamiento basadas en el contenido, como la dirección URL o el campo del host.
+   - **Protocolos compatibles**: Admite **HTTP/HTTPS** y **WebSocket**.
+   - **Casos de Uso**:
+     - Óptimo para manejar el flujo de tráfico hacia **aplicaciones web**.
+     - Apropiado para microservicios y estructuras basadas en contenedores (como Docker y Kubernetes).
+   - **Ventajas**:
+     - Enrutamiento sofisticado.
+     - Admite terminación de SSL/TLS.
+   - **Limitaciones**:
+     - No es la mejor opción para requerimientos básicos de balanceo de carga o tráfico no HTTP/S¹.
+
+2. **Network Load Balancer (NLB)**:
+   - **Capa OSI**: Trabaja en la **capa de transporte (Capa 4)** del modelo OSI.
+   - **Rendimiento extremo**: Diseñado para alto rendimiento y baja latencia.
+   - **Protocolos compatibles**: Admite **TCP**, **TLS** y **UDP**.
+   - **Casos de Uso**:
+     - Perfecto para equilibrar tráfico **TCP** cuando se busca un rendimiento excepcional.
+     - Conveniente para aplicaciones que requieren una dirección IP estática o elástica por cada Zona de Disponibilidad.
+   - **Ventajas**:
+     - Procesamiento rápido de millones de solicitudes por segundo.
+     - Capacidad para gestionar patrones de tráfico impredecibles y ráfagas intensas.
+   - **Limitaciones**:
+     - No posee las funcionalidades de enrutamiento avanzado del ALB¹.
 
 # CÓDIGO
 ````
