@@ -22,7 +22,7 @@ class Servidor:
     Recibe el nombre del servidor y maneja sus solicitudes
 
     """
-    def __init__(self, nombre):
+    def __init__(self, nombre): 
         self.nombre = nombre
 
     def manejar_solicitud(self, solicitud):
