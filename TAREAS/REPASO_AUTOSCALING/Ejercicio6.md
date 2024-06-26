@@ -27,7 +27,7 @@ configurados.
      - Enrutamiento sofisticado.
      - Admite terminación de SSL/TLS.
    - **Limitaciones**:
-     - No es la mejor opción para requerimientos básicos de balanceo de carga o tráfico no HTTP/S¹.
+     - No es la mejor opción para requerimientos básicos de balanceo de carga o tráfico no HTTP/S.
 
 2. **Network Load Balancer (NLB)**:
    - **Capa OSI**: Trabaja en la **capa de transporte (Capa 4)** del modelo OSI.
@@ -40,7 +40,7 @@ configurados.
      - Procesamiento rápido de millones de solicitudes por segundo.
      - Capacidad para gestionar patrones de tráfico impredecibles y ráfagas intensas.
    - **Limitaciones**:
-     - No posee las funcionalidades de enrutamiento avanzado del ALB¹.
+     - No posee las funcionalidades de enrutamiento avanzado del ALB.
 
 # CÓDIGO
 ````
