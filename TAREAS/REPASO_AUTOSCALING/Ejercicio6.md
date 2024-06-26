@@ -1,11 +1,16 @@
 # LOAD BALANCING SIMULATION: 
 ## PREGUNTA:
  Simulación de balanceadores de carga
+ 
 Objetivo: Simular la distribución de tráfico web utilizando balanceadores de carga.
+
 Instrucciones:
+
 • Implementa una clase LoadBalancer que distribuya las solicitudes entre varios servidores.
+
 • Crea métodos para simular la configuración de un Application Load Balancer (ALB) y un
 Network Load Balancer (NLB).
+
 • Implementa una función que distribuya solicitudes HTTP y TCP entre los servidores
 configurados.
 
