@@ -1,11 +1,19 @@
-Ejercicio 3: Sistema de mensajería completo con Amazon MQ
+Ejercicio 3: 
+Sistema de mensajería completo con Amazon MQ
+
 Descripción: Implementar un sistema de mensajería completo que soporte la publicación y 
+
 suscripción de mensajes entre múltiples servicios.
+
 Requisitos:
+
 • Crea una clase MessageBroker para manejar la publicación y suscripción de mensajes.
+
 • Implementa la capacidad de agregar y eliminar suscripciones.
+
 • Simula la comunicación entre múltiples servicios utilizando threads para representar 
 servicios concurrentes.
+
 Código inicial:
 `````
 import threading
