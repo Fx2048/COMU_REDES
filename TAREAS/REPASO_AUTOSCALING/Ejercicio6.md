@@ -269,9 +269,9 @@ nlb.distribuir_solicitudes_tcp(solicitudes_tcp)
 
 
 
-
 ````
-![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/d8be933b-a2a0-4cb0-8756-d46d3d129899)
+![image](https://github.com/Fx2048/COMU_REDES/assets/131219987/7425a84c-dffc-4777-9141-ee3c88182139)
+
 
 
 
